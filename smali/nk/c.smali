@@ -2592,6 +2592,7 @@
 .end method
 
 .method public static final d(Llauncher/powerkuy/growlauncher/api/model/User;Lbj/a;Lo0/o;I)V
+    return-void
     .locals 17
 
     .line 1

@@ -831,7 +831,7 @@
     .line 395
     .line 396
     :cond_a
-    const-string v0, "Loading..."
+    const-string v0, "deltaX Open Source"
 
     .line 397
     .line 398
@@ -915,7 +915,7 @@
     .line 433
     :cond_d
     :goto_6
-    const-string p1, "..."
+    const-string p1, "deltaX adalah project open source. Tanpa backend, tanpa login, tanpa server. Semua fitur mod menu sudah hardcoded di dalam APK. Source code tersedia di github.com/Ikhsansukaweb/deltaX"
 
     .line 434
     .line 435

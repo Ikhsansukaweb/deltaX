@@ -500,36 +500,15 @@
     .line 202
     .line 203
     .line 204
-    new-instance p1, Ldk/j0;
+    new-instance p1, Landroid/content/Intent;
 
-    .line 205
-    .line 206
-    const/4 v1, 0x2
+    const-class v1, LdeltaX/Home;
 
-    .line 207
-    invoke-direct {p1, v1, p0}, Ldk/j0;-><init>(ILjava/lang/Object;)V
+    invoke-direct {p1, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 208
-    .line 209
-    .line 210
-    new-instance v1, Lw0/a;
+    invoke-virtual {p0, p1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 211
-    .line 212
-    const v2, 0x42fe6699
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
-    .line 213
-    .line 214
-    .line 215
-    invoke-direct {v1, v2, p1, v0}, Lw0/a;-><init>(ILjava/lang/Object;Z)V
-
-    .line 216
-    .line 217
-    .line 218
-    invoke-static {p0, v1}, Ld/g;->a(Landroidx/activity/m;Lw0/a;)V
-
-    .line 219
-    .line 220
-    .line 221
     return-void
 .end method

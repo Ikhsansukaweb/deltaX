@@ -336,7 +336,7 @@
 
     .line 64
     .line 65
-    const-string/jumbo p1, "{\"selectedColor\":4286797823,\"list_color\":[{\"name\":\"deltaX Default Theme\",\"hex\":\"0xFF8357ff\"},{\"name\":\"Cute Theme\",\"hex\":\"0xFFFF1985\"},{\"name\":\"Ghost Theme\",\"hex\":\"0xFF71FF19\"},{\"name\":\"Orange Theme\",\"hex\":\"0xFFFC7100\"},{\"name\":\"Night Theme\",\"hex\":\"0xFFFF3BFC\"},{\"name\":\"Rose Theme\",\"hex\":\"0xFFFF2239\"},{\"name\":\"Blue Rose Theme\",\"hex\":\"0xFF766BFF\"}]}"
+    const-string/jumbo p1, "{\"selectedColor\":4292877102,\"list_color\":[{\"name\":\"deltaX Red Theme\",\"hex\":\"0xFFE01B2E\"},{\"name\":\"Crimson Theme\",\"hex\":\"0xFFFF2239\"},{\"name\":\"Ember Theme\",\"hex\":\"0xFFFC7100\"},{\"name\":\"Cute Theme\",\"hex\":\"0xFFFF1985\"},{\"name\":\"Ghost Theme\",\"hex\":\"0xFF71FF19\"},{\"name\":\"Night Theme\",\"hex\":\"0xFFFF3BFC\"},{\"name\":\"Blue Rose Theme\",\"hex\":\"0xFF766BFF\"}]}"
 
     .line 66
     .line 67

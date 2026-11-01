@@ -4774,7 +4774,7 @@
     move v8, v2
 
     .line 2358
-    const-string v2, "Launch Growtopia"
+    const-string v2, "Launch Growtopia 5.61"
 
     .line 2359
     .line 2360
@@ -4946,7 +4946,7 @@
 
     .line 2439
     .line 2440
-    const-string v2, "Jump back into the world."
+    const-string v2, "Masuk ke Growtopia dengan deltaX aktif."
 
     .line 2441
     .line 2442

@@ -14,7 +14,7 @@
     .locals 2
 
     .line 1
-    const-wide v0, 0xff8357ffL
+    const-wide v0, 0xffe01b2eL
 
     .line 2
     .line 3

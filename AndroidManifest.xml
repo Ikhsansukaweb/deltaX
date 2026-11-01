@@ -59,6 +59,7 @@
     <uses-permission android:name="launcher.powerkuy.growlauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <application android:appCategory="game" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:hardwareAccelerated="true" android:icon="@drawable/logo_theme" android:isGame="true" android:label="@string/app_name" android:name="launcher.powerkuy.App" android:requestLegacyExternalStorage="true" android:roundIcon="@drawable/logo_theme" android:supportsRtl="true" android:theme="@style/AppCompat" android:usesCleartextTraffic="true">
         <activity android:exported="false" android:label="@string/title_activity_setting" android:name="launcher.powerkuy.growlauncher.extra.SettingActivity" android:theme="@style/Theme.GrowLauncherKotlin"/>
+        <activity android:exported="false" android:name="deltaX.Home" android:theme="@android:style/Theme.Material.NoActionBar" android:screenOrientation="sensorPortrait"/>
         <activity android:exported="false" android:label="@string/title_activity_login" android:name="launcher.powerkuy.growlauncher.login.LoginActivity" android:theme="@style/Theme.GrowLauncherKotlin" android:windowSoftInputMode="adjustResize"/>
         <activity android:exported="true" android:launchMode="singleTask" android:name="launcher.powerkuy.growlauncher.MainActivity" android:theme="@style/Theme.GrowLauncherKotlin">
             <intent-filter>
