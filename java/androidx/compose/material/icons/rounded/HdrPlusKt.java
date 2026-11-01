@@ -1,0 +1,122 @@
+package androidx.compose.material.icons.rounded;
+
+import g1.m0;
+import g1.t;
+import gl.b;
+import j0.c;
+import java.util.ArrayList;
+import k0.a;
+import k1.a0;
+import k1.e;
+import k1.f;
+import k1.g;
+import k1.h0;
+import k1.k;
+import k1.o;
+import k1.u;
+import kotlin.jvm.internal.l;
+
+/* compiled from: r8-map-id-cdbeb58ef06fad4681c7fbee776b8843f0d08a25f32bfdc3612bf6ec0792c678 */
+/* loaded from: classes.dex */
+public final class HdrPlusKt {
+    private static f _hdrPlus;
+
+    public static final f getHdrPlus(c cVar) {
+        l.f("<this>", cVar);
+        f fVar = _hdrPlus;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Rounded.HdrPlus", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f8826a;
+        long j = t.f6633b;
+        m0 m0Var = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new o(8.5f, 14.5f));
+        arrayList.add(new u(2.0f));
+        arrayList.add(new a0(1.0f));
+        a.f(-2.0f, arrayList);
+        k kVar = k.f8855c;
+        arrayList.add(kVar);
+        e.a(eVar, arrayList, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        ArrayList arrayList2 = new ArrayList(32);
+        arrayList2.add(new o(14.5f, 7.5f));
+        arrayList2.add(new u(1.5f));
+        arrayList2.add(new a0(3.0f));
+        a.g(-1.5f, arrayList2, kVar);
+        e.a(eVar, arrayList2, 0, m0Var2);
+        m0 m0Var3 = new m0(j);
+        g a10 = b.a(12.0f, 2.0f);
+        a10.h(6.48f, 2.0f, 2.0f, 6.48f, 2.0f, 12.0f);
+        a10.q(4.48f, 10.0f, 10.0f, 10.0f);
+        a10.q(10.0f, -4.48f, 10.0f, -10.0f);
+        a10.p(17.52f, 2.0f, 12.0f, 2.0f);
+        a10.g();
+        a10.n(12.0f, 15.5f);
+        a10.i(0.0f, 0.6f, -0.4f, 1.1f, -0.9f, 1.4f);
+        a10.m(0.49f, 1.13f);
+        a10.i(0.2f, 0.46f, -0.14f, 0.97f, -0.64f, 0.97f);
+        a10.k(0.0f);
+        a10.i(-0.27f, 0.0f, -0.52f, -0.16f, -0.63f, -0.41f);
+        b.y(a10, 9.6f, 17.0f, 8.5f, 1.31f);
+        a10.h(8.5f, 18.69f, 8.19f, 19.0f, 7.81f, 19.0f);
+        a10.j(7.69f);
+        a10.h(7.31f, 19.0f, 7.0f, 18.69f, 7.0f, 18.31f);
+        a10.s(14.0f);
+        a10.i(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        a10.k(2.5f);
+        a10.i(0.82f, 0.0f, 1.5f, 0.68f, 1.5f, 1.5f);
+        k0.e.z(a10, 15.5f, 11.25f, 12.0f);
+        a10.l(11.25f, 12.0f);
+        a10.i(-0.41f, 0.0f, -0.75f, -0.34f, -0.75f, -0.75f);
+        b.r(a10, 9.5f, -2.0f, 1.75f);
+        a10.h(8.5f, 11.66f, 8.16f, 12.0f, 7.75f, 12.0f);
+        a10.k(0.0f);
+        a10.h(7.34f, 12.0f, 7.0f, 11.66f, 7.0f, 11.25f);
+        a10.t(-4.5f);
+        a10.h(7.0f, 6.34f, 7.34f, 6.0f, 7.75f, 6.0f);
+        a10.k(0.0f);
+        a10.h(8.16f, 6.0f, 8.5f, 6.34f, 8.5f, 6.75f);
+        k0.e.r(a10, 8.0f, 2.0f, 6.75f);
+        a10.h(10.5f, 6.34f, 10.84f, 6.0f, 11.25f, 6.0f);
+        a10.k(0.0f);
+        a10.h(11.66f, 6.0f, 12.0f, 6.34f, 12.0f, 6.75f);
+        a10.t(4.5f);
+        a10.h(12.0f, 11.66f, 11.66f, 12.0f, 11.25f, 12.0f);
+        a.B(a10, 16.75f, 16.0f, 16.0f, 0.75f);
+        a10.i(0.0f, 0.41f, -0.34f, 0.75f, -0.75f, 0.75f);
+        a10.k(0.0f);
+        a10.i(-0.41f, 0.0f, -0.75f, -0.34f, -0.75f, -0.75f);
+        a10.s(16.0f);
+        a10.k(-0.75f);
+        a10.h(13.34f, 16.0f, 13.0f, 15.66f, 13.0f, 15.25f);
+        a10.t(0.0f);
+        a10.i(0.0f, -0.41f, 0.34f, -0.75f, 0.75f, -0.75f);
+        a10.k(0.75f);
+        a10.t(-0.75f);
+        a10.i(0.0f, -0.41f, 0.34f, -0.75f, 0.75f, -0.75f);
+        a10.k(0.0f);
+        a10.i(0.41f, 0.0f, 0.75f, 0.34f, 0.75f, 0.75f);
+        a10.t(0.74f);
+        a10.k(0.75f);
+        a10.i(0.41f, 0.0f, 0.75f, 0.34f, 0.75f, 0.75f);
+        a10.t(0.01f);
+        a10.h(17.5f, 15.66f, 17.16f, 16.0f, 16.75f, 16.0f);
+        a10.g();
+        a10.n(17.5f, 10.5f);
+        a10.i(0.0f, 0.82f, -0.67f, 1.5f, -1.5f, 1.5f);
+        a10.k(-2.5f);
+        a10.i(-0.28f, 0.0f, -0.5f, -0.22f, -0.5f, -0.5f);
+        a10.t(-5.0f);
+        a10.h(13.0f, 6.22f, 13.22f, 6.0f, 13.5f, 6.0f);
+        a10.j(16.0f);
+        a10.i(0.83f, 0.0f, 1.5f, 0.68f, 1.5f, 1.5f);
+        a10.s(10.5f);
+        a10.g();
+        e.a(eVar, a10.f8814a, 0, m0Var3);
+        f b4 = eVar.b();
+        _hdrPlus = b4;
+        return b4;
+    }
+}

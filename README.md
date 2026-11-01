@@ -30,11 +30,32 @@ smali_classes2/          smali kelas tambahan
 smali_assets/            smali hasil decode dex di assets
 kotlin/                  metadata kotlin
 unknown/                 file non-APK
+
+java/                    decompile Java (jadx) — baca saja, bukan sumber rebuild
+native/libPowerKuy/      decompile C libPowerKuy.so (Ghidra) — baca saja
+build.sh                 build + sign
 ```
+
+`java/` dan `native/` **tidak dipakai saat build**. Build tetap dari `smali/` + `lib/`. Keduanya ada supaya kode bisa dibaca tanpa buka jadx/Ghidra.
+
+| Dir | Isi | Alat |
+|---|---|---|
+| `java/` | 17.932 file `.java`, seluruh dex | jadx 1.5.1 |
+| `native/libPowerKuy/` | 643 fungsi `.c` | Ghidra 11.4.2 |
+| `native/libgrowtopia/` | 34 JNI export `.c` | Ghidra 11.4.2 |
+
+Lihat [`java/README.md`](java/README.md), [`native/README.md`](native/README.md). Semua pseudocode — bukan source asli, tidak compile.
 
 ## Build
 
-Butuh apktool, Android build-tools, JDK.
+Butuh apktool, Android build-tools 35, JDK.
+
+```bash
+./build.sh                 # -> deltaX.apk
+./build.sh deltaX-test.apk # nama lain
+```
+
+Atau manual, dari root repo:
 
 ```bash
 java -Xmx3g -jar apktool.jar b . -o deltaX_unsigned.apk

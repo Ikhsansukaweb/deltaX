@@ -1,0 +1,124 @@
+package androidx.compose.material.icons.rounded;
+
+import g1.m0;
+import g1.t;
+import gl.b;
+import j0.c;
+import java.util.ArrayList;
+import k0.a;
+import k1.a0;
+import k1.e;
+import k1.f;
+import k1.g;
+import k1.h0;
+import k1.k;
+import k1.o;
+import k1.u;
+import kotlin.jvm.internal.l;
+
+/* compiled from: r8-map-id-cdbeb58ef06fad4681c7fbee776b8843f0d08a25f32bfdc3612bf6ec0792c678 */
+/* loaded from: classes.dex */
+public final class EmojiTransportationKt {
+    private static f _emojiTransportation;
+
+    public static final f getEmojiTransportation(c cVar) {
+        l.f("<this>", cVar);
+        f fVar = _emojiTransportation;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Rounded.EmojiTransportation", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f8826a;
+        long j = t.f6633b;
+        m0 m0Var = new m0(j);
+        g b4 = b.b(21.99f, 14.77f, -1.43f, -4.11f);
+        b4.i(-0.14f, -0.4f, -0.52f, -0.66f, -0.97f, -0.66f);
+        b4.j(12.4f);
+        b4.i(-0.46f, 0.0f, -0.83f, 0.26f, -0.98f, 0.66f);
+        b4.l(10.0f, 14.77f);
+        b4.t(5.24f);
+        b4.i(0.0f, 0.55f, 0.45f, 0.99f, 1.0f, 0.99f);
+        b4.q(1.0f, -0.45f, 1.0f, -1.0f);
+        a.u(b4, -1.0f, 8.0f, 1.0f);
+        b4.i(0.0f, 0.55f, 0.45f, 1.0f, 1.0f, 1.0f);
+        b4.q(0.99f, -0.44f, 1.0f, -0.99f);
+        k0.b.C(b4, 21.99f, 14.77f, 11.61f, 13.34f);
+        b4.m(0.69f, -2.0f);
+        b4.i(0.05f, -0.2f, 0.24f, -0.34f, 0.46f, -0.34f);
+        b4.k(6.48f);
+        b4.i(0.21f, 0.0f, 0.4f, 0.14f, 0.47f, 0.34f);
+        b4.m(0.69f, 2.0f);
+        b4.i(0.11f, 0.32f, -0.13f, 0.66f, -0.47f, 0.66f);
+        b4.k(-7.85f);
+        b4.h(11.74f, 14.0f, 11.5f, 13.66f, 11.61f, 13.34f);
+        b4.g();
+        b4.n(11.99f, 17.0f);
+        b4.i(-0.55f, 0.0f, -1.0f, -0.45f, -1.0f, -1.0f);
+        b4.q(0.45f, -1.0f, 1.0f, -1.0f);
+        b4.q(1.0f, 0.45f, 1.0f, 1.0f);
+        b4.p(12.54f, 17.0f, 11.99f, 17.0f);
+        b4.g();
+        b4.n(19.99f, 17.0f);
+        b4.i(-0.55f, 0.0f, -1.0f, -0.45f, -1.0f, -1.0f);
+        b4.q(0.45f, -1.0f, 1.0f, -1.0f);
+        b4.q(1.0f, 0.45f, 1.0f, 1.0f);
+        b4.p(20.54f, 17.0f, 19.99f, 17.0f);
+        b4.g();
+        e.a(eVar, b4.f8814a, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        g gVar = new g(0);
+        gVar.n(14.0f, 4.5f);
+        gVar.s(9.0f);
+        gVar.k(1.0f);
+        gVar.s(4.0f);
+        gVar.i(0.0f, -0.55f, -0.45f, -1.0f, -1.0f, -1.0f);
+        gVar.j(8.0f);
+        gVar.h(7.45f, 3.0f, 7.0f, 3.45f, 7.0f, 4.0f);
+        gVar.t(4.0f);
+        gVar.j(3.0f);
+        gVar.h(2.45f, 8.0f, 2.0f, 8.45f, 2.0f, 9.0f);
+        a.i(gVar, 12.0f, 1.0f, 9.5f);
+        gVar.h(3.0f, 9.22f, 3.22f, 9.0f, 3.5f, 9.0f);
+        gVar.k(4.0f);
+        gVar.h(7.78f, 9.0f, 8.0f, 8.78f, 8.0f, 8.5f);
+        gVar.t(-4.0f);
+        gVar.h(8.0f, 4.22f, 8.22f, 4.0f, 8.5f, 4.0f);
+        gVar.k(5.0f);
+        gVar.h(13.78f, 4.0f, 14.0f, 4.22f, 14.0f, 4.5f);
+        gVar.g();
+        e.a(eVar, gVar.f8814a, 0, m0Var2);
+        m0 m0Var3 = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new o(5.0f, 11.0f));
+        arrayList.add(new u(2.0f));
+        arrayList.add(new a0(2.0f));
+        a.f(-2.0f, arrayList);
+        k kVar = k.f8855c;
+        arrayList.add(kVar);
+        e.a(eVar, arrayList, 0, m0Var3);
+        m0 m0Var4 = new m0(j);
+        ArrayList arrayList2 = new ArrayList(32);
+        arrayList2.add(new o(10.0f, 5.0f));
+        arrayList2.add(new u(2.0f));
+        arrayList2.add(new a0(2.0f));
+        a.g(-2.0f, arrayList2, kVar);
+        e.a(eVar, arrayList2, 0, m0Var4);
+        m0 m0Var5 = new m0(j);
+        ArrayList arrayList3 = new ArrayList(32);
+        arrayList3.add(new o(5.0f, 15.0f));
+        arrayList3.add(new u(2.0f));
+        arrayList3.add(new a0(2.0f));
+        a.g(-2.0f, arrayList3, kVar);
+        e.a(eVar, arrayList3, 0, m0Var5);
+        m0 m0Var6 = new m0(j);
+        ArrayList arrayList4 = new ArrayList(32);
+        arrayList4.add(new o(5.0f, 19.0f));
+        arrayList4.add(new u(2.0f));
+        arrayList4.add(new a0(2.0f));
+        a.g(-2.0f, arrayList4, kVar);
+        e.a(eVar, arrayList4, 0, m0Var6);
+        f b10 = eVar.b();
+        _emojiTransportation = b10;
+        return b10;
+    }
+}

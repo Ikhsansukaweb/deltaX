@@ -1,0 +1,81 @@
+package androidx.compose.material.icons.outlined;
+
+import g1.m0;
+import g1.t;
+import j0.b;
+import k0.c;
+import k0.d;
+import k1.e;
+import k1.f;
+import k1.g;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* compiled from: r8-map-id-cdbeb58ef06fad4681c7fbee776b8843f0d08a25f32bfdc3612bf6ec0792c678 */
+/* loaded from: classes.dex */
+public final class BakeryDiningKt {
+    private static f _bakeryDining;
+
+    public static final f getBakeryDining(b bVar) {
+        l.f("<this>", bVar);
+        f fVar = _bakeryDining;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Outlined.BakeryDining", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f8826a;
+        m0 m0Var = new m0(t.f6633b);
+        g a10 = gl.b.a(20.5f, 10.94f);
+        a10.i(0.13f, -0.32f, 0.1f, -0.23f, 0.15f, -0.39f);
+        a10.i(0.3f, -1.21f, -0.34f, -2.47f, -1.5f, -2.93f);
+        a10.m(-2.01f, -0.8f);
+        a10.i(-0.46f, -0.18f, -0.95f, -0.21f, -1.41f, -0.12f);
+        a10.i(-0.11f, -0.33f, -0.29f, -0.63f, -0.52f, -0.89f);
+        a10.h(14.73f, 5.29f, 14.06f, 5.0f, 13.36f, 5.0f);
+        a10.k(-2.71f);
+        a10.h(9.94f, 5.0f, 9.27f, 5.29f, 8.8f, 5.81f);
+        a10.h(8.56f, 6.07f, 8.38f, 6.37f, 8.27f, 6.69f);
+        a10.h(7.81f, 6.6f, 7.32f, 6.63f, 6.86f, 6.81f);
+        a10.m(-2.01f, 0.8f);
+        a10.i(-1.16f, 0.46f, -1.8f, 1.72f, -1.5f, 2.93f);
+        a10.m(0.15f, 0.38f);
+        a10.h(1.1f, 15.55f, 1.0f, 15.55f, 1.0f, 16.38f);
+        a10.i(0.0f, 0.91f, 0.46f, 1.74f, 1.24f, 2.22f);
+        a10.i(1.42f, 0.88f, 2.49f, 0.14f, 4.0f, -0.61f);
+        a10.k(11.53f);
+        a10.i(1.52f, 0.76f, 1.86f, 1.01f, 2.63f, 1.01f);
+        a10.i(1.0f, 0.0f, 2.61f, -0.77f, 2.61f, -2.61f);
+        a10.h(23.0f, 15.54f, 22.88f, 15.51f, 20.5f, 10.94f);
+        c.d(a10, 20.12f, 16.93f, -1.68f, -0.84f);
+        a10.m(1.08f, -2.7f);
+        a10.m(1.41f, 2.71f);
+        a10.h(21.21f, 16.63f, 20.64f, 17.19f, 20.12f, 16.93f);
+        c.d(a10, 15.09f, 15.99f, 0.62f, -6.9f);
+        a10.i(0.03f, -0.33f, 0.37f, -0.54f, 0.68f, -0.42f);
+        a10.m(2.01f, 0.8f);
+        a10.i(0.22f, 0.09f, 0.34f, 0.31f, 0.31f, 0.54f);
+        c.s(a10, -2.4f, 5.98f, 15.09f);
+        a10.n(7.68f, 15.99f);
+        a10.m(-2.4f, -5.98f);
+        a10.h(5.25f, 9.78f, 5.37f, 9.56f, 5.59f, 9.47f);
+        a10.m(2.01f, -0.8f);
+        a10.i(0.31f, -0.12f, 0.65f, 0.08f, 0.68f, 0.42f);
+        c.s(a10, 0.62f, 6.9f, 7.68f);
+        a10.n(3.07f, 16.1f);
+        a10.m(1.41f, -2.72f);
+        a10.m(1.08f, 2.71f);
+        a10.m(-1.68f, 0.84f);
+        a10.h(3.36f, 17.19f, 2.79f, 16.63f, 3.07f, 16.1f);
+        a10.g();
+        a10.n(10.15f, 7.54f);
+        a10.i(-0.03f, -0.31f, 0.23f, -0.54f, 0.5f, -0.54f);
+        a10.k(2.71f);
+        a10.i(0.27f, 0.0f, 0.53f, 0.23f, 0.5f, 0.54f);
+        a10.m(-0.77f, 8.45f);
+        d.p(a10, -2.17f, 10.15f, 7.54f);
+        e.a(eVar, a10.f8814a, 0, m0Var);
+        f b4 = eVar.b();
+        _bakeryDining = b4;
+        return b4;
+    }
+}

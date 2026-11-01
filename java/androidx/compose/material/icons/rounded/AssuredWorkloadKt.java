@@ -1,0 +1,122 @@
+package androidx.compose.material.icons.rounded;
+
+import g1.m0;
+import g1.t;
+import gl.b;
+import j0.c;
+import java.util.ArrayList;
+import k1.a0;
+import k1.b0;
+import k1.e;
+import k1.f;
+import k1.g;
+import k1.h0;
+import k1.k;
+import k1.m;
+import k1.n;
+import k1.o;
+import k1.u;
+import kotlin.jvm.internal.l;
+
+/* compiled from: r8-map-id-cdbeb58ef06fad4681c7fbee776b8843f0d08a25f32bfdc3612bf6ec0792c678 */
+/* loaded from: classes.dex */
+public final class AssuredWorkloadKt {
+    private static f _assuredWorkload;
+
+    public static final f getAssuredWorkload(c cVar) {
+        l.f("<this>", cVar);
+        f fVar = _assuredWorkload;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Rounded.AssuredWorkload", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f8826a;
+        long j = t.f6633b;
+        m0 m0Var = new m0(j);
+        g a10 = b.a(6.0f, 17.0f);
+        a10.i(0.55f, 0.0f, 1.0f, -0.45f, 1.0f, -1.0f);
+        a10.t(-5.0f);
+        a10.i(0.0f, -0.55f, -0.45f, -1.0f, -1.0f, -1.0f);
+        a10.k(0.0f);
+        a10.i(-0.55f, 0.0f, -1.0f, 0.45f, -1.0f, 1.0f);
+        a10.t(5.0f);
+        a10.h(5.0f, 16.55f, 5.45f, 17.0f, 6.0f, 17.0f);
+        a10.l(6.0f, 17.0f);
+        a10.g();
+        e.a(eVar, a10.f8814a, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        g a11 = b.a(12.0f, 17.0f);
+        a11.i(0.55f, 0.0f, 1.0f, -0.45f, 1.0f, -1.0f);
+        a11.t(-5.0f);
+        a11.i(0.0f, -0.55f, -0.45f, -1.0f, -1.0f, -1.0f);
+        a11.k(0.0f);
+        a11.i(-0.55f, 0.0f, -1.0f, 0.45f, -1.0f, 1.0f);
+        a11.t(5.0f);
+        a11.h(11.0f, 16.55f, 11.45f, 17.0f, 12.0f, 17.0f);
+        a11.l(12.0f, 17.0f);
+        a11.g();
+        e.a(eVar, a11.f8814a, 0, m0Var2);
+        m0 m0Var3 = new m0(j);
+        g b4 = b.b(21.32f, 5.66f, -8.42f, -4.21f);
+        b4.i(-0.56f, -0.28f, -1.23f, -0.28f, -1.79f, 0.0f);
+        b4.l(2.68f, 5.66f);
+        b4.h(2.26f, 5.87f, 2.0f, 6.3f, 2.0f, 6.76f);
+        b4.t(0.0f);
+        b4.h(2.0f, 7.45f, 2.55f, 8.0f, 3.24f, 8.0f);
+        b4.k(17.53f);
+        b4.h(21.45f, 8.0f, 22.0f, 7.45f, 22.0f, 6.76f);
+        b4.t(0.0f);
+        b4.h(22.0f, 6.3f, 21.74f, 5.87f, 21.32f, 5.66f);
+        b4.g();
+        e.a(eVar, b4.f8814a, 0, m0Var3);
+        m0 m0Var4 = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new o(2.0f, 20.0f));
+        arrayList.add(new n(2.0f, 20.0f));
+        arrayList.add(new k1.t(0.0f, 0.55f, 0.45f, 1.0f, 1.0f, 1.0f));
+        arrayList.add(new u(11.4f));
+        arrayList.add(new k1.t(-0.21f, -0.64f, -0.32f, -1.31f, -0.36f, -2.0f));
+        arrayList.add(new m(3.0f));
+        arrayList.add(new k1.l(2.45f, 19.0f, 2.0f, 19.45f, 2.0f, 20.0f));
+        k kVar = k.f8855c;
+        arrayList.add(kVar);
+        e.a(eVar, arrayList, 0, m0Var4);
+        m0 m0Var5 = new m0(j);
+        ArrayList arrayList2 = new ArrayList(32);
+        arrayList2.add(new o(19.0f, 12.26f));
+        arrayList2.add(new b0(11.0f));
+        arrayList2.add(new k1.t(0.0f, -0.55f, -0.45f, -1.0f, -1.0f, -1.0f));
+        arrayList2.add(new u(0.0f));
+        arrayList2.add(new k1.t(-0.55f, 0.0f, -1.0f, 0.45f, -1.0f, 1.0f));
+        arrayList2.add(new a0(2.26f));
+        arrayList2.add(new n(19.0f, 12.26f));
+        arrayList2.add(kVar);
+        e.a(eVar, arrayList2, 0, m0Var5);
+        m0 m0Var6 = new m0(j);
+        g b10 = b.b(19.55f, 14.22f, -3.0f, 1.5f);
+        b10.h(16.21f, 15.89f, 16.0f, 16.24f, 16.0f, 16.62f);
+        b10.t(1.93f);
+        b10.i(0.0f, 2.52f, 1.71f, 4.88f, 4.0f, 5.45f);
+        b10.i(2.29f, -0.57f, 4.0f, -2.93f, 4.0f, -5.45f);
+        b10.t(-1.93f);
+        b10.i(0.0f, -0.38f, -0.21f, -0.73f, -0.55f, -0.89f);
+        b10.m(-3.0f, -1.5f);
+        b10.h(20.17f, 14.08f, 19.83f, 14.08f, 19.55f, 14.22f);
+        k0.c.d(b10, 18.58f, 20.3f, -0.8f, -0.8f);
+        b10.i(-0.29f, -0.29f, -0.29f, -0.77f, 0.0f, -1.06f);
+        b10.m(0.0f, 0.0f);
+        b10.i(0.29f, -0.29f, 0.77f, -0.29f, 1.06f, 0.0f);
+        b10.m(0.44f, 0.44f);
+        b10.m(1.88f, -1.85f);
+        b10.i(0.29f, -0.29f, 0.77f, -0.29f, 1.06f, 0.0f);
+        b10.m(0.0f, 0.0f);
+        b10.i(0.29f, 0.29f, 0.29f, 0.77f, 0.0f, 1.06f);
+        b10.m(-2.23f, 2.21f);
+        b10.h(19.6f, 20.69f, 18.97f, 20.69f, 18.58f, 20.3f);
+        b10.g();
+        e.a(eVar, b10.f8814a, 0, m0Var6);
+        f b11 = eVar.b();
+        _assuredWorkload = b11;
+        return b11;
+    }
+}

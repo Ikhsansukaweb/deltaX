@@ -1,0 +1,47 @@
+package com.instagram.common.viewpoint.core;
+
+import android.view.View;
+import java.util.Arrays;
+
+/* JADX WARN: Classes with same name are omitted:
+  assets.dex
+ */
+/* loaded from: assets/audience_network.dex */
+public class PK implements View.OnClickListener {
+    public static byte[] A01;
+    public final /* synthetic */ BP A00;
+
+    static {
+        A01();
+    }
+
+    public static String A00(int i10, int i11, int i12) {
+        byte[] copyOfRange = Arrays.copyOfRange(A01, i10, i10 + i11);
+        for (int i13 = 0; i13 < copyOfRange.length; i13++) {
+            copyOfRange[i13] = (byte) ((copyOfRange[i13] ^ i12) ^ 92);
+        }
+        return new String(copyOfRange);
+    }
+
+    public static void A01() {
+        A01 = new byte[]{71, 69, 86, 75, 81, 87, 65, 72, 123, 71, 69, 86, 64};
+    }
+
+    public PK(BP bp) {
+        this.A00 = bp;
+    }
+
+    @Override // android.view.View.OnClickListener
+    public final void onClick(View view) {
+        ViewOnClickListenerC0749Ui ctaButton;
+        if (KQ.A02(this)) {
+            return;
+        }
+        try {
+            ctaButton = this.A00.getCtaButton();
+            ctaButton.A09(A00(0, 13, 120));
+        } catch (Throwable th2) {
+            KQ.A00(th2, this);
+        }
+    }
+}

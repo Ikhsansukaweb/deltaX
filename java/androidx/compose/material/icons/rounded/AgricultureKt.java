@@ -1,0 +1,128 @@
+package androidx.compose.material.icons.rounded;
+
+import g1.m0;
+import g1.t;
+import gl.b;
+import j0.c;
+import java.util.ArrayList;
+import k1.e;
+import k1.f;
+import k1.g;
+import k1.h0;
+import k1.k;
+import k1.m;
+import k1.o;
+import k1.u;
+import kotlin.jvm.internal.l;
+
+/* compiled from: r8-map-id-cdbeb58ef06fad4681c7fbee776b8843f0d08a25f32bfdc3612bf6ec0792c678 */
+/* loaded from: classes.dex */
+public final class AgricultureKt {
+    private static f _agriculture;
+
+    public static final f getAgriculture(c cVar) {
+        l.f("<this>", cVar);
+        f fVar = _agriculture;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Rounded.Agriculture", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f8826a;
+        long j = t.f6633b;
+        m0 m0Var = new m0(j);
+        g a10 = b.a(19.5f, 11.97f);
+        a10.i(0.93f, 0.0f, 1.78f, 0.28f, 2.5f, 0.76f);
+        a10.s(7.97f);
+        a10.i(0.0f, -1.1f, -0.9f, -2.0f, -2.0f, -2.0f);
+        a10.k(-6.29f);
+        a10.m(-1.06f, -1.06f);
+        a10.m(1.06f, -1.06f);
+        a10.i(0.2f, -0.2f, 0.2f, -0.51f, 0.0f, -0.71f);
+        a10.q(-0.51f, -0.2f, -0.71f, 0.0f);
+        a10.m(-2.83f, 2.83f);
+        a10.i(-0.2f, 0.2f, -0.2f, 0.51f, 0.0f, 0.71f);
+        a10.m(0.0f, 0.0f);
+        a10.i(0.2f, 0.2f, 0.51f, 0.2f, 0.71f, 0.0f);
+        a10.m(1.06f, -1.06f);
+        a10.l(13.0f, 6.68f);
+        a10.t(2.29f);
+        a10.i(0.0f, 1.1f, -0.9f, 2.0f, -2.0f, 2.0f);
+        a10.k(-0.54f);
+        a10.i(0.95f, 1.06f, 1.54f, 2.46f, 1.54f, 4.0f);
+        a10.i(0.0f, 0.34f, -0.04f, 0.67f, -0.09f, 1.0f);
+        a10.k(3.14f);
+        a10.h(15.3f, 13.73f, 17.19f, 11.97f, 19.5f, 11.97f);
+        a10.g();
+        e.a(eVar, a10.f8814a, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        g a11 = b.a(19.5f, 12.97f);
+        a11.i(-1.93f, 0.0f, -3.5f, 1.57f, -3.5f, 3.5f);
+        a11.q(1.57f, 3.5f, 3.5f, 3.5f);
+        a11.q(3.5f, -1.57f, 3.5f, -3.5f);
+        a11.p(21.43f, 12.97f, 19.5f, 12.97f);
+        a11.g();
+        a11.n(19.5f, 17.97f);
+        a11.i(-0.83f, 0.0f, -1.5f, -0.67f, -1.5f, -1.5f);
+        a11.q(0.67f, -1.5f, 1.5f, -1.5f);
+        a11.q(1.5f, 0.67f, 1.5f, 1.5f);
+        a11.p(20.33f, 17.97f, 19.5f, 17.97f);
+        a11.g();
+        e.a(eVar, a11.f8814a, 0, m0Var2);
+        m0 m0Var3 = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new o(4.0f, 8.97f));
+        arrayList.add(new u(5.0f));
+        arrayList.add(new k1.t(0.0f, -1.1f, -0.9f, -2.0f, -2.0f, -2.0f));
+        arrayList.add(new m(4.0f));
+        arrayList.add(new k1.t(-0.55f, 0.0f, -1.0f, 0.45f, -1.0f, 1.0f));
+        arrayList.add(new k1.l(3.0f, 8.53f, 3.45f, 8.97f, 4.0f, 8.97f));
+        arrayList.add(k.f8855c);
+        e.a(eVar, arrayList, 0, m0Var3);
+        m0 m0Var4 = new m0(j);
+        g b4 = b.b(9.83f, 13.79f, -0.18f, -0.47f);
+        b4.m(0.93f, -0.35f);
+        b4.i(-0.46f, -1.06f, -1.28f, -1.91f, -2.31f, -2.43f);
+        b4.m(-0.4f, 0.89f);
+        b4.m(-0.46f, -0.21f);
+        b4.m(0.4f, -0.9f);
+        b4.h(7.26f, 10.11f, 6.64f, 9.97f, 6.0f, 9.97f);
+        b4.i(-0.53f, 0.0f, -1.04f, 0.11f, -1.52f, 0.26f);
+        b4.m(0.34f, 0.91f);
+        b4.m(-0.47f, 0.18f);
+        b4.l(4.0f, 10.4f);
+        b4.i(-1.06f, 0.46f, -1.91f, 1.28f, -2.43f, 2.31f);
+        b4.m(0.89f, 0.4f);
+        b4.m(-0.21f, 0.46f);
+        b4.m(-0.9f, -0.4f);
+        b4.h(1.13f, 13.72f, 1.0f, 14.33f, 1.0f, 14.97f);
+        b4.i(0.0f, 0.53f, 0.11f, 1.04f, 0.26f, 1.52f);
+        b4.m(0.91f, -0.34f);
+        b4.m(0.18f, 0.47f);
+        b4.m(-0.93f, 0.35f);
+        b4.i(0.46f, 1.06f, 1.28f, 1.91f, 2.31f, 2.43f);
+        b4.m(0.4f, -0.89f);
+        b4.m(0.46f, 0.21f);
+        b4.m(-0.4f, 0.9f);
+        b4.i(0.57f, 0.22f, 1.18f, 0.35f, 1.82f, 0.35f);
+        b4.i(0.53f, 0.0f, 1.04f, -0.11f, 1.52f, -0.26f);
+        b4.l(7.18f, 18.8f);
+        b4.m(0.47f, -0.18f);
+        b4.l(8.0f, 19.55f);
+        b4.i(1.06f, -0.46f, 1.91f, -1.28f, 2.43f, -2.31f);
+        b4.m(-0.89f, -0.4f);
+        b4.m(0.21f, -0.46f);
+        b4.m(0.9f, 0.4f);
+        b4.i(0.22f, -0.57f, 0.35f, -1.18f, 0.35f, -1.82f);
+        b4.i(0.0f, -0.53f, -0.11f, -1.04f, -0.26f, -1.52f);
+        k0.b.C(b4, 9.83f, 13.79f, 7.15f, 17.75f);
+        b4.i(-1.53f, 0.63f, -3.29f, -0.09f, -3.92f, -1.62f);
+        b4.i(-0.63f, -1.53f, 0.09f, -3.29f, 1.62f, -3.92f);
+        b4.i(1.53f, -0.63f, 3.29f, 0.09f, 3.92f, 1.62f);
+        b4.h(9.41f, 15.36f, 8.68f, 17.11f, 7.15f, 17.75f);
+        b4.g();
+        e.a(eVar, b4.f8814a, 0, m0Var4);
+        f b10 = eVar.b();
+        _agriculture = b10;
+        return b10;
+    }
+}

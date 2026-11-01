@@ -1,0 +1,53 @@
+package androidx.compose.material.icons.rounded;
+
+import g1.m0;
+import g1.t;
+import j0.c;
+import k0.b;
+import k1.e;
+import k1.f;
+import k1.g;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* compiled from: r8-map-id-cdbeb58ef06fad4681c7fbee776b8843f0d08a25f32bfdc3612bf6ec0792c678 */
+/* loaded from: classes.dex */
+public final class CurtainsKt {
+    private static f _curtains;
+
+    public static final f getCurtains(c cVar) {
+        l.f("<this>", cVar);
+        f fVar = _curtains;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Rounded.Curtains", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f8826a;
+        m0 m0Var = new m0(t.f6633b);
+        g a10 = k0.c.a(20.0f, 19.0f, 5.0f);
+        a10.i(0.0f, -1.1f, -0.9f, -2.0f, -2.0f, -2.0f);
+        a10.j(6.0f);
+        a10.h(4.9f, 3.0f, 4.0f, 3.9f, 4.0f, 5.0f);
+        a10.t(14.0f);
+        a10.j(3.0f);
+        a10.i(-0.55f, 0.0f, -1.0f, 0.45f, -1.0f, 1.0f);
+        a10.t(0.0f);
+        a10.i(0.0f, 0.55f, 0.45f, 1.0f, 1.0f, 1.0f);
+        a10.k(18.0f);
+        a10.i(0.55f, 0.0f, 1.0f, -0.45f, 1.0f, -1.0f);
+        a10.t(0.0f);
+        a10.i(0.0f, -0.55f, -0.45f, -1.0f, -1.0f, -1.0f);
+        b.y(a10, 20.0f, 8.19f, 12.0f);
+        a10.i(2.04f, -1.35f, 3.5f, -3.94f, 3.76f, -7.0f);
+        a10.k(0.09f);
+        a10.i(0.26f, 3.06f, 1.72f, 5.65f, 3.76f, 7.0f);
+        a10.i(-2.04f, 1.35f, -3.5f, 3.94f, -3.76f, 7.0f);
+        a10.k(-0.09f);
+        a10.h(11.69f, 15.94f, 10.23f, 13.35f, 8.19f, 12.0f);
+        a10.g();
+        e.a(eVar, a10.f8814a, 0, m0Var);
+        f b4 = eVar.b();
+        _curtains = b4;
+        return b4;
+    }
+}

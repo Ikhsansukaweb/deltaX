@@ -1,0 +1,49 @@
+package l3;
+
+import android.content.res.ColorStateList;
+import android.content.res.Resources;
+import android.graphics.ColorFilter;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
+import android.util.AttributeSet;
+import org.xmlpull.v1.XmlPullParser;
+
+/* compiled from: r8-map-id-cdbeb58ef06fad4681c7fbee776b8843f0d08a25f32bfdc3612bf6ec0792c678 */
+/* loaded from: classes.dex */
+public abstract class b {
+    public static void a(Drawable drawable, Resources.Theme theme) {
+        drawable.applyTheme(theme);
+    }
+
+    public static boolean b(Drawable drawable) {
+        return drawable.canApplyTheme();
+    }
+
+    public static ColorFilter c(Drawable drawable) {
+        return drawable.getColorFilter();
+    }
+
+    public static void d(Drawable drawable, Resources resources, XmlPullParser xmlPullParser, AttributeSet attributeSet, Resources.Theme theme) {
+        drawable.inflate(resources, xmlPullParser, attributeSet, theme);
+    }
+
+    public static void e(Drawable drawable, float f10, float f11) {
+        drawable.setHotspot(f10, f11);
+    }
+
+    public static void f(Drawable drawable, int i10, int i11, int i12, int i13) {
+        drawable.setHotspotBounds(i10, i11, i12, i13);
+    }
+
+    public static void g(Drawable drawable, int i10) {
+        drawable.setTint(i10);
+    }
+
+    public static void h(Drawable drawable, ColorStateList colorStateList) {
+        drawable.setTintList(colorStateList);
+    }
+
+    public static void i(Drawable drawable, PorterDuff.Mode mode) {
+        drawable.setTintMode(mode);
+    }
+}

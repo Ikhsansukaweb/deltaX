@@ -1,0 +1,71 @@
+package com.instagram.common.viewpoint.core;
+
+import android.view.View;
+import android.widget.ImageView;
+
+/* JADX WARN: Classes with same name are omitted:
+  assets.dex
+ */
+/* loaded from: assets/audience_network.dex */
+public final class V8 extends OU {
+    public static String[] A01 = {"Er9uQMazYAvywc84qssi8CcPD5K", "bpAOsy1ZAool4ZO", "456cLSbicHverE2", "OQn0GSeoKkB55mmrW6XfcsGu8yTW4vwY", "5C5KK7QE3ZVmFSCl85soxjy8aya", "FZZqXqYfqR5sLOGe", "aaYiwVUQ6XuTYr3PnCNNWh", "fICxnQOCOsz8JBbFc5EZnQUEppLIkjem"};
+    public ImageView.ScaleType A00;
+
+    public V8(C0885Zs c0885Zs) {
+        super(c0885Zs);
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:15:? A[RETURN, SYNTHETIC] */
+    /* JADX WARN: Removed duplicated region for block: B:8:0x0021  */
+    @Override // android.widget.ImageView, android.view.View
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+    */
+    public final void onMeasure(int i10, int i11) {
+        int size = View.MeasureSpec.getSize(i11);
+        int size2 = View.MeasureSpec.getSize(i10);
+        int heightSpecSize = View.MeasureSpec.getMode(i10);
+        if (heightSpecSize == 1073741824) {
+            int heightSpecSize2 = View.MeasureSpec.getMode(i11);
+            if (heightSpecSize2 == 1073741824) {
+                int heightSpecSize3 = Math.min(size2, size);
+                setMeasuredDimension(heightSpecSize3, heightSpecSize3);
+                if (this.A00 == null) {
+                    ImageView.ScaleType scaleType = this.A00;
+                    int widthSpecSize = A01[2].length();
+                    if (widthSpecSize != 15) {
+                        throw new RuntimeException();
+                    }
+                    A01[0] = "1TQeY3NJoCywMKTf";
+                    super.setScaleType(scaleType);
+                    return;
+                }
+                return;
+            }
+        }
+        int heightSpecSize4 = View.MeasureSpec.getMode(i10);
+        if (heightSpecSize4 == 1073741824) {
+            if (size > 0) {
+                size2 = Math.min(size2, size);
+            }
+            setMeasuredDimension(size2, size2);
+        } else {
+            int heightSpecSize5 = View.MeasureSpec.getMode(i11);
+            if (heightSpecSize5 == 1073741824) {
+                if (size2 > 0) {
+                    size = Math.min(size2, size);
+                }
+                setMeasuredDimension(size, size);
+            } else {
+                super.onMeasure(i10, i11);
+            }
+        }
+        if (this.A00 == null) {
+        }
+    }
+
+    @Override // android.widget.ImageView
+    public void setScaleType(ImageView.ScaleType scaleType) {
+        this.A00 = scaleType;
+    }
+}

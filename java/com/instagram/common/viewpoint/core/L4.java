@@ -1,0 +1,16 @@
+package com.instagram.common.viewpoint.core;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+
+/* JADX WARN: Classes with same name are omitted:
+  assets.dex
+ */
+/* loaded from: assets/audience_network.dex */
+public abstract class L4 {
+    public static Intent A00(Context context, BroadcastReceiver broadcastReceiver, IntentFilter intentFilter) {
+        return context.registerReceiver(broadcastReceiver, intentFilter);
+    }
+}

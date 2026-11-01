@@ -1,0 +1,44 @@
+package com.instagram.common.viewpoint.core;
+
+import java.util.Set;
+
+/* JADX WARN: Classes with same name are omitted:
+  assets.dex
+ */
+/* renamed from: com.facebook.ads.redexgen.X.Rv, reason: case insensitive filesystem */
+/* loaded from: assets/audience_network.dex */
+public final class C0684Rv {
+    public C0687Ry A00;
+    public Set<String> A01;
+    public Set<String> A02;
+    public boolean A03;
+    public boolean A04;
+
+    public C0684Rv(C0687Ry c0687Ry, boolean z10, Set<String> pinnedPublicKeys, Set<String> pinnedCertificates, boolean z11) {
+        this.A00 = c0687Ry;
+        this.A04 = z10;
+        this.A02 = pinnedPublicKeys;
+        this.A01 = pinnedCertificates;
+        this.A03 = z11;
+    }
+
+    public final C0687Ry A00() {
+        return this.A00;
+    }
+
+    public final Set<String> A01() {
+        return this.A01;
+    }
+
+    public final Set<String> A02() {
+        return this.A02;
+    }
+
+    public final boolean A03() {
+        return this.A04;
+    }
+
+    public final boolean A04() {
+        return this.A03;
+    }
+}

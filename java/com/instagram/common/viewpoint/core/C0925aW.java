@@ -1,0 +1,30 @@
+package com.instagram.common.viewpoint.core;
+
+import com.facebook.ads.AdListener;
+
+/* JADX WARN: Classes with same name are omitted:
+  assets.dex
+ */
+/* renamed from: com.facebook.ads.redexgen.X.aW, reason: case insensitive filesystem */
+/* loaded from: assets/audience_network.dex */
+public class C0925aW extends KL {
+    public final /* synthetic */ C0924aV A00;
+
+    public C0925aW(C0924aV c0924aV) {
+        this.A00 = c0924aV;
+    }
+
+    @Override // com.instagram.common.viewpoint.core.KL
+    public final void A01() {
+        C5P c5p;
+        C5P c5p2;
+        C5P c5p3;
+        c5p = this.A00.A01;
+        if (c5p.A06() != null) {
+            c5p2 = this.A00.A01;
+            AdListener A06 = c5p2.A06();
+            c5p3 = this.A00.A01;
+            A06.onLoggingImpression(c5p3.A07());
+        }
+    }
+}

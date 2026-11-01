@@ -1,0 +1,12 @@
+package com.instagram.common.viewpoint.core;
+
+/* JADX WARN: Classes with same name are omitted:
+  assets.dex
+ */
+/* renamed from: com.facebook.ads.redexgen.X.Kc, reason: case insensitive filesystem */
+/* loaded from: assets/audience_network.dex */
+public final class C0486Kc extends Throwable {
+    public C0486Kc(String str) {
+        super(str);
+    }
+}

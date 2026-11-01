@@ -1,0 +1,70 @@
+package androidx.compose.material.icons.outlined;
+
+import g1.m0;
+import g1.t;
+import j0.b;
+import java.util.ArrayList;
+import k1.e;
+import k1.f;
+import k1.g;
+import k1.h0;
+import k1.k;
+import k1.o;
+import kotlin.jvm.internal.l;
+
+/* compiled from: r8-map-id-cdbeb58ef06fad4681c7fbee776b8843f0d08a25f32bfdc3612bf6ec0792c678 */
+/* loaded from: classes.dex */
+public final class SportsHandballKt {
+    private static f _sportsHandball;
+
+    public static final f getSportsHandball(b bVar) {
+        l.f("<this>", bVar);
+        f fVar = _sportsHandball;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Outlined.SportsHandball", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f8826a;
+        long j = t.f6633b;
+        m0 m0Var = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new o(14.27f, 6.0f));
+        arrayList.add(new k1.l(13.72f, 6.95f, 14.05f, 8.18f, 15.0f, 8.73f));
+        arrayList.add(new k1.t(0.95f, 0.55f, 2.18f, 0.22f, 2.73f, -0.73f));
+        arrayList.add(new k1.t(0.55f, -0.95f, 0.22f, -2.18f, -0.73f, -2.73f));
+        arrayList.add(new k1.l(16.05f, 4.72f, 14.82f, 5.05f, 14.27f, 6.0f));
+        k kVar = k.f8855c;
+        arrayList.add(kVar);
+        e.a(eVar, arrayList, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        g a10 = gl.b.a(15.84f, 10.41f);
+        a10.i(0.0f, 0.0f, -1.63f, -0.94f, -2.6f, -1.5f);
+        a10.i(-2.38f, -1.38f, -3.2f, -4.44f, -1.82f, -6.82f);
+        a10.m(-1.73f, -1.0f);
+        a10.h(8.1f, 3.83f, 8.6f, 7.21f, 10.66f, 9.4f);
+        a10.m(-5.15f, 8.92f);
+        a10.m(1.73f, 1.0f);
+        a10.m(1.5f, -2.6f);
+        a10.m(1.73f, 1.0f);
+        a10.m(-3.0f, 5.2f);
+        a10.m(1.73f, 1.0f);
+        a10.m(6.29f, -10.89f);
+        a10.i(1.14f, 1.55f, 1.33f, 3.69f, 0.31f, 5.46f);
+        a10.m(1.73f, 1.0f);
+        a10.h(19.13f, 16.74f, 18.81f, 12.91f, 15.84f, 10.41f);
+        a10.g();
+        e.a(eVar, a10.f8814a, 0, m0Var2);
+        m0 m0Var3 = new m0(j);
+        ArrayList arrayList2 = new ArrayList(32);
+        arrayList2.add(new o(12.75f, 3.8f));
+        arrayList2.add(new k1.t(0.72f, 0.41f, 1.63f, 0.17f, 2.05f, -0.55f));
+        arrayList2.add(new k1.t(0.41f, -0.72f, 0.17f, -1.63f, -0.55f, -2.05f));
+        arrayList2.add(new k1.t(-0.72f, -0.41f, -1.63f, -0.17f, -2.05f, 0.55f));
+        arrayList2.add(new k1.l(11.79f, 2.47f, 12.03f, 3.39f, 12.75f, 3.8f));
+        arrayList2.add(kVar);
+        e.a(eVar, arrayList2, 0, m0Var3);
+        f b4 = eVar.b();
+        _sportsHandball = b4;
+        return b4;
+    }
+}

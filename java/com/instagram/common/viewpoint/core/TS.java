@@ -1,0 +1,37 @@
+package com.instagram.common.viewpoint.core;
+
+/* JADX WARN: Classes with same name are omitted:
+  assets.dex
+ */
+/* loaded from: assets/audience_network.dex */
+public class TS implements PF {
+    public static String[] A02 = {"9PywuU4GHiHNyuQqsV2hRMSIWFgkBIXF", "4f29GwA2drhXCGLW73s", "OBDvTIY6Fo2yo", "qWjLV5L5oYfn1ENZQ7wZqAcQOQTzRMSI", "H9BrF", "yMivREoxcX9yTTtt7Y5NvuvowO", "wlJRq0Wi48iVBacAp", "IhU4F2XwKRFLShSdQLhvvlqnDQutiuLd"};
+    public final /* synthetic */ QK A00;
+    public final /* synthetic */ TR A01;
+
+    public TS(TR tr, QK qk2) {
+        this.A01 = tr;
+        this.A00 = qk2;
+    }
+
+    @Override // com.instagram.common.viewpoint.core.PF
+    public final void ABD() {
+        C0673Rk c0673Rk;
+        C0673Rk c0673Rk2;
+        C0673Rk c0673Rk3;
+        if (this.A00.A02() == 0) {
+            c0673Rk3 = this.A01.A02;
+            c0673Rk3.A0U();
+        }
+        c0673Rk = this.A01.A03;
+        if (c0673Rk != null) {
+            TR tr = this.A01;
+            if (A02[7].charAt(14) == 'H') {
+                throw new RuntimeException();
+            }
+            A02[7] = "tTbulj5vBI36HvBMxQ95Zo46YoefRMyT";
+            c0673Rk2 = tr.A03;
+            c0673Rk2.A0U();
+        }
+    }
+}

@@ -1,0 +1,25 @@
+package com.instagram.common.viewpoint.core;
+
+/* JADX WARN: Classes with same name are omitted:
+  assets.dex
+ */
+/* loaded from: assets/audience_network.dex */
+public class En implements Runnable {
+    public final /* synthetic */ C0329Dg A00;
+
+    public En(C0329Dg c0329Dg) {
+        this.A00 = c0329Dg;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        if (KQ.A02(this)) {
+            return;
+        }
+        try {
+            this.A00.A09();
+        } catch (Throwable th2) {
+            KQ.A00(th2, this);
+        }
+    }
+}

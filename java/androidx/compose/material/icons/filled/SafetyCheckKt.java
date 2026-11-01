@@ -1,0 +1,46 @@
+package androidx.compose.material.icons.filled;
+
+import g1.m0;
+import g1.t;
+import gl.b;
+import j0.a;
+import k0.c;
+import k0.d;
+import k1.e;
+import k1.f;
+import k1.g;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* compiled from: r8-map-id-cdbeb58ef06fad4681c7fbee776b8843f0d08a25f32bfdc3612bf6ec0792c678 */
+/* loaded from: classes.dex */
+public final class SafetyCheckKt {
+    private static f _safetyCheck;
+
+    public static final f getSafetyCheck(a aVar) {
+        l.f("<this>", aVar);
+        f fVar = _safetyCheck;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Filled.SafetyCheck", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f8826a;
+        m0 m0Var = new m0(t.f6633b);
+        g b4 = c.b(12.0f, 2.0f, 4.0f, 5.0f, 6.09f);
+        b4.i(0.0f, 5.05f, 3.41f, 9.76f, 8.0f, 10.91f);
+        b4.i(4.59f, -1.15f, 8.0f, -5.86f, 8.0f, -10.91f);
+        d.x(b4, 5.0f, 12.0f, 2.0f);
+        b4.n(12.0f, 17.0f);
+        b4.i(-2.76f, 0.0f, -5.0f, -2.24f, -5.0f, -5.0f);
+        b4.q(2.24f, -5.0f, 5.0f, -5.0f);
+        b4.q(5.0f, 2.24f, 5.0f, 5.0f);
+        b4.p(14.76f, 17.0f, 12.0f, 17.0f);
+        c.d(b4, 13.65f, 14.35f, -2.15f, -2.15f);
+        b.r(b4, 9.0f, 1.0f, 2.79f);
+        b.p(b4, 1.85f, 1.85f, 13.65f, 14.35f);
+        e.a(eVar, b4.f8814a, 0, m0Var);
+        f b10 = eVar.b();
+        _safetyCheck = b10;
+        return b10;
+    }
+}
