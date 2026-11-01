@@ -1,30 +1,37 @@
 # Native — `libgrowtopia.so`
 
-Hasil decompile `libgrowtopia.so` (stok resmi Growtopia 5.61, 43,651,800 B, arm64-v8a) pakai **Ghidra 11.4.2** headless, `AARCH64:LE:64:v8A`.
+Hasil decompile `libgrowtopia.so` (stok resmi Growtopia 5.61, 43,651,800 B, arm64-v8a, C++) pakai **Ghidra 11.4.2** headless, `AARCH64:LE:64:v8A`.
 
-Ini pseudocode output decompiler. Bukan source asli, tidak compile.
+**Pseudocode, bukan source asli.** Tidak compile.
+
+## Layout
 
 ```
-src/            34 file .c (semua JNI export)
-src/_index.txt  peta alamat -> nama -> file
+src/
+  _index.md              tabel 34 export: alamat, grup, ukuran, caller/callee
+  _callgraph.txt         graf panggilan
+  game/                  export yang dipanggil engine (Main, SharedActivity, AppGLSurfaceView, WebViewManager)
+  misc/                  SDK pihak ketiga (Google, Usercentrics, Firebase, AppsFlyer, IronSource, Ubisoft)
+  _module_<grup>.c      semua export satu grup digabung
 ```
+
+Tiap file punya header `name / address / group / size / callers / callees / strings`.
 
 ## Kenapa hanya 34
 
-`libgrowtopia.so` punya **34 JNI export total** dan semuanya di-decompile (`TARGETS=34 OK=34`). Sisa puluhan ribu fungsi adalah engine Growtopia sendiri (renderer, network, world, Lua VM, FMOD, OpenSSL) tanpa nama — engine itu **tidak** di-decompile di sini karena tidak relevan ke cheat dan hasilnya tidak akan terbaca.
+`libgrowtopia.so` punya **34 JNI export total**, semua di-decompile (`TARGETS=34 OK=34`). Sisa puluhan ribu fungsi = engine Growtopia tanpa nama (renderer, network, world, Lua VM, FMOD). Tidak di-decompile di sini: tidak relevan ke cheat, hasilnya tidak akan terbaca.
 
-Kalau butuh bagian engine, buka project Ghidra yang sudah dianalisis, atau jalankan ulang:
+Butuh bagian engine? Buka project Ghidra yang sudah dianalisis:
 
 ```bash
-$GHIDRA/support/analyzeHeadless /tmp/proj gt \
-  -import libgrowtopia.so -processor AARCH64:LE:64:v8A
+$GHIDRA/support/analyzeHeadless /tmp/proj gt -process libgrowtopia.so
 ```
 
-Analisis penuh butuh ~30-40 menit dan ~1,5 GB RAM.
+Analisis penuh ~30-40 menit, ~1,5 GB RAM.
 
 ## Isi export
 
-| Kelompok | Fungsi |
+| Grup | Fungsi |
 |---|---|
 | `Main` | `nativeInit`, `nativeOnResume`, `nativeOnPause`, `nativeDetachActivity`, `nativeShutdownAndWait` |
 | `SharedActivity` | `nativeInitActivity`, `nativeSendGUIEx`, `nativeSendGUIStringEx`, `nativeOnKey`, `nativeOnInputText`, `nativeCancelBtnPressed`, `nativeUpdateConsoleLogPos`, `appOnAdInteractionFailed` |
@@ -36,7 +43,7 @@ Analisis penuh butuh ~30-40 menit dan ~1,5 GB RAM.
 
 ## Bukti kenapa 7.0.38 bisa, 7.0.32 tidak
 
-Bandingkan daftar export ini dengan export di fork 5.58 yang dipakai GrowLauncher 7.0.32. Fork itu punya 14 export **tambahan** yang di sini tidak ada:
+Fork 5.58 yang dipakai GrowLauncher 7.0.32 punya 14 export **tambahan** yang tidak ada di stok 5.61:
 
 ```
 SharedActivity_nativeGetChatString
@@ -50,14 +57,15 @@ AppRenderer_native*  (18 fungsi: DrawFrame, SetupScene, RenderWorld, ...)
 AppGLSurfaceView_nativeInitRenderer / nativePause / nativeResume
 ```
 
-Jadi engine 5.61 **stok polos**. Semua hook pindah ke `libPowerKuy.so`, dan Java `com/rtsoft/growtopia/*` di 7.0.38 tidak lagi memanggil symbol-symbol itu.
+Artinya engine 5.61 **stok polos**. Semua hook pindah ke `libPowerKuy.so`, dan Java `com/rtsoft/growtopia/*` di 7.0.38 tidak lagi memanggil symbol-symbol itu.
 
 Konsekuensi: swap `libgrowtopia.so` 5.61 ke build 7.0.32 bocor jadi
 `java.lang.UnsatisfiedLinkError: No implementation found for int com.rtsoft.growtopia.SharedActivity.nativeGetChatString()`.
 
 ## Batasan
 
-- Pseudocode. Nama `FUN_xxx`/`DAT_xxx`/`local_xx` bikinan Ghidra.
+- Pseudocode. Nama `FUN_`/`DAT_`/`local_` bikinan Ghidra.
 - Hanya lapisan JNI. Frame loop, physics, world, Lua VM, netcode tidak ada di sini.
+- Semua 34 export bernama asli (dari dynsym), jadi `RENAMED=0` — tidak butuh heuristik nama.
 - Tidak diverifikasi runtime.
 - Binary stok Growtopia. Tidak dimodifikasi deltaX.

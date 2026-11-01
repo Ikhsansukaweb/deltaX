@@ -1,0 +1,258 @@
+018c3000 Java_com_rtsoft_growtopia_WebViewManager_nativeOnErrorOccurred
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_018c410c
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+018c3130 Java_com_rtsoft_growtopia_WebViewManager_nativeOnPageLoaded
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_0152b1a4
+  -> FUN_0152b2a4
+  -> FUN_0152b474
+  -> FUN_018c4334
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+018c3314 Java_com_rtsoft_growtopia_WebViewManager_nativeOnScriptCall
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_0152b1a4
+  -> FUN_0152b2a4
+  -> FUN_0152b474
+  -> FUN_018c46f0
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+018c3584 Java_com_rtsoft_growtopia_WebViewManager_nativeOnPageContent
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_0152b1a4
+  -> FUN_0152b2a4
+  -> FUN_0152b474
+  -> FUN_018c4930
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+018ef7e4 Java_com_rtsoft_growtopia_Main_nativeInit
+  -> FUN_018f31e8
+  -> __stack_chk_fail
+  -> terminate
+  -> ~thread
+018ef870 Java_com_rtsoft_growtopia_Main_nativeOnResume
+  -> FUN_018ef964
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+018efac4 Java_com_rtsoft_growtopia_Main_nativeOnPause
+  -> FUN_018ef964
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+018efbac Java_com_rtsoft_growtopia_Main_nativeDetachActivity
+  -> FUN_018efca4
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+018f00d8 Java_com_rtsoft_growtopia_Main_nativeShutdownAndWait
+  -> FUN_018f00f8
+018f0458 Java_com_rtsoft_growtopia_AppGLSurfaceView_nativeSurfaceCreated
+  -> ANativeWindow_fromSurface
+  -> FUN_018ef964
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+018f0550 Java_com_rtsoft_growtopia_AppGLSurfaceView_nativeSurfaceChanged
+  -> FUN_018ef964
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+018f0640 Java_com_rtsoft_growtopia_AppGLSurfaceView_nativeSurfaceDestroyedAndWait
+  -> FUN_018efca4
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+018f0738 Java_com_rtsoft_growtopia_SharedActivity_nativeInitActivity
+  -> FUN_01525748
+018f0740 Java_com_rtsoft_growtopia_AppGLSurfaceView_nativeOnTouch
+  -> FUN_018ef964
+  -> FUN_018f4d90
+  -> FUN_018f4dd4
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> operator.delete
+018f089c Java_com_rtsoft_growtopia_SharedActivity_nativeSendGUIEx
+  -> FUN_018ef964
+  -> FUN_018f4dd4
+  -> FUN_018f4fd0
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> operator.delete
+018f09f4 Java_com_rtsoft_growtopia_SharedActivity_nativeSendGUIStringEx
+  -> FUN_018ef964
+  -> FUN_018f0b78
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> assign
+  -> operator.delete
+018f0c78 Java_com_rtsoft_growtopia_NativeAppInterface_OnDeepLinkProcess
+  -> FUN_018ef964
+  -> FUN_018f0dc4
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> assign
+  -> operator.delete
+018f0eb4 Java_com_rtsoft_growtopia_SharedActivity_nativeCancelBtnPressed
+  -> FUN_018ef964
+  -> FUN_018f4dd4
+  -> FUN_018f57e4
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> operator.delete
+018f1008 Java_com_rtsoft_growtopia_SharedActivity_nativeOnInputText
+  -> FUN_0152b1a4
+  -> FUN_0152b2a4
+  -> FUN_0152b474
+  -> FUN_018ef964
+  -> FUN_018f1168
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> operator.delete
+018f1258 Java_com_rtsoft_growtopia_SharedActivity_nativeOnKey
+  -> FUN_018ef964
+  -> FUN_018f4dd4
+  -> FUN_018f7e2c
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> operator.delete
+018f13b0 Java_com_rtsoft_growtopia_SharedActivity_nativeUpdateConsoleLogPos
+  -> FUN_018ef964
+  -> FUN_018f4dd4
+  -> FUN_018f7ec0
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> operator.delete
+018f1508 Java_com_rtsoft_growtopia_SharedActivity_appOnAdInteractionFailed
+  -> FUN_0152b1a4
+  -> FUN_0152b2a4
+  -> FUN_0152b474
+  -> FUN_018ef964
+  -> FUN_018f16d4
+  -> FUN_028f92d0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> operator.delete
+01e8fe70 Java_com_rtsoft_growtopia_AppsFlyerManager_nativeOnStarted
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_01e90310
+  -> __stack_chk_fail
+  -> operator.new
+01ea8730 Java_com_rtsoft_growtopia_GoogleSignInHelper_OnSignIn
+  -> FUN_00dd1778
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_01ea8c74
+  -> __stack_chk_fail
+  -> memmove
+  -> operator.new
+  -> strlen
+02016c68 Java_com_rtsoft_growtopia_UsercentricsManager_InitFinish
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_020176d4
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+02016d8c Java_com_rtsoft_growtopia_UsercentricsManager_OnConsentFetchedSuccess
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_0152b1a4
+  -> FUN_0152b2a4
+  -> FUN_0152b474
+  -> FUN_0152ba04
+  -> FUN_0152bbdc
+  -> FUN_0152bca4
+  -> FUN_0152bdb0
+  -> FUN_020177a8
+  -> FUN_02017b74
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+020171f4 Java_com_rtsoft_growtopia_UsercentricsManager_OnConsentFetchedFail
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_0152b1a4
+  -> FUN_0152b2a4
+  -> FUN_0152b474
+  -> FUN_02017f90
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+02020cb8 Java_com_rtsoft_growtopia_FirebaseCloudMessageManager_onTokenUpdated
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_0152b1a4
+  -> FUN_0152b2a4
+  -> FUN_0152b474
+  -> FUN_02020fa4
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+02029c90 Java_com_rtsoft_growtopia_IronSourceManager_pauseAnzu
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_0202a1f8
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+02029da8 Java_com_rtsoft_growtopia_IronSourceManager_onAdClosed
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_0152b1a4
+  -> FUN_0152b2a4
+  -> FUN_0152b474
+  -> FUN_0202a374
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+02029f60 Java_com_rtsoft_growtopia_IronSourceManager_resumeAnzu
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_0202a434
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+0202a078 Java_com_rtsoft_growtopia_IronSourceManager_sendPingToServer
+  -> FUN_0135dc4c
+  -> FUN_0135ec84
+  -> FUN_0202a4b8
+  -> __stack_chk_fail
+  -> operator.delete
+  -> operator.new
+0259bda0 Java_com_ubisoft_bridge_NativeInterface_injectActivity
+  -> EalMemFree
+  -> FUN_02541504
+  -> FUN_025541e0
+  -> FUN_02554394
+  -> FUN_0257ab70
+  -> FUN_02660440
+  -> FUN_028f92d0
+  -> __android_log_print
+  -> __release_weak
+  -> __stack_chk_fail
+  -> ~basic_ios
+  -> ~basic_iostream
+  -> ~basic_streambuf
+0263c6e8 Java_com_ubisoft_webview_CWebViewPluginInterfaceNative_callNativeCallback
+  -> FUN_02659ee4
+  -> __stack_chk_fail

@@ -1,0 +1,4314 @@
+0051526c misc_mod_menu
+  -> AAssetManager_open
+  -> AAsset_close
+  -> AAsset_getLength
+  -> AAsset_read
+  -> FUN_00515790
+  -> FUN_00515e18
+  -> FUN_00516438
+  -> FUN_00528cec
+  -> __android_log_print
+  -> __stack_chk_fail
+  -> __status
+  -> clear
+  -> close
+  -> free
+  -> memmove
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> operator.new[]
+  -> write
+  -> ~basic_filebuf
+  -> ~basic_ios
+  -> ~basic_ostream
+00515790 FUN_00515790
+  -> basic_filebuf
+  -> clear
+  -> init
+  -> open
+00515e18 FUN_00515e18
+  -> __grow_by_and_replace
+  -> memmove
+00515f00 misc_basic_string
+  -> FUN_00515f14
+00516038 FUN_00516038
+  -> abort
+  -> fprintf
+0051606c misc_string_pointer_is_null
+  -> FUN_005164f0
+  -> FUN_0051664c
+  -> FUN_00516b94
+  -> FUN_00516cdc
+  -> FUN_00517110
+  -> FUN_00517264
+  -> FUN_005176dc
+  -> FUN_0051b674
+  -> FUN_0051d7c4
+  -> FUN_0051f3a0
+  -> FUN_0051fbfc
+  -> FUN_00523e60
+  -> __stack_chk_fail
+  -> misc_negative_value
+  -> strlen
+0051abf8 FUN_0051abf8
+  -> memmove
+  -> misc_basic_string
+  -> operator.new
+0051cce4 FUN_0051cce4
+  -> memcpy
+  -> memmove
+  -> misc_basic_string
+  -> operator.new
+0051cd8c FUN_0051cd8c
+  -> memcpy
+  -> memmove
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+0051fbfc FUN_0051fbfc
+  -> FUN_00520104
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+00522e04 misc_negative_value
+  -> FUN_00516038
+00523f40 misc_cannot_switch_from_manual_to_automatic
+  -> FUN_0051fbfc
+  -> __stack_chk_fail
+  -> misc_argument_not_found
+  -> misc_cannot_switch_from_automatic_to_manual
+  -> misc_negative_value
+  -> misc_string_pointer_is_null
+005241b8 misc_cannot_switch_from_automatic_to_manual
+  -> FUN_00516038
+  -> FUN_0051fbfc
+  -> memcmp
+  -> strlen
+00524404 misc_argument_not_found
+  -> FUN_00516038
+  -> FUN_0051fbfc
+  -> FUN_005245c8
+  -> FUN_00524ac4
+  -> FUN_005253f4
+  -> __stack_chk_fail
+0052505c misc_cannot_switch_from_manual_to_automatic_2
+  -> FUN_00516038
+  -> FUN_0051fbfc
+  -> __stack_chk_fail
+  -> misc_cannot_switch_from_automatic_to_manual_2
+0052522c misc_cannot_switch_from_automatic_to_manual_2
+  -> FUN_00516038
+  -> FUN_0051fbfc
+00529048 misc_menu_json
+  -> FUN_0051cce4
+  -> FUN_0051cd8c
+  -> FUN_005297b0
+  -> __stack_chk_fail
+  -> misc_89abcdef
+  -> misc_m_type_value_t_object_or_m_value_object
+  -> misc_menu_json_2
+  -> operator.delete
+005291b0 misc_menu_json_2
+  -> FUN_00515e18
+  -> FUN_005297b0
+  -> FUN_0052a2f8
+  -> FUN_0052a410
+  -> FUN_0052d12c
+  -> FUN_0053b194
+  -> FUN_00b496f0
+  -> __assert2
+  -> __release_weak
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_89abcdef
+  -> misc_basic_string
+  -> misc_cannot_compare_iterators_of_different
+  -> misc_m_it_array_iterator_m_object_m_value_array
+  -> misc_m_type_value_t_object_or_m_value_object
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> misc_menu_json_2
+  -> misc_menu_json_3
+  -> misc_nlohmann_detail_input_adapter_input_adapter
+  -> misc_type_must_be_number_but_is
+  -> operator.delete
+  -> operator.new
+  -> ~basic_filebuf
+  -> ~basic_ios
+  -> ~basic_istream
+005297b0 FUN_005297b0
+  -> FUN_0052c654
+  -> FUN_0052c710
+  -> FUN_0052c95c
+  -> FUN_0052cdc4
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> getloc
+  -> memmove
+  -> misc_basic_string
+  -> operator()
+  -> operator.delete
+  -> operator.new
+  -> operator<<
+  -> use_facet
+  -> ~basic_ios
+  -> ~basic_ostream
+  -> ~locale
+00529cd0 misc_89abcdef
+  -> FUN_0052c654
+  -> FUN_0052c95c
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> operator()
+  -> operator.new
+00529f58 misc_m_type_value_t_object_or_m_value_object
+  -> FUN_00515790
+  -> FUN_00515e18
+  -> FUN_0052bd7c
+  -> __assert2
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> misc_m_type_value_t_object_or_m_value_object_2
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> operator.delete
+  -> operator.new
+  -> write
+  -> ~basic_filebuf
+  -> ~basic_ios
+  -> ~basic_ostream
+0052a2f8 FUN_0052a2f8
+  -> basic_filebuf
+  -> clear
+  -> init
+  -> open
+0052a410 FUN_0052a410
+  -> FUN_0052fdb4
+  -> FUN_0052ff00
+  -> FUN_00b496c0
+  -> FUN_00b496f0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> operator.delete
+0052a698 misc_menu_json_3
+  -> FUN_0053b194
+  -> __stack_chk_fail
+  -> misc_cannot_compare_iterators_of_different_2
+  -> misc_m_it_array_iterator_m_object_m_value_array_2
+  -> misc_m_type_value_t_object_or_m_value_object
+  -> misc_type_must_be_boolean_but_is
+  -> misc_type_must_be_string_but_is
+  -> operator.delete
+0052b160 misc_m_it_array_iterator_m_object_m_value_array
+  -> FUN_0052c8c8
+  -> FUN_00536a24
+  -> __assert2
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+0052b40c misc_m_type_value_t_object_or_m_value_object_2
+  -> FUN_0051abf8
+  -> __assert2
+  -> __stack_chk_fail
+  -> misc_cannot_use_operator_with
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> operator.new
+0052bd7c FUN_0052bd7c
+  -> FUN_0052d368
+  -> FUN_0052dde4
+  -> FUN_00b496c0
+  -> FUN_00b496f0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> localeconv
+  -> operator.delete
+  -> operator.new
+0052c04c misc_cannot_use_operator_with
+  -> FUN_0052c8c8
+  -> FUN_0052e674
+  -> FUN_0052e814
+  -> FUN_00536638
+  -> FUN_0053672c
+  -> FUN_00536bbc
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+  -> memcpy
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+0052c314 misc_m_type_value_t_object_or_m_value_object_3
+  -> __assert2
+0052c420 misc_m_it_array_iterator_m_object_m_value_array_2
+  -> FUN_0052c8c8
+  -> FUN_00536a24
+  -> __assert2
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+0052c620 FUN_0052c620
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> bad_array_new_length
+0052c8c8 FUN_0052c8c8
+  -> memmove
+  -> misc_basic_string
+  -> operator.new
+  -> strlen
+0052cdc4 FUN_0052cdc4
+  -> FUN_0052cf60
+  -> __stack_chk_fail
+  -> clear
+  -> getloc
+  -> sentry
+  -> use_facet
+  -> ~locale
+  -> ~sentry
+0052d12c FUN_0052d12c
+  -> push_back
+0052f99c misc_m_type_value_t_string_or_m_value_string
+  -> FUN_0052fb08
+  -> __assert2
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> operator.delete
+00535628 misc_m_type_value_t_object_or_m_value_object_4
+  -> __assert2
+00535bac misc_m_type_value_t_object_or_m_value_object_5
+  -> FUN_0051abf8
+  -> FUN_00536178
+  -> FUN_005368f8
+  -> __assert2
+  -> operator.new
+0053aef0 misc_nlohmann_detail_input_adapter_input_adapter
+  -> FUN_0053b060
+  -> FUN_0053b0bc
+  -> __assert2
+  -> __stack_chk_fail
+  -> operator.new
+0053b150 FUN_0053b150
+0053b194 FUN_0053b194
+  -> memcmp
+  -> strlen
+0053b29c misc_cannot_compare_iterators_of_different
+  -> FUN_0052c8c8
+  -> FUN_00536a24
+  -> __assert2
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+0053b410 misc_type_must_be_number_but_is
+  -> FUN_0052c8c8
+  -> FUN_0052e674
+  -> FUN_0052e814
+  -> FUN_00536bbc
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+0053b598 misc_cannot_compare_iterators_of_different_2
+  -> FUN_0052c8c8
+  -> FUN_00536a24
+  -> __assert2
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+0053b70c misc_type_must_be_string_but_is
+  -> FUN_0051cce4
+  -> FUN_0051cd8c
+  -> FUN_0052c8c8
+  -> FUN_0052e674
+  -> FUN_0052e814
+  -> FUN_00536bbc
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+0053b8fc misc_type_must_be_boolean_but_is
+  -> FUN_0052c8c8
+  -> FUN_0052e674
+  -> FUN_0052e814
+  -> FUN_00536bbc
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+0053bd34 FUN_0053bd34
+  -> FUN_0052c620
+  -> FUN_0053bf7c
+  -> memcpy
+  -> operator.delete
+  -> operator.new
+0053beec FUN_0053beec
+  -> memcmp
+  -> misc_basic_string_2
+  -> strlen
+0053bf90 misc_basic_string_2
+  -> FUN_0053bfa4
+0053c224 itm_items_dat
+  -> FUN_0053cf38
+  -> FUN_0053d034
+  -> FUN_00548298
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> itm_mod_menu
+  -> memcpy
+  -> misc_basic_string
+  -> misc_mod_menu
+  -> operator.delete
+  -> operator.new
+  -> strlen
+0053c7c4 itm_mod_menu
+  -> __android_log_print
+  -> fclose
+  -> fopen
+  -> fread
+  -> fseek
+  -> ftell
+  -> misc_mod_menu_2
+  -> operator.delete[]
+  -> operator.new[]
+0053c8d0 misc_mod_menu_2
+  -> FUN_0051abf8
+  -> FUN_0053d160
+  -> FUN_0053d1f4
+  -> __android_log_print
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+0053cf38 FUN_0053cf38
+0053d034 FUN_0053d034
+0054042c FUN_0054042c
+  -> FUN_00540390
+  -> FUN_0054dfa0
+  -> FUN_005519f0
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> operator.new
+  -> strlen
+00540744 FUN_00540744
+  -> FUN_005400a0
+  -> FUN_0054e060
+  -> FUN_0054e0f4
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+00542a7c FUN_00542a7c
+  -> FUN_0051abf8
+  -> FUN_0051cce4
+  -> FUN_0051cd8c
+  -> FUN_00542768
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> atof
+  -> memchr
+  -> memcpy
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+00543e28 misc_shortcuts
+  -> FUN_0052a410
+  -> FUN_0052bd7c
+  -> FUN_00540744
+  -> FUN_0054e880
+  -> FUN_00551d0c
+  -> FUN_00b496f0
+  -> __assert2
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __release_weak
+  -> __stack_chk_fail
+  -> memcpy
+  -> misc_basic_string
+  -> misc_cannot_use_operator_with
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> misc_nlohmann_detail_input_adapter_input_adapter
+  -> operator.delete
+  -> operator.new
+  -> strlen
+00544358 FUN_00544358
+  -> FUN_00540390
+  -> FUN_0054e934
+  -> FUN_00551d50
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> operator.new
+  -> strlen
+00545928 FUN_00545928
+  -> FUN_00540390
+  -> FUN_0054ee44
+  -> FUN_0054eefc
+  -> FUN_00551efc
+  -> FUN_00551f40
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> operator.new
+  -> strlen
+00548298 FUN_00548298
+  -> FUN_005400a0
+  -> FUN_0054f7a0
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+0054a528 FUN_0054a528
+  -> memmove
+  -> misc_basic_string
+  -> operator.new
+  -> strlen
+0054a620 Java_launcher_powerkuy_growlauncher_api_JNICall_00024Companion_notifyValueChanged
+  -> FUN_0052a410
+  -> FUN_0053b150
+  -> FUN_0054a528
+  -> FUN_0054ae2c
+  -> FUN_0054aec8
+  -> FUN_0054af64
+  -> FUN_0054b044
+  -> FUN_00550180
+  -> FUN_005fc73c
+  -> FUN_00b496f0
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __release_weak
+  -> __stack_chk_fail
+  -> memcpy
+  -> misc_basic_string
+  -> misc_m_type_value_t_object_or_m_value_object_6
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+0054ae2c FUN_0054ae2c
+  -> __stack_chk_fail
+0054aec8 FUN_0054aec8
+  -> __stack_chk_fail
+0054af64 FUN_0054af64
+  -> FUN_0051abf8
+  -> FUN_0054fb4c
+  -> __stack_chk_fail
+  -> operator.delete
+0054b044 FUN_0054b044
+  -> FUN_00552020
+  -> __stack_chk_fail
+  -> memcpy
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+0054b200 Java_launcher_powerkuy_growlauncher_api_JavaForNative_00024Configuration_getJsonConfiguration
+  -> FUN_0052a2f8
+  -> FUN_0052a410
+  -> FUN_0052bd7c
+  -> FUN_00545928
+  -> FUN_0054bad0
+  -> FUN_0054be64
+  -> FUN_005504d8
+  -> FUN_005518e0
+  -> FUN_005525e4
+  -> FUN_00b496f0
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __release_weak
+  -> __stack_chk_fail
+  -> misc_cannot_compare_iterators_of_different
+  -> misc_cannot_use_value_with
+  -> misc_m_it_array_iterator_m_object_m_value_array
+  -> misc_m_type_value_t_object_or_m_value_object_2
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> misc_menu_json
+  -> operator.delete
+  -> operator.new
+  -> ~basic_filebuf
+  -> ~basic_ios
+  -> ~basic_istream
+0054bad0 FUN_0054bad0
+  -> FUN_00515e18
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+0054bc44 misc_cannot_use_value_with
+  -> FUN_0051abf8
+  -> FUN_0052c8c8
+  -> FUN_0052e674
+  -> FUN_0052e814
+  -> FUN_00536bbc
+  -> FUN_00552928
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+  -> misc_cannot_compare_iterators_of_different_2
+  -> misc_m_it_array_iterator_m_object_m_value_array_3
+  -> misc_type_must_be_string_but_is
+0054be64 FUN_0054be64
+  -> FUN_0051cce4
+  -> FUN_0051cd8c
+  -> memcmp
+  -> misc_m_type_value_t_object_or_m_value_object
+0054bf8c Java_launcher_powerkuy_growlauncher_api_JavaForNative_00024Configuration_setJsonConfiguration
+  -> FUN_00515790
+  -> FUN_0051abf8
+  -> FUN_0052a2f8
+  -> FUN_0052a410
+  -> FUN_0052bd7c
+  -> FUN_0052cdc4
+  -> FUN_0053b150
+  -> FUN_00545928
+  -> FUN_0054bad0
+  -> FUN_005504d8
+  -> FUN_005518e0
+  -> FUN_00b496f0
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __release_weak
+  -> __stack_chk_fail
+  -> clear
+  -> close
+  -> misc_cannot_use_operator_with
+  -> misc_m_type_value_t_object_or_m_value_object
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> misc_menu_json
+  -> misc_menu_json_3
+  -> operator.delete
+  -> operator.new
+  -> strlen
+  -> ~basic_filebuf
+  -> ~basic_ios
+  -> ~basic_istream
+  -> ~basic_ostream
+0054cb28 Java_launcher_powerkuy_growlauncher_api_JavaForNative_getSafeGameVersion
+  -> FUN_00542a7c
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> operator.delete
+0054cc4c Java_launcher_powerkuy_growlauncher_api_JavaForNative_isLtokenSpoofActive
+  -> FUN_0054ceec
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> memcpy
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+0054ceec FUN_0054ceec
+  -> FUN_00552020
+  -> __stack_chk_fail
+  -> memcpy
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+0054d034 Java_launcher_powerkuy_growlauncher_api_JavaForNative_getSupportedGameVersion
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> memcpy
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+0054d238 Java_launcher_powerkuy_growlauncher_api_JavaForNative_getItemsList
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+0054d4dc Java_launcher_powerkuy_growlauncher_api_JavaForNative_getCurrentItem
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+0054d678 Java_launcher_powerkuy_growlauncher_api_JavaForNative_shutdown
+  -> FUN_006d8b44
+  -> FUN_006d8c44
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+0054d6ec Java_launcher_powerkuy_growlauncher_api_JavaForNative_initialize
+  -> FUN_0058a138
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+00550180 FUN_00550180
+  -> FUN_0051abf8
+  -> FUN_0051cce4
+  -> FUN_0051cd8c
+  -> __stack_chk_fail
+005502e4 misc_m_type_value_t_object_or_m_value_object_6
+  -> __assert2
+  -> __stack_chk_fail
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_object_or_m_value_object_4
+  -> misc_m_type_value_t_string_or_m_value_string
+005504d8 FUN_005504d8
+  -> FUN_005514ec
+  -> FUN_0055158c
+  -> FUN_005515d0
+  -> FUN_00551680
+  -> FUN_005516e0
+  -> FUN_005517d4
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> operator.new
+  -> strlen
+005518e0 FUN_005518e0
+00551bf0 FUN_00551bf0
+  -> memmove
+  -> misc_basic_string
+  -> operator.new
+  -> strlen
+005525e4 FUN_005525e4
+  -> memcmp
+  -> strlen
+005526ec misc_m_it_array_iterator_m_object_m_value_array_3
+  -> FUN_0052c8c8
+  -> FUN_00536a24
+  -> __assert2
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+00552928 FUN_00552928
+  -> memcmp
+00552ca8 misc_thread_constructor_failed
+  -> FUN_00555060
+  -> FUN_005551ec
+  -> FUN_00577850
+  -> __stack_chk_fail
+  -> __thread_struct
+  -> __throw_system_error
+  -> detach
+  -> lock
+  -> operator.delete
+  -> operator.new
+  -> pthread_create
+  -> unlock
+  -> ~thread
+00552e78 misc_thread_constructor_failed_2
+  -> FUN_0051abf8
+  -> FUN_00555060
+  -> FUN_005554f0
+  -> FUN_00577850
+  -> __stack_chk_fail
+  -> __thread_struct
+  -> __throw_system_error
+  -> detach
+  -> lock
+  -> operator.delete
+  -> operator.new
+  -> pthread_create
+  -> unlock
+  -> ~thread
+005546ec misc_m_value_object_find_key_m_value_object_end
+  -> FUN_0052c8c8
+  -> FUN_0052e674
+  -> FUN_0052e814
+  -> FUN_00536bbc
+  -> FUN_0053b194
+  -> __assert2
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+0055488c FUN_0055488c
+  -> memmove
+  -> misc_basic_string
+  -> operator.new
+  -> strlen
+00554984 Java_launcher_powerkuy_growlauncher_luamanager_LuaManager_Execute
+  -> FUN_0051abf8
+  -> FUN_0055488c
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> lua_myapp_luamodule_instance
+  -> misc_thread_constructor_failed
+  -> misc_thread_constructor_failed_2
+  -> operator.delete
+  -> operator.new
+00554ba4 Java_launcher_powerkuy_growlauncher_luamanager_LuaManager_StopExecute
+  -> FUN_0055488c
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> misc_thread_constructor_failed
+  -> operator.delete
+005582e0 sg_waituntil
+  -> FUN_0052c8c8
+  -> FUN_0053bd34
+  -> FUN_005587a0
+  -> FUN_0056c05c
+  -> FUN_00580a7c
+  -> FUN_0078b0bc
+  -> FUN_0078b0d8
+  -> FUN_0078b588
+  -> FUN_0078c5c8
+  -> FUN_0078c890
+  -> FUN_0078c960
+  -> FUN_0078ca34
+  -> FUN_0078de1c
+  -> FUN_0078f858
+  -> FUN_00790198
+  -> FUN_00795370
+  -> FUN_00b49630
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> getpid
+  -> gettid
+  -> memmove
+  -> misc_basic_string
+  -> misc_updated_2
+  -> operator.delete
+  -> operator.new
+  -> sg_script_guard_request
+  -> sg_trash_blocked_not_allowed_by_the_user
+  -> strlen
+005587a0 FUN_005587a0
+  -> FUN_0056c1e8
+  -> FUN_006d91e4
+  -> FUN_0078b0bc
+  -> FUN_0078bf70
+  -> FUN_0078f858
+  -> FUN_00790198
+  -> FUN_007902f8
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+00558b04 sg_trash_blocked_not_allowed_by_the_user
+  -> FUN_0053bd34
+  -> FUN_0078c960
+  -> FUN_00b49630
+  -> __stack_chk_fail
+  -> memcpy
+  -> operator.delete
+  -> operator.new
+00564bec FUN_00564bec
+  -> FUN_0052c620
+  -> FUN_00555ce0
+  -> FUN_0056f8d0
+  -> __stack_chk_fail
+  -> memcpy
+  -> operator.delete
+  -> operator.new
+  -> strncmp
+0056789c pkt_tankpacket
+  -> FUN_0078f858
+  -> FUN_0078ff4c
+  -> FUN_00790430
+00567924 pkt_tankpacket_2
+  -> FUN_0078c608
+  -> FUN_0078f858
+  -> FUN_0078ff4c
+  -> FUN_00790430
+005679f0 pkt_tankpacket_3
+  -> FUN_0078f858
+  -> FUN_0078ff4c
+  -> FUN_00790198
+  -> __stack_chk_fail
+  -> memcpy
+00567adc pkt_tankpacket_4
+  -> FUN_0078b0d8
+  -> FUN_0078d13c
+  -> FUN_0078d6b0
+  -> misc_name
+  -> misc_too_many_upvalues
+00567b48 pkt_tankpacket_5
+  -> FUN_0078c54c
+  -> FUN_0078ea10
+  -> FUN_0078fe8c
+0056c05c FUN_0056c05c
+0056d5e4 misc_vector
+  -> FUN_0053bfa4
+0056f0f0 misc_vector_2
+  -> FUN_00515f14
+00571614 lua_myapp_luamodule_instance
+  -> FUN_00571418
+  -> FUN_0057198c
+  -> FUN_00571a48
+  -> FUN_00575c40
+  -> FUN_00575f2c
+  -> FUN_00576268
+  -> FUN_00576528
+  -> FUN_00576bfc
+  -> FUN_0078b040
+  -> FUN_0078c9a4
+  -> FUN_0078d6b0
+  -> FUN_00791708
+  -> __stack_chk_fail
+  -> memcpy
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+005779c8 misc_mod_menu_3
+  -> FUN_0051abf8
+  -> FUN_00576bfc
+  -> FUN_0078b0d8
+  -> FUN_0078b588
+  -> FUN_0078c014
+  -> __android_log_print
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+00577e2c ui_onsendpacketrawtype
+  -> FUN_0053beec
+  -> memcmp
+  -> misc_basic_string_2
+  -> strlen
+00578e84 lua_myapp_luamodule_instance_2
+  -> FUN_0078b0d8
+  -> FUN_0078c2cc
+  -> FUN_0078cc30
+0057ace8 pkt_onsendpacketrawtype
+  -> FUN_0078b0d8
+  -> FUN_0078bf70
+  -> FUN_0078c5c8
+  -> FUN_0078c6a0
+  -> FUN_0078ca34
+  -> FUN_0078dec0
+  -> __stack_chk_fail
+  -> misc_mod_menu_3
+  -> pkt_tankpacket_5
+0057ca0c misc_m_type_value_t_string_or_m_value_string_2
+  -> FUN_0052c8c8
+  -> FUN_0052e674
+  -> FUN_0057ccc4
+  -> FUN_0057ce10
+  -> FUN_0057cfc8
+  -> __assert2
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+  -> operator.new
+0057e248 misc_trash
+  -> FUN_00552928
+  -> FUN_0057a9c8
+  -> __stack_chk_fail
+  -> lock
+  -> memcpy
+  -> misc_cannot_compare_iterators_of_different
+  -> misc_m_it_array_iterator_m_object_m_value_array
+  -> misc_m_type_value_t_array_or_m_value_array
+  -> operator.delete
+  -> unlock
+0057e490 misc_m_type_value_t_array_or_m_value_array
+  -> FUN_0052a2f8
+  -> FUN_0052a410
+  -> FUN_005518e0
+  -> FUN_0058477c
+  -> FUN_00b496f0
+  -> __assert2
+  -> __release_weak
+  -> __stack_chk_fail
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_object_or_m_value_object_5
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> operator.delete
+  -> operator.new
+  -> ~basic_filebuf
+  -> ~basic_ios
+  -> ~basic_istream
+0057e84c misc_updated
+  -> FUN_0051abf8
+  -> FUN_0052bd7c
+  -> FUN_005544b0
+  -> FUN_0057a9c8
+  -> FUN_0057fac8
+  -> FUN_0057fc08
+  -> FUN_00580030
+  -> FUN_00585d70
+  -> FUN_00585e34
+  -> FUN_00585ef8
+  -> __assert2
+  -> __stack_chk_fail
+  -> lock
+  -> misc_cannot_compare_iterators_of_different
+  -> misc_cannot_use_value_with
+  -> misc_m_type_value_t_array_or_m_value_array
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> misc_m_type_value_t_string_or_m_value_string_2
+  -> operator.delete
+  -> operator.new
+  -> unlock
+0058028c misc_cannot_use_erase_with
+  -> FUN_0052c8c8
+  -> FUN_0052e674
+  -> FUN_0052e814
+  -> FUN_0052fbe4
+  -> FUN_00536bbc
+  -> FUN_00536c24
+  -> FUN_00552928
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+  -> operator.delete
+00580460 FUN_00580460
+  -> FUN_00515790
+  -> FUN_0052bd7c
+  -> FUN_0052cdc4
+  -> FUN_0058477c
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> rename
+  -> ~basic_filebuf
+  -> ~basic_ios
+  -> ~basic_ostream
+0058073c FUN_0058073c
+  -> FUN_00584a7c
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> lock
+  -> memcmp
+  -> operator.delete
+  -> unlock
+00580a7c FUN_00580a7c
+  -> FUN_0051abf8
+  -> FUN_0051cce4
+  -> FUN_0051cd8c
+  -> FUN_005816fc
+  -> FUN_00584ff8
+  -> FUN_005851b0
+  -> __stack_chk_fail
+  -> getloc
+  -> memchr
+  -> operator.delete
+  -> stoi
+  -> use_facet
+  -> ~basic_ios
+  -> ~basic_iostream
+  -> ~locale
+005818a0 sg_script_guard_request
+  -> FUN_00515e18
+  -> FUN_0051abf8
+  -> FUN_0051cce4
+  -> FUN_0051cd8c
+  -> FUN_0052bd7c
+  -> FUN_0052c620
+  -> FUN_00540744
+  -> FUN_00551bf0
+  -> FUN_00584a7c
+  -> FUN_00586000
+  -> FUN_005860d0
+  -> FUN_006d7488
+  -> FUN_00791c78
+  -> FUN_007920c8
+  -> FUN_00795370
+  -> FUN_00b49690
+  -> FUN_00b496c0
+  -> FUN_00b496f0
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __next_prime
+  -> __release_weak
+  -> __stack_chk_fail
+  -> append
+  -> lock
+  -> lua_myapp_luamodule_instance_2
+  -> memcpy
+  -> memmove
+  -> memset
+  -> misc_basic_string
+  -> misc_cannot_use_operator_with
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> misc_trash
+  -> misc_vector
+  -> operator.delete
+  -> operator.new
+  -> strlen
+  -> to_string
+  -> unlock
+005835c0 FUN_005835c0
+  -> FUN_00b496f0
+  -> __release_weak
+00583714 misc_updated_2
+  -> FUN_0051abf8
+  -> FUN_00580460
+  -> FUN_00b49690
+  -> FUN_00b496c0
+  -> FUN_00b496f0
+  -> __assert2
+  -> __release_weak
+  -> __stack_chk_fail
+  -> lock
+  -> lua_myapp_luamodule_instance_2
+  -> misc_cannot_use_operator_with
+  -> misc_cannot_use_operator_with_2
+  -> misc_m_type_value_t_array_or_m_value_array
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> operator.delete
+  -> operator.new
+  -> sg_script_guard_cancel
+  -> time
+  -> unlock
+00583d9c sg_script_guard_cancel
+  -> FUN_0052bd7c
+  -> FUN_00540744
+  -> FUN_005853dc
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> misc_cannot_use_operator_with
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> operator.delete
+00584110 Java_launcher_powerkuy_growlauncher_api_JavaForNative_onScriptGuardResult
+  -> FUN_0052c620
+  -> FUN_005835c0
+  -> FUN_00b496c0
+  -> FUN_00b496f0
+  -> __release_weak
+  -> __stack_chk_fail
+  -> lock
+  -> memcmp
+  -> memcpy
+  -> misc_unwind_resume
+  -> misc_vector_2
+  -> operator.delete
+  -> operator.new
+  -> sg_script_guard_cancel
+  -> unlock
+005844ec Java_launcher_powerkuy_growlauncher_api_JavaForNative_getScriptGuardEntries
+  -> __stack_chk_fail
+  -> misc_updated
+  -> operator.delete
+005845bc Java_launcher_powerkuy_growlauncher_api_JavaForNative_removeScriptGuardEntry
+  -> FUN_00580460
+  -> FUN_0058073c
+  -> FUN_00b49690
+  -> __stack_chk_fail
+  -> lock
+  -> memmove
+  -> misc_basic_string
+  -> misc_cannot_use_erase_with
+  -> misc_m_type_value_t_array_or_m_value_array
+  -> operator.delete
+  -> operator.new
+  -> strlen
+  -> unlock
+00584778 Java_launcher_powerkuy_growlauncher_api_JavaForNative_clearScriptGuardEntries
+0058477c FUN_0058477c
+  -> FUN_0054042c
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+00584a7c FUN_00584a7c
+  -> FUN_005558bc
+  -> FUN_00584c2c
+  -> __next_prime
+005853dc FUN_005853dc
+  -> memcpy
+  -> misc_basic_string
+  -> operator.new
+  -> strlen
+005854a0 misc_cannot_use_operator_with_2
+  -> FUN_0052c8c8
+  -> FUN_0052e674
+  -> FUN_0052e814
+  -> FUN_00536bbc
+  -> FUN_00537128
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+  -> operator.new
+00586000 FUN_00586000
+  -> operator.delete
+005860d0 FUN_005860d0
+  -> memcpy
+  -> misc_basic_string
+  -> operator.new
+  -> strlen
+0058a138 FUN_0058a138
+0058a44c FUN_0058a44c
+  -> FUN_00545f9c
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+0058a7e4 FUN_0058a7e4
+  -> FUN_0053f250
+  -> FUN_006f9ee4
+  -> FUN_0074c338
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> ui_background
+005fc73c FUN_005fc73c
+  -> FUN_005fe1cc
+005fcca0 itm_saved_items
+  -> FUN_0052bd7c
+  -> FUN_00552928
+  -> FUN_00564bec
+  -> FUN_005fe758
+  -> FUN_005fe860
+  -> FUN_005fec08
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> memmove
+  -> misc_basic_string
+  -> misc_cannot_compare_iterators_of_different_2
+  -> misc_m_it_array_iterator_m_object_m_value_array_3
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_object_or_m_value_object_5
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> misc_m_value_object_find_key_m_value_object_end
+  -> misc_m_value_object_find_key_m_value_object_end_2
+  -> misc_shortcuts
+  -> misc_type_must_be_boolean_but_is
+  -> misc_type_must_be_string_but_is
+  -> operator.delete
+  -> operator.new
+  -> strlen
+005fd450 misc_m_value_object_find_key_m_value_object_end_2
+  -> FUN_0052c8c8
+  -> FUN_0052e674
+  -> FUN_0052e814
+  -> FUN_00536bbc
+  -> FUN_00552928
+  -> __assert2
+  -> __cxa_allocate_exception
+  -> __cxa_throw
+  -> __stack_chk_fail
+005fd5ec itm_saved_items_2
+  -> FUN_0052a410
+  -> FUN_00544358
+  -> FUN_0058a44c
+  -> FUN_005fed10
+  -> FUN_00b496f0
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __release_weak
+  -> __stack_chk_fail
+  -> memcmp
+  -> memmove
+  -> misc_basic_string
+  -> misc_cannot_use_operator_with
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_object_or_m_value_object_4
+  -> misc_m_type_value_t_object_or_m_value_object_5
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> misc_nlohmann_detail_input_adapter_input_adapter
+  -> operator.delete
+  -> operator.new
+  -> strlen
+005fe758 FUN_005fe758
+  -> memcmp
+  -> strlen
+005fe860 FUN_005fe860
+  -> FUN_005521ac
+  -> FUN_005fe5ec
+  -> __next_prime
+  -> __stack_chk_fail
+  -> memcmp
+  -> operator.new
+005fec08 FUN_005fec08
+  -> memcmp
+  -> strlen
+005fed10 FUN_005fed10
+  -> FUN_0052fc98
+  -> FUN_00535aa4
+  -> FUN_005fee48
+  -> __stack_chk_fail
+  -> misc_unwind_resume
+  -> operator.delete
+  -> operator.new
+0060a8cc itm_user_aliases
+  -> FUN_0060d224
+  -> __assert2
+  -> __stack_chk_fail
+  -> misc_cannot_use_operator_with
+  -> misc_cannot_use_operator_with_2
+  -> misc_m_type_value_t_object_or_m_value_object_3
+  -> misc_m_type_value_t_object_or_m_value_object_4
+  -> misc_m_type_value_t_string_or_m_value_string
+  -> misc_m_type_value_t_string_or_m_value_string_2
+0060b890 itm_user_aliases_2
+  -> FUN_0053bd34
+  -> FUN_005525e4
+  -> FUN_00552928
+  -> __assert2
+  -> __stack_chk_fail
+  -> misc_cannot_compare_iterators_of_different_2
+  -> misc_m_it_array_iterator_m_object_m_value_array_2
+  -> misc_m_it_array_iterator_m_object_m_value_array_3
+  -> misc_type_must_be_string_but_is
+  -> operator.delete
+0060d224 FUN_0060d224
+  -> FUN_0052fc98
+  -> FUN_00535aa4
+  -> FUN_0060d350
+  -> __stack_chk_fail
+  -> misc_unwind_resume
+  -> operator.delete
+  -> operator.new
+00624c1c misc_hash_mismatch_list
+  -> FUN_0058a7e4
+  -> FUN_00629e3c
+  -> FUN_0062a300
+  -> FUN_0062a3b8
+  -> FUN_0062aa90
+  -> FUN_007691d0
+  -> FUN_007694cc
+  -> FUN_0076cc78
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+  -> lock
+  -> memcpy
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+  -> strlen
+  -> ui_g_withinframescope
+  -> ui_t_imvector_unsigned_int_back
+  -> ui_void_imgui_setnextwindowsize_const_imvec2
+  -> ui_window_dc_issetpos
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> unlock
+00629e3c FUN_00629e3c
+  -> FUN_006256ec
+  -> FUN_0062a0b8
+  -> FUN_0062a1e4
+  -> __stack_chk_fail
+  -> misc_unwind_resume
+  -> operator.delete
+  -> operator.new
+0062a300 FUN_0062a300
+0062a3b8 FUN_0062a3b8
+0062aa90 FUN_0062aa90
+006aeca4 pkt_mod_menu
+  -> FUN_00515e18
+  -> FUN_006b0374
+  -> FUN_006b25bc
+  -> __android_log_print
+  -> __stack_chk_fail
+  -> append
+  -> append
+  -> fclose
+  -> fopen
+  -> fread
+  -> memmove
+  -> misc_basic_string
+  -> operator.delete
+  -> operator.new
+006b0374 FUN_006b0374
+  -> FUN_006b0f4c
+  -> operator.delete
+  -> operator.new
+006b25bc FUN_006b25bc
+  -> FUN_0052c620
+  -> FUN_006b0f4c
+  -> operator.delete
+  -> operator.new
+006d7488 FUN_006d7488
+006d8b44 FUN_006d8b44
+  -> FUN_0052a2f0
+  -> FUN_005504d8
+  -> FUN_0058a0fc
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+006d8c44 FUN_006d8c44
+006f4a08 misc_mod_menu_4
+  -> FUN_006f4ff0
+  -> FUN_006f5098
+  -> FUN_0075d498
+  -> __android_log_print
+  -> __cxa_thread_atexit
+  -> __emutls_get_address
+  -> __stack_chk_fail
+006f4b00 FUN_006f4b00
+  -> FUN_006f736c
+  -> FUN_006f7e84
+  -> lock
+  -> ui_imguiio_imgui_getio
+  -> unlock
+006f4b80 FUN_006f4b80
+  -> lock
+  -> ui_cur_window
+  -> ui_imguiio_imgui_getio
+  -> unlock
+006f5360 Java_com_rtsoft_growtopia_Main_nativeOnKey
+  -> FUN_006f4b00
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+006f53ec Java_com_rtsoft_growtopia_Main_00024PowerKuyRootRenderer_nativeSurfaceChanged
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> misc_mod_menu_4
+006f5478 Java_com_rtsoft_growtopia_Main_nativeOnTouch
+  -> FUN_006f4b80
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+006f6fec FUN_006f6fec
+  -> FUN_00747820
+  -> memset
+006f8fe4 FUN_006f8fe4
+006f90e4 FUN_006f90e4
+006f9ee4 FUN_006f9ee4
+006f9ffc FUN_006f9ffc
+006fadbc FUN_006fadbc
+  -> FUN_006fae0c
+  -> strncpy
+006fb02c FUN_006fb02c
+  -> FUN_006fae0c
+  -> ui_flags_imguiinputtextflags_multiline_2
+006fb09c FUN_006fb09c
+006fb35c ui_i_0_i_size
+  -> __assert2
+  -> strlen
+006fb7b4 FUN_006fb7b4
+  -> FUN_006fb848
+  -> __stack_chk_fail
+006fbe7c FUN_006fbe7c
+006fbe8c FUN_006fbe8c
+  -> ui_void_imguilistclipper_end
+006fbea4 ui_void_imguilistclipper_end
+  -> FUN_006fc3a8
+  -> FUN_00761ab4
+  -> __assert2
+006fc078 ui_i_0_i_size_2
+  -> FUN_006fc3a8
+  -> FUN_00761ab4
+  -> __assert2
+  -> __stack_chk_fail
+  -> free
+  -> malloc
+  -> memcpy
+006fc39c FUN_006fc39c
+006fc5a4 ui_bool_imguilistclipper_stepinternal
+  -> FUN_006fc3a8
+  -> FUN_00727bf4
+  -> FUN_00728e90
+  -> FUN_00761ab4
+  -> __assert2
+  -> __stack_chk_fail
+  -> free
+  -> malloc
+  -> memcpy
+  -> memmove
+  -> ui_void_imguilistclipper_end
+006fd2c4 ui_imguistyle_imgui_getstyle
+  -> __assert2
+006fd304 FUN_006fd304
+006fd3bc FUN_006fd3bc
+006fd468 FUN_006fd468
+006fd480 FUN_006fd480
+006fd4b0 FUN_006fd4b0
+  -> __stack_chk_fail
+  -> free
+  -> malloc
+  -> memcpy
+006fd650 FUN_006fd650
+  -> __stack_chk_fail
+  -> free
+  -> malloc
+  -> memcpy
+006fd7bc ui_void_imvector_imguicolormod_pop_back
+  -> __assert2
+006fd8dc ui_void_imgui_pushstylevar_imguistylevar_float
+  -> __assert2
+  -> free
+  -> malloc
+  -> memcpy
+006fda7c ui_void_imgui_pushstylevar_imguistylevar_const
+  -> __assert2
+  -> free
+  -> malloc
+  -> memcpy
+006fdc20 ui_t_imvector_imguistylemod_back
+  -> __assert2
+006fdd38 ui_const_char_imgui_getstylecolorname_imguicol
+  -> __assert2
+006fe644 FUN_006fe644
+  -> FUN_007584d8
+0070283c ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> FUN_0070207c
+  -> __assert2
+00702ab8 FUN_00702ab8
+00702dbc ui_foreground
+  -> FUN_0070303c
+  -> __assert2
+00702f78 ui_imguiio_imgui_getio
+  -> __assert2
+0070300c FUN_0070300c
+0070301c FUN_0070301c
+0070316c ui_background
+  -> FUN_0070303c
+  -> __assert2
+00703790 ui_bool_imgui_ismouseposvalid_const_imvec2
+  -> __assert2
+0070a24c ui_void_imgui_setnextwindowsize_const_imvec2
+  -> __assert2
+0070a2b0 ui_g_withinframescope
+  -> FUN_006fabc4
+  -> FUN_006fd304
+  -> FUN_006fdf84
+  -> FUN_006fe2d0
+  -> FUN_006febf8
+  -> FUN_00701524
+  -> FUN_00701b7c
+  -> FUN_00701fb4
+  -> FUN_007023b4
+  -> FUN_00702520
+  -> FUN_00702d28
+  -> FUN_007032cc
+  -> FUN_007037ec
+  -> FUN_007114b0
+  -> FUN_00711b34
+  -> FUN_00712620
+  -> FUN_0071272c
+  -> FUN_00712900
+  -> FUN_00712f7c
+  -> FUN_007130e0
+  -> FUN_00713400
+  -> FUN_00713568
+  -> FUN_0071f4c4
+  -> FUN_0071f8b4
+  -> FUN_00748340
+  -> FUN_0074933c
+  -> FUN_0074950c
+  -> FUN_00749aac
+  -> FUN_0074a34c
+  -> FUN_0074ad6c
+  -> FUN_0074ae44
+  -> FUN_0074c1b4
+  -> FUN_0074c338
+  -> FUN_0074c408
+  -> FUN_007584d8
+  -> FUN_007589f0
+  -> FUN_00769c88
+  -> FUN_0076a984
+  -> FUN_0076abb8
+  -> FUN_0076ae58
+  -> FUN_0077d528
+  -> __assert2
+  -> __stack_chk_fail
+  -> free
+  -> malloc
+  -> memcpy
+  -> memmove
+  -> strcmp
+  -> strlen
+  -> ui_t_imvector_unsigned_int_back_2
+0070ec10 ui_t_imvector_imvec4_back
+  -> FUN_0074933c
+  -> __assert2
+0070ec94 ui_t_imvector_imvec4_back_2
+  -> __assert2
+  -> ui_void_imvector_imvec4_pop_back
+0070fb70 ui_i_0_i_size_3
+  -> __assert2
+0070fbbc ui_window_dc_issetpos
+  -> FUN_00713874
+  -> FUN_007685dc
+  -> __assert2
+  -> ui_void_imgui_logfinish
+  -> ui_void_imvector_imvec4_pop_back
+0070ff58 ui_bool_imgui_ismousedown_imguimousebutton
+  -> FUN_00717570
+  -> __assert2
+0071005c ui_getcurrentwindowread_flags_imguiwindowflags
+  -> FUN_00719f50
+  -> FUN_007692a0
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_window_dc_issetpos
+00710e20 FUN_00710e20
+00710e4c FUN_00710e4c
+00710e88 FUN_00710e88
+00710ecc FUN_00710ecc
+00710f4c ui_bool_imgui_ismouseclicked_imguimousebutton
+  -> FUN_00717570
+  -> __assert2
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+00710fd0 FUN_00710fd0
+  -> FUN_00717ae8
+00710fdc FUN_00710fdc
+0071100c FUN_0071100c
+00711078 FUN_00711078
+00711090 FUN_00711090
+007110a8 FUN_007110a8
+0071116c FUN_0071116c
+00711184 FUN_00711184
+0071119c FUN_0071119c
+0071146c FUN_0071146c
+0071164c ui_t_imvector_unsigned_int_back
+  -> FUN_00701b7c
+  -> FUN_007111c0
+  -> __assert2
+0071176c ui_bool_imgui_beginchild_imguiid_const_imvec2
+  -> FUN_007111c0
+  -> __assert2
+007117b8 ui_window_flags_imguiwindowflags_childwindow
+  -> FUN_006ff040
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_window_dc_issetpos
+0071230c ui_void_imvector_imguicolormod_pop_back_2
+  -> FUN_006fd650
+  -> FUN_007111c0
+  -> __assert2
+  -> ui_t_imvector_imguistylemod_back
+  -> ui_void_imgui_pushstylevar_imguistylevar_const
+  -> ui_void_imgui_pushstylevar_imguistylevar_float
+00712460 ui_window_flags_imguiwindowflags_childwindow
+00713718 ui_void_imgui_logfinish
+  -> FUN_0071df64
+  -> __assert2
+  -> fclose
+  -> free
+0071435c FUN_0071435c
+  -> free
+  -> malloc
+  -> memcpy
+007144a4 ui_void_imvector_int_pop_back
+  -> __assert2
+0071457c FUN_0071457c
+  -> FUN_007141ac
+0071458c ui_void_imgui_popitemflag
+  -> __assert2
+007145e4 FUN_007145e4
+  -> FUN_007141ac
+007145f0 ui_void_imgui_popitemflag_2
+  -> __assert2
+00714648 FUN_00714648
+  -> free
+  -> malloc
+  -> memcpy
+00714758 ui_t_imvector_float_back
+  -> __assert2
+00714828 ui_cur_window
+  -> __assert2
+007149d8 ui_cur_window_2
+  -> __assert2
+00714aec FUN_00714aec
+00714b14 FUN_00714b14
+00714c20 FUN_00714c20
+00714c34 FUN_00714c34
+  -> FUN_00712f7c
+00714ff8 ui_cond_0_imispoweroftwo_cond
+  -> __assert2
+00715064 FUN_00715064
+007150a0 FUN_007150a0
+00715170 FUN_00715170
+00715190 FUN_00715190
+007151ac FUN_007151ac
+007151bc FUN_007151bc
+007151e0 ui_void_imgui_setwindowfontscale_float
+  -> __assert2
+00715618 ui_setkeyboardfocushere_ignored_while
+  -> FUN_006fc3a8
+  -> __assert2
+007158b8 ui_void_imgui_navupdateanyrequestflag
+  -> FUN_00715a14
+  -> __assert2
+00715e08 ui_t_imvector_unsigned_int_back_2
+  -> FUN_00701b7c
+  -> __assert2
+  -> free
+  -> malloc
+  -> memcpy
+007160d0 FUN_007160d0
+  -> FUN_00701e9c
+  -> free
+  -> malloc
+  -> memcpy
+007161d8 FUN_007161d8
+  -> FUN_00701fb4
+  -> free
+  -> malloc
+  -> memcpy
+007165b8 ui_window_idstack_size_1
+  -> __assert2
+00716600 ui_t_imvector_unsigned_int_back_3
+  -> FUN_00701b7c
+  -> __assert2
+00716704 FUN_00716704
+  -> FUN_00701e9c
+0071680c ui_modshift
+  -> __assert2
+007173ac ui_imguikeydata_imgui_getkeydata_imguicontext
+  -> FUN_00717570
+  -> __assert2
+007176e0 FUN_007176e0
+  -> FUN_007176ec
+00717c10 ui_bool_imgui_ismousereleased_imguimousebutton
+  -> FUN_00717570
+  -> __assert2
+00717ccc ui_bool_imgui_ismousedoubleclicked
+  -> FUN_00717570
+  -> __assert2
+00717dd0 ui_bool_imgui_ismousedragging_imguimousebutton
+  -> __assert2
+00717f18 ui_imvec2_imgui_getmousedragdelta
+  -> __assert2
+00718008 ui_void_imgui_resetmousedragdelta
+  -> __assert2
+00718050 FUN_00718050
+00718064 FUN_00718064
+00718078 FUN_00718078
+00718090 FUN_00718090
+00718d08 ui_group_data_windowid_window_id
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> __assert2
+  -> __stack_chk_fail
+00719010 FUN_00719010
+00719098 FUN_00719098
+007190b0 FUN_007190b0
+007190d4 FUN_007190d4
+007190fc FUN_007190fc
+00719178 FUN_00719178
+007191d8 FUN_007191d8
+007191f8 FUN_007191f8
+0071923c FUN_0071923c
+00719280 FUN_00719280
+  -> free
+  -> malloc
+  -> memcpy
+007196a8 ui_t_imvector_float_back_2
+  -> __assert2
+0071970c FUN_0071970c
+0071986c FUN_0071986c
+0071987c FUN_0071987c
+00719894 FUN_00719894
+007198b0 FUN_007198b0
+00719938 FUN_00719938
+00719958 ui_t_imvector_imguigroupdata_back
+  -> __assert2
+  -> free
+  -> malloc
+  -> memcpy
+00719c20 FUN_00719c20
+00719c34 FUN_00719c34
+00719c48 FUN_00719c48
+00719c5c FUN_00719c5c
+00719c90 FUN_00719c90
+00719cac FUN_00719cac
+00719cc8 ui_void_imgui_setscrollfromposx_imguiwindow
+  -> __assert2
+00719d40 ui_void_imgui_setscrollfromposy_imguiwindow
+  -> __assert2
+00719db8 ui_void_imgui_setscrollfromposx_imguiwindow_2
+  -> __assert2
+00719e74 ui_void_imgui_setscrollfromposy_imguiwindow_2
+  -> __assert2
+00719f30 FUN_00719f30
+  -> FUN_00719f50
+0071a16c FUN_0071a16c
+  -> FUN_00719f50
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+0071a1a4 ui_getcurrentwindowread_flags_imguiwindowflags_2
+  -> __assert2
+  -> ui_window_dc_issetpos
+0071a29c ui_getcurrentwindowread_flags_imguiwindowflags_3
+  -> FUN_00719f50
+  -> FUN_007692a0
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> ui_window_dc_issetpos
+0071a464 ui_t_imvector_unsigned_int_back_4
+  -> FUN_00701b7c
+  -> FUN_00703a88
+  -> __assert2
+0071a610 ui_t_imvector_unsigned_int_back_5
+  -> FUN_006fc3a8
+  -> FUN_00701b7c
+  -> FUN_0071a72c
+  -> __assert2
+0071adbc ui_i_0_i_size_4
+  -> FUN_006fc3a8
+  -> FUN_0071ab7c
+  -> __assert2
+0071afb8 ui_window_flags_imguiwindowflags_popup
+  -> __assert2
+  -> ui_window_dc_issetpos
+0071b0b0 ui_t_imvector_unsigned_int_back_6
+  -> FUN_00701b7c
+  -> FUN_0071aeb4
+  -> __assert2
+0071b1dc ui_t_imvector_unsigned_int_back_7
+  -> FUN_00701b7c
+  -> FUN_0071ab7c
+  -> __assert2
+  -> ui_g_withinframescope
+  -> ui_window_flags_imguiwindowflags_popup
+0071b468 ui_bool_imgui_ismousereleased_imguimousebutton_2
+  -> FUN_00701b7c
+  -> FUN_00717570
+  -> FUN_0071a72c
+  -> __assert2
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+0071b604 ui_bool_imgui_ismousereleased_imguimousebutton_3
+  -> FUN_006f9378
+  -> FUN_00701b7c
+  -> FUN_00717570
+  -> FUN_0071a72c
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> ui_g_withinframescope
+  -> ui_window_flags_imguiwindowflags_popup
+0071b8a8 ui_t_imvector_unsigned_int_back_8
+  -> FUN_006f9378
+  -> FUN_00701b7c
+  -> FUN_00717570
+  -> FUN_0071a72c
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_cur_window
+  -> ui_g_withinframescope
+  -> ui_window_flags_imguiwindowflags_popup
+0071cf50 ui_bool_imgui_begindragdropsource
+  -> FUN_0070207c
+  -> FUN_00702520
+  -> FUN_00702adc
+  -> FUN_007032cc
+  -> FUN_00719f50
+  -> __assert2
+  -> free
+0071d3b0 ui_g_dragdropactive
+  -> __assert2
+  -> free
+  -> ui_window_dc_issetpos
+0071d4f8 ui_cond_imguicond_always_cond_imguicond_once
+  -> __assert2
+  -> free
+  -> malloc
+  -> memcpy
+  -> strlen
+  -> strncpy
+0071d8fc ui_bool_imgui_begindragdroptarget
+  -> FUN_0070207c
+  -> __assert2
+0071da30 ui_g_dragdropactive_2
+  -> FUN_00717570
+  -> FUN_0074c338
+  -> __assert2
+  -> __stack_chk_fail
+  -> strcmp
+0071de50 ui_g_dragdropwithintarget
+  -> __assert2
+  -> free
+0071df64 FUN_0071df64
+  -> FUN_0071e01c
+  -> __stack_chk_fail
+0071e2e0 FUN_0071e2e0
+0071e434 ui_g_logbuffer_empty
+  -> __assert2
+0071e5ec ui_logbuttons
+  -> FUN_007141ac
+  -> FUN_0071e2e4
+  -> FUN_0076a5c8
+  -> FUN_007719bc
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_t_imvector_unsigned_int_back_2
+007205f8 ui_window_idstack_size_1_2
+  -> FUN_007160d0
+  -> FUN_00720770
+  -> FUN_0076b44c
+  -> FUN_0076b9f4
+  -> FUN_0077b1ec
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_t_imvector_unsigned_int_back_9
+00720ec8 ui_io_configdebuginisettings
+  -> FUN_006f9378
+  -> FUN_0070303c
+  -> FUN_0071435c
+  -> FUN_007160d0
+  -> FUN_00716900
+  -> FUN_00717570
+  -> FUN_007176ec
+  -> FUN_0071f004
+  -> FUN_0071fa04
+  -> FUN_0072005c
+  -> FUN_007203a4
+  -> FUN_00724ca8
+  -> FUN_00724d98
+  -> FUN_00724ea0
+  -> FUN_00725154
+  -> FUN_00725284
+  -> FUN_007253c0
+  -> FUN_00725a84
+  -> FUN_00725ba4
+  -> FUN_0074c338
+  -> FUN_0074c408
+  -> FUN_00766cb4
+  -> FUN_007673d4
+  -> FUN_007691c8
+  -> FUN_007691d0
+  -> FUN_00769a70
+  -> FUN_0076a5d0
+  -> FUN_0076b9f4
+  -> FUN_0076c7c4
+  -> FUN_0076cc78
+  -> FUN_0076e0f0
+  -> FUN_0076e540
+  -> FUN_00775a48
+  -> FUN_00777d2c
+  -> FUN_0077b1ec
+  -> FUN_0077b52c
+  -> FUN_0077c3cc
+  -> FUN_0077c644
+  -> __assert2
+  -> __stack_chk_fail
+  -> fclose
+  -> fopen
+  -> free
+  -> fwrite
+  -> malloc
+  -> memcpy
+  -> qsort
+  -> ui_activeid
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> ui_flags_imguiinputtextflags_multiline_2
+  -> ui_font_containeratlas_texid_cmdheader_2
+  -> ui_foreground_2
+  -> ui_g_withinframescope
+  -> ui_pushid
+  -> ui_t_imvector_unsigned_int_back_9
+  -> ui_void_imgui_endlistbox
+  -> ui_void_imvector_int_pop_back
+  -> ui_window_dc_issetpos
+  -> ui_window_idstack_size_1_2
+00723e5c ui_activeid
+  -> FUN_007584d8
+  -> FUN_007691c8
+  -> FUN_0076a5d0
+  -> FUN_0076bd14
+  -> __assert2
+  -> __stack_chk_fail
+  -> free
+  -> sscanf
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> ui_bool_imguilistclipper_stepinternal
+  -> ui_foreground_2
+  -> ui_g_withinframescope
+  -> ui_getcurrentwindowread_flags_imguiwindowflags
+  -> ui_i_0_i_size_2
+  -> ui_t_imvector_unsigned_int_back
+  -> ui_void_imguilistclipper_end
+  -> ui_window_dc_issetpos
+  -> ui_window_flags_imguiwindowflags_childwindow
+0072468c ui_pushid
+  -> FUN_00716b88
+  -> FUN_00724ca8
+  -> FUN_00726f4c
+  -> FUN_007584d8
+  -> FUN_0075d664
+  -> FUN_007691c8
+  -> FUN_007691d0
+  -> FUN_00769328
+  -> FUN_0076b9f4
+  -> __assert2
+  -> __stack_chk_fail
+  -> fmodf
+  -> ui_const_t_imvector_char_operator_int_const_2
+  -> ui_g_currentwindow_outer_window_g_currenttable
+  -> ui_g_withinframescope
+  -> ui_p_data_p_dataend
+  -> ui_p_data_p_dataend_3
+  -> ui_void_imgui_tablesetbgcolor
+  -> ui_window_dc_issetpos
+0072616c ui_foreground_2
+  -> FUN_0070303c
+  -> FUN_0074c338
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+007270ac free
+0072a5c8 ui_my_select_popup
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_006f9ee4
+  -> FUN_006fb09c
+  -> FUN_006fb7b4
+  -> FUN_006fbe7c
+  -> FUN_006fbe8c
+  -> FUN_006fc39c
+  -> FUN_006fd304
+  -> FUN_006fd480
+  -> FUN_0070300c
+  -> FUN_0070301c
+  -> FUN_00710e20
+  -> FUN_00710fd0
+  -> FUN_0071146c
+  -> FUN_0071435c
+  -> FUN_0071457c
+  -> FUN_00714648
+  -> FUN_00714b14
+  -> FUN_00714c20
+  -> FUN_00714c34
+  -> FUN_00715064
+  -> FUN_00715170
+  -> FUN_00715190
+  -> FUN_007151bc
+  -> FUN_007160d0
+  -> FUN_007176e0
+  -> FUN_00718050
+  -> FUN_00718064
+  -> FUN_00718078
+  -> FUN_00718090
+  -> FUN_00719010
+  -> FUN_00719098
+  -> FUN_007190b0
+  -> FUN_007191f8
+  -> FUN_0071923c
+  -> FUN_00719280
+  -> FUN_0071970c
+  -> FUN_0071987c
+  -> FUN_00719894
+  -> FUN_007198b0
+  -> FUN_0071a16c
+  -> FUN_0071df64
+  -> FUN_00746a94
+  -> FUN_007471a0
+  -> FUN_0074933c
+  -> FUN_0074c1b4
+  -> FUN_0074c338
+  -> FUN_0074c408
+  -> FUN_0074c540
+  -> FUN_0074cb6c
+  -> FUN_0074cd5c
+  -> FUN_0074cf38
+  -> FUN_0074d018
+  -> FUN_0074d0d4
+  -> FUN_0074d164
+  -> FUN_0074d1d8
+  -> FUN_0074d30c
+  -> FUN_0075d664
+  -> FUN_007691c8
+  -> FUN_007691d0
+  -> FUN_007694cc
+  -> FUN_00769684
+  -> FUN_00769a70
+  -> FUN_0076a5c8
+  -> FUN_0076a5d0
+  -> FUN_0076b9f4
+  -> FUN_0076bd14
+  -> FUN_0076c61c
+  -> FUN_0076c754
+  -> FUN_0076c7c4
+  -> FUN_0076cc78
+  -> FUN_0076cf8c
+  -> FUN_0076e0f0
+  -> FUN_0076e540
+  -> FUN_0076e6f8
+  -> FUN_00770548
+  -> FUN_007708b4
+  -> FUN_0077183c
+  -> FUN_007719bc
+  -> FUN_0077b52c
+  -> FUN_0077c3ec
+  -> FUN_0077c42c
+  -> FUN_0077dd90
+  -> FUN_0077e77c
+  -> FUN_0077ed28
+  -> FUN_0077ed3c
+  -> FUN_00781e74
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> fmodf
+  -> memcpy
+  -> misc_close
+  -> misc_col4f
+  -> misc_double_click_on_title_bar_to_collapse_window
+  -> misc_eggplant
+  -> misc_mainmenubar
+  -> misc_modify
+  -> misc_object
+  -> misc_scrollingregion
+  -> sprintf
+  -> ui_activeid
+  -> ui_background
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> ui_bool_imgui_ismousedown_imguimousebutton
+  -> ui_bool_imgui_ismousedragging_imguimousebutton
+  -> ui_bool_imgui_ismouseposvalid_const_imvec2
+  -> ui_bool_imgui_ismousereleased_imguimousebutton_2
+  -> ui_bool_imgui_ismousereleased_imguimousebutton_3
+  -> ui_bool_imguilistclipper_stepinternal
+  -> ui_cfg_infos
+  -> ui_char_imguitextbuffer_operator_int_const
+  -> ui_classify
+  -> ui_collapsingheader
+  -> ui_cond_0_imispoweroftwo_cond
+  -> ui_context
+  -> ui_fish_hat_inl
+  -> ui_flags_imguiinputtextflags_multiline_2
+  -> ui_flags_imguitabitemflags_button
+  -> ui_foreground
+  -> ui_g_currentwindow_outer_window_g_currenttable
+  -> ui_g_logbuffer_empty
+  -> ui_g_withinframescope
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_2
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_3
+  -> ui_group_data_windowid_window_id
+  -> ui_i_0_i_size_2
+  -> ui_i_0_i_size_3
+  -> ui_i_0_i_size_4
+  -> ui_imguihoveredflags_noshareddelay
+  -> ui_imguiio_imgui_getio
+  -> ui_imguikeydata_imgui_getkeydata_imguicontext
+  -> ui_imguistyle_imgui_getstyle
+  -> ui_imvec2_imgui_getmousedragdelta
+  -> ui_io_configdebuginisettings
+  -> ui_logbuttons
+  -> ui_modshift
+  -> ui_outer_child
+  -> ui_p_data_p_dataend_3
+  -> ui_pushid
+  -> ui_scrolling
+  -> ui_setkeyboardfocushere_ignored_while
+  -> ui_size_arg_x_0_0f_size_arg_y_0_0f
+  -> ui_t_imvector_float_back
+  -> ui_t_imvector_float_back_2
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_imguistylemod_back
+  -> ui_t_imvector_imguitabbar_operator_int
+  -> ui_t_imvector_imguitabbar_operator_int_2
+  -> ui_t_imvector_unsigned_int_back
+  -> ui_t_imvector_unsigned_int_back_3
+  -> ui_t_imvector_unsigned_int_back_4
+  -> ui_t_imvector_unsigned_int_back_5
+  -> ui_t_imvector_unsigned_int_back_6
+  -> ui_t_imvector_unsigned_int_back_7
+  -> ui_t_imvector_unsigned_int_back_8
+  -> ui_t_imvector_unsigned_int_back_9
+  -> ui_tab_bar_lasttabitemidx_0
+  -> ui_table_columns_flags_checkboxes
+  -> ui_void_imgui_logfinish
+  -> ui_void_imgui_navupdateanyrequestflag
+  -> ui_void_imgui_popitemflag
+  -> ui_void_imgui_pushstylevar_imguistylevar_const
+  -> ui_void_imgui_setnextwindowsize_const_imvec2
+  -> ui_void_imvector_imguicolormod_pop_back_2
+  -> ui_void_imvector_imvec4_pop_back
+  -> ui_void_imvector_int_pop_back
+  -> ui_window_dc_issetpos
+  -> ui_window_dc_menubarappending
+  -> ui_window_dc_menubarappending_2
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> ui_window_flags_imguiwindowflags_popup
+  -> ui_window_flags_imguiwindowflags_popup_2
+  -> ui_window_idstack_size_1
+007300f8 ui_cfg_infos
+  -> FUN_0071987c
+  -> FUN_0071df64
+  -> FUN_007691d0
+  -> FUN_0076a5c8
+  -> FUN_0076b9f4
+  -> FUN_0076cc78
+  -> __stack_chk_fail
+  -> ui_g_logbuffer_empty
+  -> ui_g_withinframescope
+  -> ui_imguiio_imgui_getio
+  -> ui_imguistyle_imgui_getstyle
+  -> ui_t_imvector_unsigned_int_back_3
+  -> ui_void_imgui_logfinish
+  -> ui_void_imvector_imguicolormod_pop_back_2
+  -> ui_window_dc_issetpos
+  -> ui_window_flags_imguiwindowflags_childwindow
+007305e8 ui_imguihoveredflags_noshareddelay
+  -> FUN_006f6fec
+  -> FUN_006fadbc
+  -> FUN_006fb02c
+  -> FUN_006fb09c
+  -> FUN_006fd304
+  -> FUN_006fe644
+  -> FUN_00710e20
+  -> FUN_00714648
+  -> FUN_00714aec
+  -> FUN_00715190
+  -> FUN_007151bc
+  -> FUN_007161d8
+  -> FUN_00719010
+  -> FUN_00719098
+  -> FUN_00719280
+  -> FUN_00719f30
+  -> FUN_0071a16c
+  -> FUN_0071df64
+  -> FUN_0071e2e0
+  -> FUN_00744a78
+  -> FUN_00747820
+  -> FUN_00747cfc
+  -> FUN_007492ac
+  -> FUN_0074cf38
+  -> FUN_007691c8
+  -> FUN_007691d0
+  -> FUN_007694cc
+  -> FUN_0076a5c8
+  -> FUN_0076b9f4
+  -> FUN_0076bd14
+  -> FUN_0076c054
+  -> FUN_0076c754
+  -> FUN_0076c7c4
+  -> FUN_0076cc78
+  -> FUN_0076cf8c
+  -> FUN_0076e6f8
+  -> FUN_00770548
+  -> FUN_00771770
+  -> FUN_007717d4
+  -> FUN_0077be20
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> memcpy
+  -> memmove
+  -> misc_fff_fff_fff
+  -> strlen
+  -> ui_cond_0_imispoweroftwo_cond
+  -> ui_const_char_imgui_getstylecolorname_imguicol
+  -> ui_context
+  -> ui_flags_imguitabitemflags_button
+  -> ui_g_logbuffer_empty
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_2
+  -> ui_group_data_windowid_window_id
+  -> ui_i_0_i_size
+  -> ui_imguiio_imgui_getio
+  -> ui_imguistyle_imgui_getstyle
+  -> ui_t_imvector_float_back
+  -> ui_t_imvector_float_back_2
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_imguitabbar_operator_int
+  -> ui_t_imvector_imguitabbar_operator_int_2
+  -> ui_t_imvector_unsigned_int_back
+  -> ui_t_imvector_unsigned_int_back_9
+  -> ui_tab_bar_lasttabitemidx_0
+  -> ui_void_imgui_logfinish
+  -> ui_void_imgui_setwindowfontscale_float
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> ui_window_idstack_size_1
+  -> ui_window_idstack_size_1_2
+0073191c ui_fish_hat_inl
+  -> FUN_006fd304
+  -> FUN_00715190
+  -> FUN_00719010
+  -> FUN_00719098
+  -> FUN_0071986c
+  -> FUN_0074c408
+  -> FUN_007691d0
+  -> FUN_0076b9f4
+  -> FUN_0076c7c4
+  -> FUN_0076cc78
+  -> FUN_0076e6f8
+  -> FUN_00771770
+  -> FUN_007757fc
+  -> FUN_0077e77c
+  -> FUN_0077ed28
+  -> FUN_0077ed3c
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_const_char_imgui_getstylecolorname_imguicol
+  -> ui_fish_hat_inl
+  -> ui_t_imvector_unsigned_int_back
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> ui_window_flags_imguiwindowflags_popup_2
+00731e08 misc_double_click_on_title_bar_to_collapse_window
+  -> FUN_007191f8
+  -> FUN_0071923c
+  -> FUN_00769a70
+  -> ui_imguiio_imgui_getio
+00731f28 ui_outer_child
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_006f9ffc
+  -> FUN_006fadbc
+  -> FUN_006fb02c
+  -> FUN_006fb09c
+  -> FUN_006fd468
+  -> FUN_006fd650
+  -> FUN_00702ab8
+  -> FUN_0070300c
+  -> FUN_00710e20
+  -> FUN_00710e4c
+  -> FUN_00710e88
+  -> FUN_00710ecc
+  -> FUN_00710fdc
+  -> FUN_00711078
+  -> FUN_00711090
+  -> FUN_007110a8
+  -> FUN_0071116c
+  -> FUN_00711184
+  -> FUN_0071119c
+  -> FUN_0071146c
+  -> FUN_0071435c
+  -> FUN_007145e4
+  -> FUN_00714648
+  -> FUN_00715190
+  -> FUN_007151bc
+  -> FUN_007161d8
+  -> FUN_00719010
+  -> FUN_00719098
+  -> FUN_007190d4
+  -> FUN_007191f8
+  -> FUN_0071923c
+  -> FUN_0071986c
+  -> FUN_0071987c
+  -> FUN_00719f30
+  -> FUN_0071a16c
+  -> FUN_00745650
+  -> FUN_0074c338
+  -> FUN_0074c408
+  -> FUN_0075d664
+  -> FUN_00763e44
+  -> FUN_007691c8
+  -> FUN_007691d0
+  -> FUN_00769328
+  -> FUN_007694cc
+  -> FUN_00769684
+  -> FUN_00769820
+  -> FUN_00769a70
+  -> FUN_0076a5c8
+  -> FUN_0076a5d0
+  -> FUN_0076a950
+  -> FUN_0076b44c
+  -> FUN_0076b80c
+  -> FUN_0076b9f4
+  -> FUN_0076bd14
+  -> FUN_0076c054
+  -> FUN_0076c388
+  -> FUN_0076c3c4
+  -> FUN_0076c61c
+  -> FUN_0076c754
+  -> FUN_0076c858
+  -> FUN_0076c8fc
+  -> FUN_0076cc78
+  -> FUN_0076cf8c
+  -> FUN_0076e0f0
+  -> FUN_0076e540
+  -> FUN_0076e6f8
+  -> FUN_00770548
+  -> FUN_007705ac
+  -> FUN_00770614
+  -> FUN_0077067c
+  -> FUN_007706e4
+  -> FUN_007708b4
+  -> FUN_0077091c
+  -> FUN_00770988
+  -> FUN_007709f4
+  -> FUN_00770a60
+  -> FUN_00771770
+  -> FUN_007717d4
+  -> FUN_0077183c
+  -> FUN_007718a4
+  -> FUN_0077190c
+  -> FUN_007719bc
+  -> FUN_00771a24
+  -> FUN_00771a90
+  -> FUN_00771afc
+  -> FUN_00771ef0
+  -> FUN_00771f54
+  -> FUN_007757fc
+  -> FUN_00775874
+  -> FUN_00775894
+  -> FUN_007758b4
+  -> FUN_007758d4
+  -> FUN_00775964
+  -> FUN_00775988
+  -> FUN_007759ac
+  -> FUN_007759d0
+  -> FUN_00775a48
+  -> FUN_00777f24
+  -> FUN_0077ab14
+  -> FUN_0077b390
+  -> FUN_0077b52c
+  -> FUN_0077be20
+  -> FUN_0077bf80
+  -> FUN_0077c3cc
+  -> FUN_0077c3ec
+  -> FUN_0077c42c
+  -> FUN_0077c60c
+  -> FUN_0077c644
+  -> FUN_0077c8c0
+  -> FUN_0077d248
+  -> FUN_0077d2d8
+  -> FUN_0077d340
+  -> FUN_0077d3bc
+  -> FUN_0077ed28
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> cosf
+  -> memchr
+  -> memcpy
+  -> memmove
+  -> misc_close_2
+  -> misc_col4f
+  -> misc_unknown_item
+  -> sinf
+  -> snprintf
+  -> sprintf
+  -> ui_bool_imgui_begindragdropsource
+  -> ui_bool_imgui_begindragdroptarget
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> ui_bool_imgui_ismouseclicked_imguimousebutton
+  -> ui_bool_imgui_ismousedoubleclicked
+  -> ui_bool_imgui_ismousereleased_imguimousebutton_3
+  -> ui_bool_imgui_tabitembutton_const_char
+  -> ui_cond_imguicond_always_cond_imguicond_once
+  -> ui_context
+  -> ui_cur_window
+  -> ui_cur_window_2
+  -> ui_data_type_0_data_type_imguidatatype_count
+  -> ui_data_type_0_data_type_imguidatatype_count_2
+  -> ui_flags_imguiinputtextflags_multiline
+  -> ui_flags_imguiinputtextflags_multiline_2
+  -> ui_flags_imguiinputtextflags_multiline_3
+  -> ui_flags_imguitabitemflags_button
+  -> ui_g_currentwindow_outer_window_g_currenttable
+  -> ui_g_dragdropactive
+  -> ui_g_dragdropactive_2
+  -> ui_g_dragdropwithintarget
+  -> ui_g_withinframescope
+  -> ui_getcurrentwindowread_flags_imguiwindowflags
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_2
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_3
+  -> ui_group_data_windowid_window_id
+  -> ui_i_0_i_size
+  -> ui_imguiio_imgui_getio
+  -> ui_imguistyle_imgui_getstyle
+  -> ui_imvec2_imgui_getmousedragdelta
+  -> ui_original
+  -> ui_p_data_p_dataend_3
+  -> ui_preview_value_null_preview_value_0
+  -> ui_t_imvector_float_back
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_imguistylemod_back
+  -> ui_t_imvector_imguitabbar_operator_int
+  -> ui_t_imvector_imguitabbar_operator_int_2
+  -> ui_t_imvector_unsigned_int_back
+  -> ui_t_imvector_unsigned_int_back_2
+  -> ui_t_imvector_unsigned_int_back_5
+  -> ui_t_imvector_unsigned_int_back_6
+  -> ui_t_imvector_unsigned_int_back_9
+  -> ui_tab_bar_lasttabitemidx_0
+  -> ui_void_imgui_endlistbox
+  -> ui_void_imgui_navupdateanyrequestflag
+  -> ui_void_imgui_popitemflag_2
+  -> ui_void_imgui_pushstylevar_imguistylevar_const
+  -> ui_void_imgui_pushstylevar_imguistylevar_float
+  -> ui_void_imgui_resetmousedragdelta
+  -> ui_void_imgui_setcoloreditoptions
+  -> ui_void_imvector_imguicolormod_pop_back
+  -> ui_void_imvector_int_pop_back
+  -> ui_window_dc_issetpos
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> ui_window_flags_imguiwindowflags_popup
+  -> ui_window_flags_imguiwindowflags_popup
+  -> ui_window_idstack_size_1
+007397fc ui_collapsingheader
+  -> FUN_006f9ffc
+  -> FUN_006fb09c
+  -> FUN_006fd4b0
+  -> FUN_006fd650
+  -> FUN_00710e20
+  -> FUN_00711078
+  -> FUN_007110a8
+  -> FUN_0071116c
+  -> FUN_00711184
+  -> FUN_0071119c
+  -> FUN_0071146c
+  -> FUN_00714648
+  -> FUN_00714b14
+  -> FUN_007150a0
+  -> FUN_00715190
+  -> FUN_007151ac
+  -> FUN_007151bc
+  -> FUN_007161d8
+  -> FUN_00716704
+  -> FUN_00719010
+  -> FUN_00719098
+  -> FUN_007190b0
+  -> FUN_007190fc
+  -> FUN_00719178
+  -> FUN_007191d8
+  -> FUN_007191f8
+  -> FUN_0071923c
+  -> FUN_00719280
+  -> FUN_0071986c
+  -> FUN_007198b0
+  -> FUN_00719938
+  -> FUN_00719c20
+  -> FUN_00719c34
+  -> FUN_00719c48
+  -> FUN_00719c5c
+  -> FUN_00719c90
+  -> FUN_00719cac
+  -> FUN_0071a16c
+  -> FUN_0074933c
+  -> FUN_0074c408
+  -> FUN_0075d664
+  -> FUN_007691c8
+  -> FUN_007691d0
+  -> FUN_00769328
+  -> FUN_007694cc
+  -> FUN_00769684
+  -> FUN_00769a70
+  -> FUN_0076a5c8
+  -> FUN_0076a5d0
+  -> FUN_0076b9f4
+  -> FUN_0076c754
+  -> FUN_0076c7c4
+  -> FUN_0076c8fc
+  -> FUN_0076cc78
+  -> FUN_0076cf8c
+  -> FUN_0076e0f0
+  -> FUN_0076e540
+  -> FUN_00770548
+  -> FUN_007705ac
+  -> FUN_007708b4
+  -> FUN_00771770
+  -> FUN_007719bc
+  -> FUN_0077b52c
+  -> FUN_0077c42c
+  -> FUN_0077c644
+  -> FUN_0077c8c0
+  -> FUN_0077d340
+  -> FUN_0077e77c
+  -> __stack_chk_fail
+  -> misc_close_2
+  -> sinf
+  -> sprintf
+  -> ui_bool_imgui_beginchild_imguiid_const_imvec2
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> ui_bool_imgui_ismousedragging_imguimousebutton
+  -> ui_column_index_columns_columns_size_2
+  -> ui_fish_hat_inl
+  -> ui_flags_imguitabitemflags_button
+  -> ui_font_containeratlas_texid_cmdheader
+  -> ui_font_containeratlas_texid_cmdheader_2
+  -> ui_g_currentwindow_outer_window_g_currenttable
+  -> ui_g_withinframescope
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_2
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_3
+  -> ui_group_data_windowid_window_id
+  -> ui_i_0_i_size_5
+  -> ui_imguiio_imgui_getio
+  -> ui_imguistyle_imgui_getstyle
+  -> ui_p_data_p_dataend_3
+  -> ui_size_arg_x_0_0f_size_arg_y_0_0f
+  -> ui_t_imvector_float_back
+  -> ui_t_imvector_float_back_2
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_imguistylemod_back
+  -> ui_t_imvector_imguitabbar_operator_int
+  -> ui_t_imvector_imguitabbar_operator_int_2
+  -> ui_t_imvector_imvec4_back
+  -> ui_t_imvector_imvec4_back_2
+  -> ui_t_imvector_unsigned_int_back
+  -> ui_t_imvector_unsigned_int_back_2
+  -> ui_t_imvector_unsigned_int_back_9
+  -> ui_tab_bar_lasttabitemidx_0
+  -> ui_void_imgui_columns_int_const_char_bool
+  -> ui_void_imgui_endlistbox
+  -> ui_void_imgui_pushstylevar_imguistylevar_const
+  -> ui_void_imgui_pushstylevar_imguistylevar_float
+  -> ui_void_imgui_setscrollfromposx_imguiwindow
+  -> ui_void_imgui_setscrollfromposx_imguiwindow_2
+  -> ui_void_imgui_setscrollfromposy_imguiwindow
+  -> ui_void_imgui_setscrollfromposy_imguiwindow_2
+  -> ui_void_imvector_imguicolormod_pop_back
+  -> ui_void_imvector_imvec4_pop_back
+  -> ui_window_dc_issetpos
+  -> ui_window_dc_menubarappending
+  -> ui_window_dc_menubarappending_2
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> ui_window_flags_imguiwindowflags_popup_2
+  -> ui_window_idstack_size_1
+0073c1b4 ui_table_columns_flags_checkboxes
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_006fb09c
+  -> FUN_006fbe7c
+  -> FUN_006fbe8c
+  -> FUN_006fd3bc
+  -> FUN_006fd4b0
+  -> FUN_006fe644
+  -> FUN_00710e88
+  -> FUN_0071100c
+  -> FUN_0071146c
+  -> FUN_0071435c
+  -> FUN_007145e4
+  -> FUN_00714648
+  -> FUN_007150a0
+  -> FUN_00715190
+  -> FUN_007151bc
+  -> FUN_007161d8
+  -> FUN_00719010
+  -> FUN_007191f8
+  -> FUN_0071923c
+  -> FUN_00719280
+  -> FUN_0071987c
+  -> FUN_00719894
+  -> FUN_00719c20
+  -> FUN_00719c34
+  -> FUN_00719c48
+  -> FUN_00719c5c
+  -> FUN_0071a16c
+  -> FUN_007451ec
+  -> FUN_0075d664
+  -> FUN_00763e20
+  -> FUN_00763e44
+  -> FUN_0076411c
+  -> FUN_0076751c
+  -> FUN_007691c8
+  -> FUN_007691d0
+  -> FUN_007694cc
+  -> FUN_00769684
+  -> FUN_0076a5c8
+  -> FUN_0076a5d0
+  -> FUN_0076b9f4
+  -> FUN_0076bd14
+  -> FUN_0076c388
+  -> FUN_0076c754
+  -> FUN_0076c8fc
+  -> FUN_0076cc78
+  -> FUN_0076e0f0
+  -> FUN_0076e540
+  -> FUN_0076e6f8
+  -> FUN_00770548
+  -> FUN_007705ac
+  -> FUN_007708b4
+  -> FUN_00771770
+  -> FUN_007717d4
+  -> FUN_007757fc
+  -> FUN_0077b390
+  -> FUN_0077b52c
+  -> FUN_0077be20
+  -> FUN_0077c3ec
+  -> FUN_0077c42c
+  -> __assert2
+  -> __cxa_atexit
+  -> __cxa_guard_acquire
+  -> __cxa_guard_release
+  -> __stack_chk_fail
+  -> memcpy
+  -> qsort
+  -> sprintf
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> ui_bool_imgui_ismousereleased_imguimousebutton
+  -> ui_bool_imgui_ismousereleased_imguimousebutton_3
+  -> ui_bool_imgui_tablesetcolumnindex_int
+  -> ui_bool_imguilistclipper_stepinternal
+  -> ui_column_index_columns_columns_size
+  -> ui_column_index_columns_columns_size_2
+  -> ui_column_n_1_column_n_table_columnscount
+  -> ui_const_t_imvector_char_operator_int_const
+  -> ui_const_t_imvector_char_operator_int_const_2
+  -> ui_flags_imguiinputtextflags_multiline_2
+  -> ui_g_currentwindow_outer_window_g_currenttable
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_2
+  -> ui_i_0_i_size_2
+  -> ui_i_0_i_size_4
+  -> ui_i_0_i_size_5
+  -> ui_imguiio_imgui_getio
+  -> ui_imguistyle_imgui_getstyle
+  -> ui_imguitableflags_sizingstretchprop
+  -> ui_imguitablesortspecs_imgui_tablegetsortspecs
+  -> ui_p_data_p_dataend
+  -> ui_p_data_p_dataend_2
+  -> ui_p_data_p_dataend_3
+  -> ui_t_imspan_short_operator_int
+  -> ui_t_imvector_float_back
+  -> ui_t_imvector_float_back_2
+  -> ui_t_imvector_imguistylemod_back
+  -> ui_t_imvector_unsigned_int_back
+  -> ui_t_imvector_unsigned_int_back_2
+  -> ui_t_imvector_unsigned_int_back_5
+  -> ui_t_imvector_unsigned_int_back_6
+  -> ui_t_imvector_unsigned_int_back_9
+  -> ui_void_imgui_columns_int_const_char_bool
+  -> ui_void_imgui_popitemflag_2
+  -> ui_void_imgui_pushstylevar_imguistylevar_const
+  -> ui_void_imgui_pushstylevar_imguistylevar_float
+  -> ui_void_imgui_tablesetbgcolor
+  -> ui_void_imvector_imguicolormod_pop_back
+  -> ui_void_imvector_int_pop_back
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> ui_window_flags_imguiwindowflags_popup
+  -> ui_window_idstack_size_1
+00744a78 FUN_00744a78
+  -> FUN_00714648
+  -> FUN_007151ac
+  -> FUN_007151bc
+  -> FUN_007160d0
+  -> FUN_00719010
+  -> FUN_0071a16c
+  -> FUN_007691c8
+  -> FUN_007694cc
+  -> FUN_0076e0f0
+  -> __stack_chk_fail
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_2
+  -> ui_imguiio_imgui_getio
+  -> ui_preview_value_null_preview_value_0
+  -> ui_t_imvector_float_back
+  -> ui_window_flags_imguiwindowflags_popup
+  -> ui_window_idstack_size_1
+00744eb0 ui_imguitableflags_sizingstretchprop
+  -> FUN_00714648
+  -> FUN_007151bc
+  -> FUN_00719010
+  -> FUN_007190fc
+  -> FUN_00719178
+  -> FUN_0071a16c
+  -> FUN_007691c8
+  -> FUN_007691d0
+  -> FUN_007694cc
+  -> FUN_0076cc78
+  -> FUN_0076e0f0
+  -> __stack_chk_fail
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_2
+  -> ui_imguistyle_imgui_getstyle
+  -> ui_preview_value_null_preview_value_0
+  -> ui_t_imvector_float_back
+  -> ui_window_flags_imguiwindowflags_popup
+007451ec FUN_007451ec
+  -> FUN_007451ec
+  -> FUN_00763e44
+  -> FUN_007691c8
+  -> FUN_007691d0
+  -> FUN_007694cc
+  -> FUN_0077be20
+  -> ui_p_data_p_dataend_3
+  -> ui_t_imvector_unsigned_int_back_9
+00745408 misc_object
+  -> FUN_006fb09c
+  -> FUN_007161d8
+  -> FUN_00763e44
+  -> FUN_007691d0
+  -> FUN_0076c8fc
+  -> FUN_00770548
+  -> FUN_007757fc
+  -> FUN_0077b1ec
+  -> FUN_0077be88
+  -> misc_object
+  -> ui_bool_imgui_tablesetcolumnindex_int
+  -> ui_column_index_columns_columns_size_2
+  -> ui_t_imvector_unsigned_int_back_9
+  -> ui_window_idstack_size_1
+00745650 FUN_00745650
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> memcpy
+007456f8 ui_classify
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_006fadbc
+  -> FUN_00745fd0
+  -> free
+  -> memcpy
+00745b10 misc_scrollingregion
+  -> FUN_006f90e4
+  -> FUN_006fb02c
+  -> FUN_006fd650
+  -> FUN_00719010
+  -> FUN_007198b0
+  -> FUN_00719c34
+  -> FUN_00719c5c
+  -> FUN_00745fd0
+  -> FUN_007461b0
+  -> FUN_007691c8
+  -> FUN_00769684
+  -> FUN_0076a5c8
+  -> FUN_0076a5d0
+  -> FUN_0076b9f4
+  -> FUN_0076cc78
+  -> FUN_0076e0f0
+  -> FUN_0077ed28
+  -> __stack_chk_fail
+  -> free
+  -> strlen
+  -> strstr
+  -> ui_bool_imgui_ismousereleased_imguimousebutton_3
+  -> ui_flags_imguiinputtextflags_multiline_2
+  -> ui_g_logbuffer_empty
+  -> ui_g_withinframescope
+  -> ui_i_0_i_size
+  -> ui_imguistyle_imgui_getstyle
+  -> ui_setkeyboardfocushere_ignored_while
+  -> ui_t_imvector_imguistylemod_back
+  -> ui_t_imvector_unsigned_int_back
+  -> ui_t_imvector_unsigned_int_back_5
+  -> ui_t_imvector_unsigned_int_back_6
+  -> ui_t_imvector_unsigned_int_back_8
+  -> ui_void_imgui_logfinish
+  -> ui_void_imgui_navupdateanyrequestflag
+  -> ui_void_imgui_pushstylevar_imguistylevar_const
+  -> ui_void_imgui_setnextwindowsize_const_imvec2
+  -> ui_void_imgui_setscrollfromposy_imguiwindow_2
+  -> ui_void_imvector_imguicolormod_pop_back
+  -> ui_window_dc_issetpos
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> ui_window_flags_imguiwindowflags_popup
+00746a94 FUN_00746a94
+  -> FUN_006fadbc
+  -> FUN_007470c8
+00746b4c ui_char_imguitextbuffer_operator_int_const
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_006fb848
+  -> __assert2
+  -> __stack_chk_fail
+  -> memcpy
+00746d10 ui_scrolling
+  -> FUN_006fb02c
+  -> FUN_006fbe7c
+  -> FUN_006fbe8c
+  -> FUN_00719010
+  -> FUN_00719c34
+  -> FUN_00719c5c
+  -> FUN_007470c8
+  -> FUN_007691c8
+  -> FUN_0076a5c8
+  -> FUN_0076b9f4
+  -> FUN_0076cc78
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_bool_imguilistclipper_stepinternal
+  -> ui_g_logbuffer_empty
+  -> ui_g_withinframescope
+  -> ui_i_0_i_size
+  -> ui_i_0_i_size_2
+  -> ui_t_imvector_imguistylemod_back
+  -> ui_t_imvector_unsigned_int_back
+  -> ui_t_imvector_unsigned_int_back_5
+  -> ui_t_imvector_unsigned_int_back_6
+  -> ui_void_imgui_pushstylevar_imguistylevar_const
+  -> ui_void_imgui_setscrollfromposy_imguiwindow_2
+  -> ui_void_imguilistclipper_end
+  -> ui_window_dc_issetpos
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> ui_window_flags_imguiwindowflags_popup
+007471a0 FUN_007471a0
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> memcpy
+00747248 misc_eggplant
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> memcpy
+00747630 misc_close
+  -> FUN_0077ed28
+  -> __stack_chk_fail
+  -> sprintf
+  -> ui_bool_imgui_ismousereleased_imguimousebutton_3
+  -> ui_window_flags_imguiwindowflags_popup
+007476ec misc_modify
+  -> FUN_006fd650
+  -> FUN_007160d0
+  -> FUN_00719010
+  -> FUN_007691d0
+  -> FUN_00769684
+  -> FUN_0076a5c8
+  -> FUN_00777f24
+  -> __stack_chk_fail
+  -> ui_void_imvector_imguicolormod_pop_back
+  -> ui_window_idstack_size_1
+00747820 FUN_00747820
+  -> ui_imguistyle_imgui_getstyle
+00747a80 misc_fff_fff_fff
+  -> ui_imguistyle_imgui_getstyle
+00747cfc FUN_00747cfc
+  -> ui_imguistyle_imgui_getstyle
+007492ac FUN_007492ac
+  -> acosf
+0074933c FUN_0074933c
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_007490ac
+  -> memcpy
+007494ac ui_void_imvector_imvec4_pop_back
+  -> FUN_007490ac
+  -> __assert2
+0074c1b4 FUN_0074c1b4
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_00749aac
+  -> memcpy
+0074c338 FUN_0074c338
+  -> FUN_00749aac
+  -> FUN_0074bb50
+  -> __stack_chk_fail
+0074c408 FUN_0074c408
+  -> FUN_00749614
+  -> FUN_0074a34c
+  -> FUN_0074bb50
+0074c540 FUN_0074c540
+  -> FUN_00749614
+0074cb6c FUN_0074cb6c
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_00749aac
+  -> memcpy
+0074cd5c FUN_0074cd5c
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_0074a34c
+  -> memcpy
+0074cf38 FUN_0074cf38
+  -> FUN_00749aac
+  -> FUN_0074a7a4
+  -> FUN_0074ae44
+0074d018 FUN_0074d018
+  -> FUN_0074a34c
+  -> FUN_0074a7a4
+  -> FUN_0074ae44
+0074d0d4 FUN_0074d0d4
+  -> FUN_00749aac
+  -> FUN_0074ae44
+0074d164 FUN_0074d164
+  -> FUN_0074a34c
+  -> FUN_0074ae44
+0074d1d8 FUN_0074d1d8
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_00749aac
+  -> FUN_0074b3d4
+  -> memcpy
+0074d30c FUN_0074d30c
+  -> FUN_006f8fe4
+  -> FUN_006f90e4
+  -> FUN_00749aac
+  -> FUN_0074b7bc
+  -> memcpy
+0074d42c ui_font_containeratlas_texid_cmdheader
+  -> FUN_0074d5a0
+  -> __assert2
+  -> __stack_chk_fail
+  -> strlen
+0074db94 ui_font_containeratlas_texid_cmdheader_2
+  -> FUN_0074d5a0
+  -> __assert2
+  -> __stack_chk_fail
+  -> strlen
+007584d8 FUN_007584d8
+  -> FUN_006f7610
+  -> FUN_007582a4
+  -> __stack_chk_fail
+  -> strlen
+0075d664 FUN_0075d664
+  -> FUN_0075d6bc
+  -> ui_t_imvector_unsigned_int_back_3
+00760ff4 ui_g_currentwindow_outer_window_g_currenttable
+  -> FUN_006f9764
+  -> FUN_0071100c
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_00719b48
+  -> FUN_0071a72c
+  -> FUN_0071c6fc
+  -> FUN_007485cc
+  -> FUN_0074f018
+  -> FUN_0075ef88
+  -> FUN_00761ab4
+  -> FUN_007622cc
+  -> FUN_0076278c
+  -> FUN_007630d4
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_bool_imgui_ismousereleased_imguimousebutton
+  -> ui_void_imvector_imvec4_pop_back
+  -> ui_window_flags_imguiwindowflags_childwindow
+  -> ui_window_idstack_size_1
+007633c8 ui_p_data_p_dataend
+  -> FUN_006fb5b4
+  -> FUN_00760018
+  -> __assert2
+  -> strlen
+00763658 ui_t_imspan_short_operator_int
+  -> __assert2
+00763888 ui_const_t_imvector_char_operator_int_const
+  -> __assert2
+00763b08 ui_p_data_p_dataend_2
+  -> __assert2
+00763ca8 ui_void_imgui_tablesetbgcolor
+  -> __assert2
+00763e20 FUN_00763e20
+00763e44 FUN_00763e44
+  -> FUN_0075ef88
+  -> FUN_00761ab4
+  -> FUN_00763ee4
+0076411c FUN_0076411c
+00764140 ui_bool_imgui_tablesetcolumnindex_int
+  -> FUN_00763ff0
+  -> FUN_00764210
+  -> __assert2
+0076439c ui_p_data_p_dataend_3
+  -> FUN_0075ef88
+  -> FUN_00761ab4
+  -> FUN_00763ee4
+  -> FUN_00763ff0
+  -> FUN_00764210
+  -> __assert2
+007647f4 ui_imguitablesortspecs_imgui_tablegetsortspecs
+  -> FUN_0075ef88
+  -> FUN_00760d38
+  -> __assert2
+00764ff4 ui_const_t_imvector_char_operator_int_const_2
+  -> FUN_006f9764
+  -> FUN_007161d8
+  -> FUN_00717e48
+  -> FUN_00719098
+  -> FUN_0071a72c
+  -> FUN_0075ef88
+  -> FUN_00761ab4
+  -> FUN_00763ee4
+  -> FUN_00764e80
+  -> __assert2
+  -> ui_bool_imgui_ismousereleased_imguimousebutton
+  -> ui_bool_imgui_tablesetcolumnindex_int
+  -> ui_column_n_1_column_n_table_columnscount
+  -> ui_window_idstack_size_1
+0076532c ui_column_n_1_column_n_table_columnscount
+  -> FUN_006f9378
+  -> FUN_006f9764
+  -> FUN_006fd304
+  -> FUN_006fd4b0
+  -> FUN_006fdd7c
+  -> FUN_006fddc4
+  -> FUN_006fe644
+  -> FUN_006fe7ec
+  -> FUN_006ff040
+  -> FUN_00701878
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_0071a72c
+  -> FUN_00758874
+  -> FUN_007648d8
+  -> FUN_007649d4
+  -> FUN_00768bd8
+  -> FUN_00769c88
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> ui_bool_imgui_ismousedragging_imguimousebutton
+  -> ui_bool_imgui_ismousereleased_imguimousebutton
+  -> ui_getcurrentwindowread_flags_imguiwindowflags_3
+  -> ui_void_imgui_tablesetbgcolor
+  -> ui_void_imvector_imguicolormod_pop_back
+0076751c FUN_0076751c
+0076758c ui_column_index_columns_columns_size
+  -> __assert2
+00767634 ui_i_0_i_size_5
+  -> FUN_0071146c
+  -> __assert2
+00768308 ui_column_index_columns_columns_size_2
+  -> FUN_00719280
+  -> FUN_0074f018
+  -> __assert2
+  -> ui_t_imvector_float_back_2
+00768aec ui_void_imgui_columns_int_const_char_bool
+  -> FUN_00767cf0
+  -> FUN_007685dc
+  -> __assert2
+007691c8 FUN_007691c8
+  -> FUN_00768e60
+007691d0 FUN_007691d0
+  -> FUN_006f9610
+  -> FUN_00768e60
+  -> __stack_chk_fail
+00769328 FUN_00769328
+  -> FUN_006f9610
+  -> FUN_006fd650
+  -> FUN_00768e60
+  -> __stack_chk_fail
+  -> ui_void_imvector_imguicolormod_pop_back
+007694cc FUN_007694cc
+  -> FUN_006f9610
+  -> FUN_006fd650
+  -> FUN_00768e60
+  -> __stack_chk_fail
+  -> ui_void_imvector_imguicolormod_pop_back
+00769684 FUN_00769684
+  -> FUN_0076971c
+  -> __stack_chk_fail
+00769820 FUN_00769820
+  -> FUN_007698b4
+  -> __stack_chk_fail
+00769a70 FUN_00769a70
+  -> FUN_00769b08
+  -> __stack_chk_fail
+0076a5c8 FUN_0076a5c8
+  -> FUN_0076a3b4
+0076a5d0 FUN_0076a5d0
+  -> FUN_0076a3b4
+  -> __stack_chk_fail
+0076a644 ui_size_arg_x_0_0f_size_arg_y_0_0f
+  -> FUN_00701878
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_007197c8
+  -> FUN_00769c88
+  -> __assert2
+  -> __stack_chk_fail
+0076a950 FUN_0076a950
+  -> FUN_00719894
+  -> FUN_0076a78c
+0076b44c FUN_0076b44c
+  -> FUN_006fd3bc
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_0074c338
+  -> FUN_0074dca8
+  -> __stack_chk_fail
+0076b80c FUN_0076b80c
+  -> FUN_00701878
+  -> FUN_0076b5e8
+0076b9f4 FUN_0076b9f4
+  -> FUN_006fd304
+  -> FUN_006fddc4
+  -> FUN_006fdf84
+  -> FUN_006fe644
+  -> FUN_006febf8
+  -> FUN_006ff040
+  -> FUN_00701878
+  -> FUN_00702720
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_00719894
+  -> FUN_0074c408
+  -> FUN_00758aa4
+  -> FUN_00769c88
+  -> __stack_chk_fail
+0076bd14 FUN_0076bd14
+  -> FUN_0076b9f4
+  -> __stack_chk_fail
+0076c054 FUN_0076c054
+  -> FUN_006fd304
+  -> FUN_006fddc4
+  -> FUN_006fdf84
+  -> FUN_006fe644
+  -> FUN_006ff040
+  -> FUN_00701878
+  -> FUN_00702720
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_00719894
+  -> FUN_007492ac
+  -> FUN_0074cf38
+  -> FUN_0074d018
+  -> FUN_00769c88
+  -> __stack_chk_fail
+0076c388 FUN_0076c388
+  -> FUN_0076c054
+0076c3c4 FUN_0076c3c4
+  -> FUN_006f9378
+  -> FUN_006fd304
+  -> FUN_006fe644
+  -> FUN_006fe714
+  -> FUN_006febf8
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_0071970c
+  -> FUN_007197c8
+  -> FUN_00758d90
+  -> __stack_chk_fail
+0076c61c FUN_0076c61c
+  -> FUN_006fd304
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_00719010
+  -> FUN_007589f0
+  -> __stack_chk_fail
+0076c754 FUN_0076c754
+  -> FUN_00711a18
+  -> __stack_chk_fail
+0076c7c4 FUN_0076c7c4
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> __stack_chk_fail
+0076c858 FUN_0076c858
+  -> FUN_00711a18
+  -> __stack_chk_fail
+0076c8fc FUN_0076c8fc
+0076cc78 FUN_0076cc78
+  -> FUN_0076c950
+0076cf8c FUN_0076cf8c
+  -> FUN_006fdd7c
+  -> FUN_0076ccac
+0076d5f0 ui_preview_value_null_preview_value_0
+  -> FUN_006f9764
+  -> FUN_006fd304
+  -> FUN_006fddc4
+  -> FUN_006fe644
+  -> FUN_006fe714
+  -> FUN_006fee30
+  -> FUN_006ff040
+  -> FUN_00701878
+  -> FUN_00703a88
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_0071970c
+  -> FUN_00719894
+  -> FUN_0071a72c
+  -> FUN_0071e2cc
+  -> FUN_0074c408
+  -> FUN_00758874
+  -> FUN_00769c88
+  -> FUN_0076da50
+  -> __assert2
+  -> __stack_chk_fail
+0076dd10 ui_window_flags_imguiwindowflags_popup
+0076df10 misc_unknown_item
+  -> FUN_00702720
+  -> FUN_00715064
+  -> FUN_007161d8
+  -> FUN_0076e0f0
+  -> __stack_chk_fail
+  -> ui_preview_value_null_preview_value_0
+  -> ui_void_imgui_navupdateanyrequestflag
+  -> ui_window_flags_imguiwindowflags_popup
+  -> ui_window_idstack_size_1
+0076e0f0 FUN_0076e0f0
+  -> FUN_006fd304
+  -> FUN_006fe644
+  -> FUN_006fe714
+  -> FUN_006febf8
+  -> FUN_006ff040
+  -> FUN_00701878
+  -> FUN_00702720
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_0071435c
+  -> FUN_0071c4bc
+  -> FUN_007646d8
+  -> FUN_00764748
+  -> FUN_007679ac
+  -> FUN_00767a18
+  -> FUN_00769c88
+  -> __stack_chk_fail
+  -> ui_i_0_i_size_4
+  -> ui_void_imvector_int_pop_back
+0076e540 FUN_0076e540
+  -> FUN_00702720
+  -> FUN_00715064
+  -> FUN_007161d8
+  -> FUN_0076e0f0
+  -> __stack_chk_fail
+  -> ui_preview_value_null_preview_value_0
+  -> ui_void_imgui_navupdateanyrequestflag
+  -> ui_window_flags_imguiwindowflags_popup
+  -> ui_window_idstack_size_1
+0076e6f8 FUN_0076e6f8
+  -> misc_unknown_item
+  -> strlen
+0076fa84 ui_data_type_0_data_type_imguidatatype_count
+  -> FUN_006fd304
+  -> FUN_006fddc4
+  -> FUN_006fe644
+  -> FUN_006fe714
+  -> FUN_006febf8
+  -> FUN_006ff040
+  -> FUN_00701878
+  -> FUN_00702520
+  -> FUN_00702720
+  -> FUN_00702adc
+  -> FUN_007032cc
+  -> FUN_00709f78
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_00717570
+  -> FUN_00717ae8
+  -> FUN_00717d74
+  -> FUN_0071970c
+  -> FUN_0071c568
+  -> FUN_0071e2cc
+  -> FUN_0076e824
+  -> FUN_0076f118
+  -> FUN_0076f4c8
+  -> FUN_0076ffdc
+  -> __assert2
+  -> __stack_chk_fail
+00770548 FUN_00770548
+  -> __stack_chk_fail
+  -> ui_data_type_0_data_type_imguidatatype_count
+007705ac FUN_007705ac
+  -> FUN_00770370
+  -> __stack_chk_fail
+00770614 FUN_00770614
+  -> FUN_00770370
+  -> __stack_chk_fail
+0077067c FUN_0077067c
+  -> FUN_00770370
+  -> __stack_chk_fail
+007706e4 FUN_007706e4
+  -> FUN_006fdd7c
+  -> FUN_00719010
+  -> FUN_007193a4
+  -> FUN_0071970c
+  -> FUN_00768e60
+  -> __stack_chk_fail
+  -> ui_data_type_0_data_type_imguidatatype_count
+  -> ui_group_data_windowid_window_id
+  -> ui_t_imvector_float_back_2
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_unsigned_int_back_2
+  -> ui_window_idstack_size_1
+007708b4 FUN_007708b4
+  -> __stack_chk_fail
+  -> ui_data_type_0_data_type_imguidatatype_count
+0077091c FUN_0077091c
+  -> FUN_00770370
+  -> __stack_chk_fail
+00770988 FUN_00770988
+  -> FUN_00770370
+  -> __stack_chk_fail
+007709f4 FUN_007709f4
+  -> FUN_00770370
+  -> __stack_chk_fail
+00770a60 FUN_00770a60
+  -> FUN_006fdd7c
+  -> FUN_00719010
+  -> FUN_007193a4
+  -> FUN_0071970c
+  -> FUN_00768e60
+  -> __stack_chk_fail
+  -> ui_data_type_0_data_type_imguidatatype_count
+  -> ui_group_data_windowid_window_id
+  -> ui_t_imvector_float_back_2
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_unsigned_int_back_2
+  -> ui_window_idstack_size_1
+007710f0 ui_data_type_0_data_type_imguidatatype_count_2
+  -> FUN_006fd304
+  -> FUN_006fddc4
+  -> FUN_006fe644
+  -> FUN_006fe714
+  -> FUN_006febf8
+  -> FUN_006ff040
+  -> FUN_00701878
+  -> FUN_00702520
+  -> FUN_00702720
+  -> FUN_00702adc
+  -> FUN_007032cc
+  -> FUN_00709f78
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_00717ae8
+  -> FUN_0071970c
+  -> FUN_0071c568
+  -> FUN_0071e2cc
+  -> FUN_0074c408
+  -> FUN_0076e824
+  -> FUN_0076ffdc
+  -> FUN_00770c20
+  -> __assert2
+  -> __stack_chk_fail
+00771770 FUN_00771770
+  -> __stack_chk_fail
+  -> ui_data_type_0_data_type_imguidatatype_count_2
+007717d4 FUN_007717d4
+  -> FUN_007715ac
+  -> __stack_chk_fail
+0077183c FUN_0077183c
+  -> FUN_007715ac
+  -> __stack_chk_fail
+007718a4 FUN_007718a4
+  -> FUN_007715ac
+  -> __stack_chk_fail
+0077190c FUN_0077190c
+  -> __stack_chk_fail
+  -> ui_data_type_0_data_type_imguidatatype_count_2
+007719bc FUN_007719bc
+  -> __stack_chk_fail
+  -> ui_data_type_0_data_type_imguidatatype_count_2
+00771a24 FUN_00771a24
+  -> FUN_007715ac
+  -> __stack_chk_fail
+00771a90 FUN_00771a90
+  -> FUN_007715ac
+  -> __stack_chk_fail
+00771afc FUN_00771afc
+  -> FUN_007715ac
+  -> __stack_chk_fail
+00771ef0 FUN_00771ef0
+  -> FUN_00771b68
+  -> __stack_chk_fail
+00771f54 FUN_00771f54
+  -> FUN_00771b68
+  -> __stack_chk_fail
+007751f4 ui_flags_imguiinputtextflags_multiline
+  -> FUN_006fb09c
+  -> FUN_006fdd7c
+  -> FUN_00702720
+  -> FUN_0071435c
+  -> FUN_00719010
+  -> FUN_0071970c
+  -> FUN_00719894
+  -> FUN_00768e60
+  -> FUN_0076a3b4
+  -> FUN_0076e824
+  -> FUN_0076e900
+  -> FUN_0076ed94
+  -> FUN_0077249c
+  -> __assert2
+  -> __stack_chk_fail
+  -> strlen
+  -> ui_group_data_windowid_window_id
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_unsigned_int_back_2
+  -> ui_void_imvector_int_pop_back
+  -> ui_window_idstack_size_1
+0077559c ui_flags_imguiinputtextflags_multiline_2
+  -> FUN_0077249c
+  -> __assert2
+  -> __stack_chk_fail
+007757fc FUN_007757fc
+  -> __stack_chk_fail
+  -> ui_flags_imguiinputtextflags_multiline
+00775874 FUN_00775874
+  -> FUN_00775638
+00775894 FUN_00775894
+  -> FUN_00775638
+007758b4 FUN_007758b4
+  -> FUN_00775638
+007758d4 FUN_007758d4
+  -> __stack_chk_fail
+  -> ui_flags_imguiinputtextflags_multiline
+00775964 FUN_00775964
+  -> FUN_00775638
+00775988 FUN_00775988
+  -> FUN_00775638
+007759ac FUN_007759ac
+  -> FUN_00775638
+007759d0 FUN_007759d0
+  -> __stack_chk_fail
+  -> ui_flags_imguiinputtextflags_multiline
+00775a48 FUN_00775a48
+  -> FUN_0077249c
+00775a6c ui_flags_imguiinputtextflags_multiline_3
+  -> FUN_0077249c
+  -> __assert2
+  -> __stack_chk_fail
+00777f24 FUN_00777f24
+  -> ui_context
+00777f2c ui_context
+  -> FUN_006f9378
+  -> FUN_006f9ee4
+  -> FUN_006f9f7c
+  -> FUN_006f9ffc
+  -> FUN_006fb09c
+  -> FUN_006fdd7c
+  -> FUN_006fe644
+  -> FUN_00702720
+  -> FUN_00711a18
+  -> FUN_00719010
+  -> FUN_0071970c
+  -> FUN_00719894
+  -> FUN_00768e60
+  -> FUN_0077249c
+  -> FUN_00778b18
+  -> __assert2
+  -> __stack_chk_fail
+  -> memcpy
+  -> misc_col4f
+  -> sscanf
+  -> ui_bool_imgui_begindragdroptarget
+  -> ui_bool_imgui_ismousereleased_imguimousebutton_2
+  -> ui_cond_0_imispoweroftwo_cond
+  -> ui_data_type_0_data_type_imguidatatype_count
+  -> ui_g_dragdropactive_2
+  -> ui_g_dragdropwithintarget
+  -> ui_group_data_windowid_window_id
+  -> ui_original
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_unsigned_int_back_2
+  -> ui_t_imvector_unsigned_int_back_5
+  -> ui_t_imvector_unsigned_int_back_6
+  -> ui_window_flags_imguiwindowflags_popup
+  -> ui_window_idstack_size_1
+00778eb8 misc_col4f
+  -> FUN_006f9ffc
+  -> FUN_006fd304
+  -> FUN_006fd3bc
+  -> FUN_006fee30
+  -> FUN_006ff040
+  -> FUN_00701878
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_00719010
+  -> FUN_00719894
+  -> FUN_0074c338
+  -> FUN_0074c408
+  -> FUN_00759894
+  -> FUN_00768e60
+  -> FUN_00769c88
+  -> FUN_0077ae68
+  -> __stack_chk_fail
+  -> misc_col4f
+  -> ui_bool_imgui_begindragdropsource
+  -> ui_bool_imgui_isitemhovered_imguihoveredflags
+  -> ui_cond_imguicond_always_cond_imguicond_once
+  -> ui_g_dragdropactive
+0077932c ui_original
+  -> FUN_006f8be0
+  -> FUN_006f8c74
+  -> FUN_006f8cdc
+  -> FUN_006f9ee4
+  -> FUN_006f9f7c
+  -> FUN_006f9ffc
+  -> FUN_006fdd7c
+  -> FUN_006fee30
+  -> FUN_00702720
+  -> FUN_00710e20
+  -> FUN_007141ac
+  -> FUN_00714304
+  -> FUN_007151cc
+  -> FUN_00719010
+  -> FUN_007190b0
+  -> FUN_00719280
+  -> FUN_0071970c
+  -> FUN_00719894
+  -> FUN_007492ac
+  -> FUN_00749614
+  -> FUN_00749aac
+  -> FUN_0074ae44
+  -> FUN_0074c540
+  -> FUN_0074cb6c
+  -> FUN_0074cf38
+  -> FUN_0074d018
+  -> FUN_0074f73c
+  -> FUN_00758ccc
+  -> FUN_00759894
+  -> FUN_00768e60
+  -> FUN_007691d0
+  -> FUN_0077ab98
+  -> __assert2
+  -> __stack_chk_fail
+  -> atan2f
+  -> memcmp
+  -> memcpy
+  -> misc_col4f
+  -> sincosf
+  -> ui_bool_imgui_ismousereleased_imguimousebutton_2
+  -> ui_context
+  -> ui_group_data_windowid_window_id
+  -> ui_size_arg_x_0_0f_size_arg_y_0_0f
+  -> ui_t_imvector_float_back_2
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_unsigned_int_back_2
+  -> ui_window_idstack_size_1
+0077ab14 FUN_0077ab14
+  -> __stack_chk_fail
+  -> ui_original
+0077b0c8 ui_void_imgui_setcoloreditoptions
+  -> __assert2
+0077b390 FUN_0077b390
+  -> FUN_006f9610
+  -> FUN_00701e9c
+  -> FUN_0077b590
+  -> __stack_chk_fail
+0077b52c FUN_0077b52c
+  -> FUN_00701878
+  -> FUN_0077b590
+0077be20 FUN_0077be20
+  -> FUN_00701878
+  -> FUN_0077b590
+0077bf80 FUN_0077bf80
+  -> FUN_006f9610
+  -> FUN_00701e9c
+  -> FUN_0077b590
+  -> __stack_chk_fail
+0077c268 ui_t_imvector_unsigned_int_back_9
+  -> FUN_00711104
+  -> FUN_0071923c
+  -> FUN_0071c4bc
+  -> FUN_0071c72c
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_window_idstack_size_1
+0077c3cc FUN_0077c3cc
+0077c3ec FUN_0077c3ec
+0077c42c FUN_0077c42c
+  -> FUN_00701878
+  -> FUN_0077b590
+0077c498 misc_close_2
+  -> FUN_00701878
+  -> FUN_007163fc
+  -> FUN_0076a984
+  -> FUN_0077b590
+  -> __stack_chk_fail
+0077c60c FUN_0077c60c
+  -> FUN_0076e0f0
+0077c644 FUN_0077c644
+  -> FUN_006fddc4
+  -> FUN_006fe644
+  -> FUN_00711a18
+  -> FUN_00711b34
+  -> FUN_0071677c
+  -> FUN_0071970c
+  -> FUN_007197c8
+  -> FUN_0071987c
+  -> __stack_chk_fail
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_unsigned_int_back_3
+  -> ui_void_imvector_imguicolormod_pop_back_2
+0077c874 ui_void_imgui_endlistbox
+  -> __assert2
+  -> ui_group_data_windowid_window_id
+  -> ui_window_flags_imguiwindowflags_childwindow
+0077c8c0 FUN_0077c8c0
+  -> FUN_0077c8d8
+0077d248 FUN_0077d248
+  -> FUN_0077caf0
+  -> __stack_chk_fail
+0077d2d8 FUN_0077d2d8
+  -> FUN_0077caf0
+  -> __stack_chk_fail
+0077d340 FUN_0077d340
+  -> FUN_0077caf0
+  -> __stack_chk_fail
+0077d3bc FUN_0077d3bc
+  -> FUN_0077caf0
+  -> __stack_chk_fail
+0077d6fc ui_window_dc_menubarappending
+  -> __assert2
+  -> __stack_chk_fail
+  -> ui_t_imvector_imguigroupdata_back
+  -> ui_t_imvector_imvec4_back
+  -> ui_t_imvector_unsigned_int_back_2
+0077d944 ui_window_dc_menubarappending_2
+  -> FUN_007032cc
+  -> FUN_0071c4bc
+  -> FUN_0071c72c
+  -> FUN_0071c764
+  -> __assert2
+  -> ui_group_data_windowid_window_id
+  -> ui_t_imvector_imvec4_back_2
+  -> ui_window_idstack_size_1
+0077dcf4 misc_mainmenubar
+  -> FUN_00719894
+  -> FUN_0077db04
+  -> ui_i_0_i_size_3
+  -> ui_window_dc_issetpos
+  -> ui_window_dc_menubarappending
+0077dd90 FUN_0077dd90
+  -> FUN_0070a0e8
+  -> ui_window_dc_issetpos
+  -> ui_window_dc_menubarappending_2
+0077e77c FUN_0077e77c
+  -> FUN_0077ddec
+0077e788 ui_window_flags_imguiwindowflags_popup_2
+  -> FUN_00711104
+  -> FUN_0071ab7c
+  -> FUN_0071c72c
+  -> __assert2
+  -> ui_window_flags_imguiwindowflags_popup
+0077ed28 FUN_0077ed28
+  -> FUN_0077e83c
+0077ed3c FUN_0077ed3c
+  -> FUN_0077e83c
+0077edd8 ui_t_imvector_imguitabbar_operator_int
+  -> FUN_006fa2d4
+  -> FUN_00701878
+  -> FUN_0077ef30
+  -> FUN_0078add0
+  -> __assert2
+  -> __stack_chk_fail
+0077f21c ui_t_imvector_imguitabbar_operator_int_2
+  -> FUN_0077f3b4
+  -> __assert2
+  -> ui_window_idstack_size_1
+00780afc ui_flags_imguitabitemflags_button
+  -> FUN_007162e0
+  -> FUN_00780bf4
+  -> __assert2
+007815c0 ui_tab_bar_lasttabitemidx_0
+  -> __assert2
+  -> ui_window_idstack_size_1
+00781684 ui_bool_imgui_tabitembutton_const_char
+  -> FUN_00780bf4
+  -> __assert2
+00781e74 FUN_00781e74
+  -> FUN_00701878
+0078b0bc FUN_0078b0bc
+0078b0d8 FUN_0078b0d8
+  -> FUN_00571400
+  -> FUN_0057140c
+  -> FUN_00796b10
+0078b588 FUN_0078b588
+0078bf70 FUN_0078bf70
+0078c54c FUN_0078c54c
+  -> FUN_00571400
+  -> FUN_0057140c
+0078c5c8 FUN_0078c5c8
+  -> FUN_00571400
+  -> FUN_0057140c
+0078c608 FUN_0078c608
+  -> FUN_00571400
+  -> FUN_0057140c
+  -> FUN_00797ad4
+  -> FUN_007ade7c
+  -> FUN_007ae104
+0078c6a0 FUN_0078c6a0
+  -> FUN_00571400
+  -> FUN_0057140c
+  -> FUN_00797ad4
+  -> FUN_007ae104
+0078c890 FUN_0078c890
+  -> FUN_00571400
+  -> FUN_0057140c
+  -> FUN_007967b4
+  -> FUN_00797ad4
+0078c960 FUN_0078c960
+  -> FUN_00571400
+  -> FUN_0057140c
+0078ca34 FUN_0078ca34
+  -> FUN_00571400
+  -> FUN_0057140c
+  -> FUN_007ae104
+  -> FUN_007b2bf0
+  -> FUN_007b73c4
+0078d13c FUN_0078d13c
+  -> FUN_00571400
+  -> FUN_0057140c
+  -> FUN_00797ad4
+  -> FUN_007b240c
+  -> FUN_007b29e8
+0078d6b0 FUN_0078d6b0
+  -> FUN_00571400
+  -> FUN_0078d474
+0078de1c FUN_0078de1c
+  -> FUN_00571400
+  -> FUN_0057140c
+  -> FUN_00794e7c
+  -> FUN_00794f3c
+0078dec0 FUN_0078dec0
+  -> FUN_00571400
+  -> FUN_0057140c
+  -> FUN_00794e7c
+  -> FUN_007954fc
+  -> __stack_chk_fail
+0078ea10 FUN_0078ea10
+  -> FUN_00571400
+  -> FUN_0057140c
+  -> FUN_00797ad4
+  -> FUN_007ae1c0
+0078f858 FUN_0078f858
+  -> FUN_0078c720
+  -> FUN_0078c7b4
+  -> FUN_0078e658
+  -> FUN_0078e7fc
+  -> FUN_00791c78
+  -> FUN_007920c8
+  -> __stack_chk_fail
+0078fdf0 misc_name
+  -> FUN_0078b0d8
+  -> FUN_0078b4bc
+  -> FUN_0078c6a0
+  -> FUN_0078cc30
+  -> FUN_0078d13c
+  -> FUN_0078d6b0
+0078fe8c FUN_0078fe8c
+  -> FUN_0078cc30
+  -> FUN_0078db7c
+0078ff4c FUN_0078ff4c
+  -> FUN_0078b0d8
+  -> FUN_0078b93c
+  -> FUN_0078c2cc
+  -> FUN_0078cc30
+  -> FUN_0078d1cc
+  -> FUN_0078faa4
+00790198 FUN_00790198
+  -> FUN_0078b648
+  -> FUN_0078c014
+  -> FUN_0078faa4
+00790430 FUN_00790430
+  -> FUN_0078be58
+  -> FUN_007904a8
+  -> __stack_chk_fail
+00791224 misc_too_many_upvalues
+  -> FUN_0078af30
+  -> FUN_0078b0d8
+  -> FUN_0078b4bc
+  -> FUN_0078c890
+  -> FUN_0078c960
+  -> FUN_0078d6b0
+  -> FUN_0078f858
+00791c78 FUN_00791c78
+  -> FUN_00571400
+  -> FUN_0057140c
+007920c8 FUN_007920c8
+  -> FUN_00571400
+  -> FUN_0057140c
+  -> FUN_00792c3c
+  -> FUN_007a1b94
+  -> FUN_007b2864
+  -> FUN_007b29e8
+  -> __stack_chk_fail
+  -> strchr
+00795370 FUN_00795370
+009b29a0 misc_rsa_set_ctx_params
+  -> ERR_new
+  -> ERR_set_debug
+  -> ERR_set_error
+  -> EVP_MD_get_size
+  -> OSSL_PARAM_get_int
+  -> OSSL_PARAM_get_utf8_string
+  -> OSSL_PARAM_locate_const
+  -> RSA_test_flags
+  -> atoi
+  -> misc_rsa_check_padding
+  -> misc_rsa_setup_md
+  -> misc_rsa_setup_mgf1_md
+  -> strcmp
+009b3a3c misc_rsa_setup_mgf1_md
+  -> ERR_new
+  -> ERR_set_debug
+  -> ERR_set_error
+  -> EVP_MD_fetch
+  -> EVP_MD_free
+  -> OPENSSL_strlcpy
+  -> misc_rsa_check_padding
+  -> ossl_digest_rsa_sign_get_md_nid
+009b3ba4 misc_rsa_setup_md
+  -> ERR_new
+  -> ERR_set_debug
+  -> ERR_set_error
+  -> EVP_MD_CTX_free
+  -> EVP_MD_fetch
+  -> EVP_MD_free
+  -> EVP_MD_is_a
+  -> EVP_MD_up_ref
+  -> EVP_MD_xof
+  -> OPENSSL_strlcpy
+  -> misc_rsa_check_padding
+  -> ossl_digest_rsa_sign_get_md_nid
+  -> strlen
+009b3de0 misc_rsa_check_padding
+  -> ERR_new
+  -> ERR_set_debug
+  -> ERR_set_error
+  -> EVP_MD_is_a
+  -> RSA_X931_hash_id
+009c6750 FUN_009c6750
+  -> FUN_009c67ec
+009f7d64 FUN_009f7d64
+00a23d68 misc_ws_auto_respond_to_ping_with_a_pong
+  -> FUN_009c6750
+  -> memcpy
+  -> misc_buffered
+00a24060 misc_buffered
+  -> FUN_009c0edc
+  -> FUN_009c0f60
+  -> FUN_009c65a0
+  -> FUN_009c6750
+  -> FUN_009c6fc8
+  -> FUN_009e4778
+  -> FUN_009e47a4
+  -> FUN_009e47c4
+  -> FUN_009e4808
+  -> FUN_009f0ab0
+  -> FUN_00a06c10
+  -> FUN_00a249d4
+  -> FUN_00a24f98
+00a24eb0 misc_ws_auto_respond_to_ping_with_a_pong_2
+  -> FUN_009c6750
+  -> FUN_009f7d64
+  -> misc_buffered
+00ac74f0 misc_automatic
+  -> OPENSSL_strcasecmp
+  -> SSL_CTX_ctrl
+  -> SSL_ctrl
+  -> strchr
+  -> strcmp
+00b2dfa0 FUN_00b2dfa0
+  -> memcmp
+00b2ea84 FUN_00b2ea84
+00b2ebc4 misc_wchar_t
+  -> FUN_00b2dfa0
+  -> FUN_00b2ea84
+  -> FUN_00b30f94
+  -> FUN_00b32464
+  -> FUN_00b32510
+  -> FUN_00b327a0
+  -> FUN_00b32910
+  -> FUN_00b32ddc
+  -> FUN_00b32e84
+  -> FUN_00b33bb4
+  -> FUN_00b33d28
+  -> FUN_00b374f8
+  -> FUN_00b3a848
+  -> FUN_00b3c838
+  -> FUN_00b41804
+  -> FUN_00b42d20
+  -> FUN_00b430f8
+  -> FUN_00b431a4
+  -> FUN_00b43250
+  -> FUN_00b432fc
+  -> FUN_00b433a8
+  -> FUN_00b43454
+  -> FUN_00b43500
+  -> FUN_00b435ac
+  -> FUN_00b43658
+  -> FUN_00b436f8
+  -> FUN_00b437a4
+  -> FUN_00b43850
+  -> FUN_00b438fc
+  -> FUN_00b439a8
+  -> FUN_00b43a54
+  -> FUN_00b43b00
+  -> FUN_00b43db4
+  -> FUN_00b43f00
+  -> FUN_00b43fac
+  -> FUN_00b458b8
+  -> FUN_00b462f0
+  -> abort
+  -> malloc
+  -> memmove
+  -> misc_complex
+  -> misc_decltype
+  -> misc_imaginary
+  -> misc_noexcept
+  -> misc_string_literal
+  -> misc_throw
+  -> misc_wchar_t
+  -> realloc
+  -> terminate
+00b3053c misc_string_literal
+  -> FUN_00b2e000
+  -> FUN_00b2ea84
+  -> FUN_00b30378
+  -> FUN_00b31264
+  -> FUN_00b327a0
+  -> FUN_00b32910
+  -> FUN_00b32e84
+  -> FUN_00b3337c
+  -> FUN_00b33650
+  -> FUN_00b41754
+  -> FUN_00b41804
+  -> FUN_00b418b0
+  -> abort
+  -> malloc
+  -> memmove
+  -> misc_decltype
+  -> misc_string_literal
+  -> realloc
+  -> terminate
+00b30f94 FUN_00b30f94
+  -> abort
+  -> malloc
+  -> memmove
+  -> realloc
+00b32464 FUN_00b32464
+  -> malloc
+  -> strlen
+  -> terminate
+00b32510 FUN_00b32510
+  -> malloc
+  -> terminate
+00b327a0 FUN_00b327a0
+  -> FUN_00b3337c
+  -> FUN_00b33650
+  -> malloc
+  -> terminate
+00b32910 FUN_00b32910
+  -> FUN_00b30c5c
+  -> FUN_00b31108
+  -> abort
+  -> malloc
+  -> memmove
+  -> misc_throw
+  -> realloc
+  -> terminate
+00b32ddc FUN_00b32ddc
+  -> malloc
+  -> terminate
+00b32e84 FUN_00b32e84
+  -> FUN_00b33c54
+  -> FUN_00b33d28
+  -> abort
+  -> malloc
+  -> memmove
+  -> realloc
+  -> terminate
+00b3324c misc_decltype
+  -> malloc
+  -> misc_throw
+  -> terminate
+00b33bb4 FUN_00b33bb4
+  -> malloc
+  -> terminate
+00b33d28 FUN_00b33d28
+  -> malloc
+  -> strlen
+  -> terminate
+00b34060 misc_throw
+  -> FUN_00b2be5c
+  -> FUN_00b2dfa0
+  -> FUN_00b30c5c
+  -> FUN_00b30f94
+  -> FUN_00b31108
+  -> FUN_00b32238
+  -> FUN_00b32e84
+  -> FUN_00b35408
+  -> FUN_00b354c8
+  -> FUN_00b35584
+  -> FUN_00b35650
+  -> FUN_00b3573c
+  -> FUN_00b35808
+  -> FUN_00b358c8
+  -> FUN_00b35990
+  -> FUN_00b35a58
+  -> FUN_00b363dc
+  -> FUN_00b367a0
+  -> FUN_00b369fc
+  -> FUN_00b36aa0
+  -> FUN_00b36c10
+  -> FUN_00b36cd0
+  -> FUN_00b371a0
+  -> FUN_00b374f8
+  -> FUN_00b37598
+  -> FUN_00b37638
+  -> FUN_00b376ec
+  -> FUN_00b37788
+  -> FUN_00b37834
+  -> FUN_00b378e0
+  -> FUN_00b37980
+  -> FUN_00b37fa8
+  -> FUN_00b3858c
+  -> abort
+  -> malloc
+  -> memmove
+  -> misc_throw
+  -> misc_unwind_resume
+  -> misc_wchar_t
+  -> realloc
+  -> strlen
+  -> terminate
+00b374f8 FUN_00b374f8
+  -> malloc
+  -> terminate
+00b3a848 FUN_00b3a848
+  -> malloc
+  -> strlen
+  -> terminate
+00b3c838 FUN_00b3c838
+  -> malloc
+  -> strlen
+  -> terminate
+00b41804 FUN_00b41804
+  -> malloc
+  -> strlen
+  -> terminate
+00b42780 misc_noexcept
+  -> FUN_00b31108
+  -> abort
+  -> malloc
+  -> memmove
+  -> misc_throw
+  -> misc_wchar_t
+  -> realloc
+  -> terminate
+00b42d20 FUN_00b42d20
+  -> FUN_00b32910
+  -> FUN_00b42d20
+  -> malloc
+  -> misc_wchar_t
+  -> terminate
+00b430f8 FUN_00b430f8
+  -> malloc
+  -> strlen
+  -> terminate
+00b431a4 FUN_00b431a4
+  -> malloc
+  -> strlen
+  -> terminate
+00b43250 FUN_00b43250
+  -> malloc
+  -> strlen
+  -> terminate
+00b432fc FUN_00b432fc
+  -> malloc
+  -> strlen
+  -> terminate
+00b433a8 FUN_00b433a8
+  -> malloc
+  -> strlen
+  -> terminate
+00b43454 FUN_00b43454
+  -> malloc
+  -> strlen
+  -> terminate
+00b43500 FUN_00b43500
+  -> malloc
+  -> strlen
+  -> terminate
+00b435ac FUN_00b435ac
+  -> malloc
+  -> terminate
+00b43658 FUN_00b43658
+  -> malloc
+  -> terminate
+00b436f8 FUN_00b436f8
+  -> malloc
+  -> strlen
+  -> terminate
+00b437a4 FUN_00b437a4
+  -> malloc
+  -> strlen
+  -> terminate
+00b43850 FUN_00b43850
+  -> malloc
+  -> strlen
+  -> terminate
+00b438fc FUN_00b438fc
+  -> malloc
+  -> strlen
+  -> terminate
+00b439a8 FUN_00b439a8
+  -> malloc
+  -> terminate
+00b43a54 FUN_00b43a54
+  -> malloc
+  -> terminate
+00b43b00 FUN_00b43b00
+  -> FUN_00b454e4
+  -> FUN_00b45584
+  -> malloc
+  -> misc_throw
+  -> misc_wchar_t
+  -> terminate
+00b43db4 FUN_00b43db4
+  -> malloc
+  -> misc_string_literal
+  -> terminate
+00b43f00 FUN_00b43f00
+  -> malloc
+  -> terminate
+00b43fac FUN_00b43fac
+  -> malloc
+  -> terminate
+00b44068 misc_complex
+  -> malloc
+  -> terminate
+00b44118 misc_imaginary
+  -> malloc
+  -> terminate
+00b458b8 FUN_00b458b8
+  -> malloc
+  -> terminate
+00b462f0 FUN_00b462f0
+  -> malloc
+  -> terminate
+00b49630 FUN_00b49630
+00b49690 FUN_00b49690
+00b496c0 FUN_00b496c0
+00b496f0 FUN_00b496f0
+00b49a70 misc_unwind_resume
+  -> FUN_00b49818
+  -> FUN_00b49af4
+  -> FUN_00b4d660
+  -> abort
+  -> fflush
+  -> fprintf
+00b4d850 __cxa_atexit
+  -> __cxa_atexit
+00b4d890 operator.new[]
+  -> operator.new[]
+00b4d8c0 operator.new
+  -> operator.new
+00b4d8d0 memmove
+  -> memmove
+00b4d8e0 operator.delete
+  -> operator.delete
+00b4d900 __android_log_print
+  -> __android_log_print
+00b4d930 close
+  -> close
+00b4d940 clear
+  -> clear
+00b4d950 ~basic_filebuf
+  -> ~basic_filebuf
+00b4d960 ~basic_ostream
+  -> ~basic_ostream
+00b4d970 ~basic_ios
+  -> ~basic_ios
+00b4d980 __stack_chk_fail
+  -> __stack_chk_fail
+00b4d9e0 terminate
+  -> terminate
+00b4da40 malloc
+  -> malloc
+00b4da50 memcpy
+  -> memcpy
+00b4da90 abort
+  -> abort
+00b4daa0 strlen
+  -> strlen
+00b4db30 memset
+  -> memset
+00b4db50 memcmp
+  -> memcmp
+00b4db70 __release_weak
+  -> __release_weak
+00b4db80 ~basic_istream
+  -> ~basic_istream
+00b4db90 __assert2
+  -> __assert2
+00b4dbc0 __cxa_guard_acquire
+  -> __cxa_guard_acquire
+00b4dbe0 __cxa_guard_release
+  -> __cxa_guard_release
+00b4dc50 append
+  -> append
+00b4dd00 append
+  -> append
+00b4dd50 to_string
+  -> to_string
+00b4ddd0 __emutls_get_address
+  -> __emutls_get_address
+00b4dde0 __cxa_thread_atexit
+  -> __cxa_thread_atexit
+00b4ddf0 fopen
+  -> fopen
+00b4de00 fclose
+  -> fclose
+00b4de10 fseek
+  -> fseek
+00b4de20 ftell
+  -> ftell
+00b4de30 fread
+  -> fread
+00b4de80 memchr
+  -> memchr
+00b4dea0 operator.delete[]
+  -> operator.delete[]
+00b4deb0 lock
+  -> lock
+00b4dec0 unlock
+  -> unlock
+00b4dfb0 __next_prime
+  -> __next_prime
+00b4dfe0 gettid
+  -> gettid
+00b4dff0 getpid
+  -> getpid
+00b4e010 atoi
+  -> atoi
+00b4e090 strcmp
+  -> strcmp
+00b4e410 sscanf
+  -> sscanf
+00b4e4f0 qsort
+  -> qsort
+00b4e500 fmodf
+  -> fmodf
+00b4e510 sprintf
+  -> sprintf
+00b4e520 sinf
+  -> sinf
+00b4e530 cosf
+  -> cosf
+00b4e540 snprintf
+  -> snprintf
+00b4e850 realloc
+  -> realloc
+00b4e890 strchr
+  -> strchr
+00b4f3e0 SSL_CTX_ctrl
+  -> SSL_CTX_ctrl
+00b4f570 SSL_ctrl
+  -> SSL_ctrl
+00b57e70 ERR_new
+  -> ERR_new
+00b57e80 ERR_set_debug
+  -> ERR_set_debug
+00b57e90 ERR_set_error
+  -> ERR_set_error
+00b592e0 EVP_MD_get_size
+  -> EVP_MD_get_size
+00b5b2c0 OPENSSL_strcasecmp
+  -> OPENSSL_strcasecmp
+00b5b730 OSSL_PARAM_get_int
+  -> OSSL_PARAM_get_int
+00b5b800 OSSL_PARAM_get_utf8_string
+  -> OSSL_PARAM_get_utf8_string
+00b5b830 OSSL_PARAM_locate_const
+  -> OSSL_PARAM_locate_const
+00b5e090 RSA_test_flags
+  -> RSA_test_flags

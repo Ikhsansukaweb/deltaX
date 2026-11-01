@@ -1,103 +1,113 @@
 # Native — `libPowerKuy.so`
 
-Hasil decompile `libPowerKuy.so` (deltaX, 12,183,712 B, arm64-v8a) pakai **Ghidra 11.4.2** headless, `AARCH64:LE:64:v8A`.
+Hasil decompile `libPowerKuy.so` (deltaX, 12,183,712 B, arm64-v8a, C++ / libc++ statis) pakai **Ghidra 11.4.2** headless, `AARCH64:LE:64:v8A`.
 
-Ini **bukan** source asli. Ini output decompiler (pseudocode C), tanpa nama variabel/fungsi asli, tanpa struct asli, tanpa komentar. Tidak akan compile apa adanya.
+**Pseudocode, bukan source asli.** Tidak compile. Tidak setara binary asli.
+
+## Layout
 
 ```
-src/            643 file .c (satu fungsi per file)
-src/_index.txt  peta alamat -> nama -> nama file
-scripts/        Ghidra script yang dipakai
+src/
+  _index.md              tabel semua fungsi: alamat, nama, grup, ukuran, jumlah caller/callee
+  _callgraph.txt         graf panggilan (addr nama -> callee)
+  scriptguard/           9 fungsi   ScriptGuard (dialog allow/block)
+  packet/                8 fungsi   wrapper baca/tulis packet
+  lua/                   4 fungsi   eksekusi Lua
+  items/                26 fungsi   parse items.dat, item list
+  overlay/             121 fungsi   ImGui, menu, render
+  game/                  3 fungsi   jembatan Growtopia
+  misc/                473 fungsi   sisanya (std, util, helper)
+  _module_<grup>.c      semua fungsi satu grup digabung, urut alamat
+```
+
+Tiap file `.c` punya header:
+
+```c
+/* ==========================================================================
+ * name    : pkt_read_packet
+ * address : 0x0058a1c4
+ * group   : packet
+ * size    : 412 bytes
+ * callers : pkt_handle_send, FUN_0059ab10, ...
+ * callees : memcpy, pkt_grow_buffer, ...
+ * strings :
+ *   - "Read: invalid offset"
+ *   - "Read: size exceeds packet limit"
+ * note    : Ghidra pseudocode, not original source
+ * ========================================================================== */
 ```
 
 ## Kenapa di repo ini
 
-Untuk dibaca dan dipelajari alur cheat-nya: cara hook, cara `SendPacket`/`RecvPacket`, cara `ScriptGuard`, cara baca `items.dat`, dan cara string versi Growtopia di-decode.
+Untuk dibaca: cara hook, wrapper packet, ScriptGuard, parse `items.dat`, decode string versi.
 
 ## State analisis
 
 | | |
 |---|---|
 | Total fungsi di binary | 30.800 |
-| Yang di-decompile | 643 |
-| Gagal | 1 |
-| Baris C | ~58.600 |
-| Symbol table | stripped (tanpa nama, tanpa DWARF) |
+| Di-decompile | 644 (643 ok, 1 gagal) |
+| Diberi nama bermakna dari string | 228 |
+| Masih `FUN_xxxxxxxx` | 416 |
+| Baris C | ~59.000 |
+| Symbol table | stripped, tanpa DWARF |
 
-Sisa ~30.100 fungsi **tidak** di-decompile karena stok library statis yang ikut di-link: OpenSSL 3 (QUIC, ML-DSA/SLH-DSA, AES), `libc++`, Lua 5.x, ImGui, format/toml/JSON parser. Bukan bagian cheat.
+Sisa ~30.156 fungsi tidak disentuh: OpenSSL 3, libc++, Lua 5.x, ImGui, JSON/TOML parser. Bukan bagian cheat.
 
-Yang di-decompile = 19 JNI export + semua fungsi yang menyentuh string penanda + satu level callee dari situ. Daftar string penanda ada di `scripts/DumpTargets.java` (`KEYS`).
+Cara memilih target: 19 JNI export + semua fungsi yang menyentuh string penanda + satu level callee. Daftar penanda ada di `scripts/Organize.java` (`collectTargets`).
 
-## Fungsi JNI yang terbongkar
+## Penamaan
 
-Export (`nm -D`) → file:
+`FUN_0058a1c4` → `pkt_read_packet` kalau fungsi itu merujuk string `"Read: invalid offset"`.
 
-| JNI export | File |
-|---|---|
-| `JNICall$Companion.notifyValueChanged` | `src/0054a620_*.c` |
-| `JavaForNative$Configuration.getJsonConfiguration` | `src/0054b200_*.c` |
-| `JavaForNative$Configuration.setJsonConfiguration` | `src/0054bf8c_*.c` |
-| `JavaForNative.getSafeGameVersion` | `src/0054cb28_*.c` |
-| `JavaForNative.getSupportedGameVersion` | `src/0054d034_*.c` |
-| `JavaForNative.isLtokenSpoofActive` | `src/0054cc4c_*.c` |
-| `JavaForNative.getItemsList` | `src/0054d238_*.c` |
-| `JavaForNative.getCurrentItem` | `src/0054d4dc_*.c` |
-| `JavaForNative.initialize` | `src/0054d6ec_*.c` |
-| `JavaForNative.shutdown` | `src/0054d678_*.c` |
-| `JavaForNative.onScriptGuardResult` | `src/00584110_*.c` |
-| `JavaForNative.getScriptGuardEntries` | `src/005844ec_*.c` |
-| `JavaForNative.removeScriptGuardEntry` | `src/005845bc_*.c` |
-| `JavaForNative.clearScriptGuardEntries` | `src/00584778_*.c` |
-| `LuaManager.Execute` | `src/00554984_*.c` |
-| `LuaManager.StopExecute` | `src/00554ba4_*.c` |
-| `Main.nativeOnKey` | `src/006f5360_*.c` |
-| `Main.nativeOnTouch` | `src/006f5478_*.c` |
-| `Main$PowerKuyRootRenderer.nativeSurfaceChanged` | `src/006f53ec_*.c` |
+Aturan lengkap di `scripts/Organize.java`:
+
+- prefix per grup: `sg_` `pkt_` `lua_` `itm_` `ui_` `gt_` `misc_`
+- kandidat string diberi skor: identifier polos +100, dotted API +110, snake_case +90, tag `[...]` +60, kalimat -25, path build -200, format string -150
+- 416 fungsi tetap `FUN_` karena tidak merujuk string apa pun yang layak
+
+Nama **bukan** nama asli. Ini tebakan dari isi fungsi. Kalau salah, salah; alamat tetap jadi rujukan pasti.
 
 ## Temuan penting
 
 ### String versi Growtopia di-obfuscate
 
-`getSupportedGameVersion` menyimpan string versi terenkripsi, dibuka lazily per-thread:
+`getSupportedGameVersion` (`lua_…`/`misc_…`, lihat `_index.md` cari `getSupportedGameVersion`) menyimpan versi terenkripsi, dibuka lazy per-thread:
 
 ```c
 *(undefined2 *)(puVar4 + 1) = 0x135;
-*puVar4                     = 0xa0133198;   // 4 byte acak
+*puVar4                     = 0xa0133198;
 ...
 *(byte *)(__s + 1) ^= 0x35;
 *__s ^= 0x91251fad;
 ```
 
-Hasil decode = `"5.61"`.
+Decode → `"5.61"`. Ini sebabnya patch string di offset `0x1fa535` saja dulu tidak cukup.
 
-Tambahan: juga ditemukan `= 0x135` (309) sebagai panjang/penanda.
+### ScriptGuard (`src/scriptguard/`)
 
-### ScriptGuard
-
-Fitur baru di 7.0.38. Fungsi saling berkaitan:
+Fitur baru di GrowLauncher 7.0.38:
 
 ```
-onScriptGuardResult          terima jawaban user (allow/block), lock mutex DAT_00ca8ae8
-getScriptGuardEntries        kirim daftar entry ke Java
-removeScriptGuardEntry       hapus satu entry
-clearScriptGuardEntries      kosongkan semua
+sg_...onScriptGuardResult      terima allow/block dari user, lock mutex DAT_00ca8ae8
+sg_...getScriptGuardEntries    kirim daftar entry ke Java
+sg_...removeScriptGuardEntry   hapus satu
+sg_...clearScriptGuardEntries  kosongkan semua
 ```
 
-String terkait: `/script_guard.json`, `script_guard_request`, `script_guard_cancel`, `[ScriptGuard] Drop blocked: not allowed by the user`, `[ScriptGuard] Trash blocked: not allowed by the user`, `[ScriptGuard] sendPacket called on the UI thread: denied, answer the dialog and run it again`.
+String: `/script_guard.json`, `script_guard_request`, `script_guard_cancel`, `[ScriptGuard] Drop blocked: not allowed by the user`, `[ScriptGuard] sendPacket called on the UI thread: denied, answer the dialog and run it again`.
 
-Artinya `sendPacket` dari Lua sekarang **diinterogasi UI** dulu — kalau dipanggil dari thread UI, request ditolak dan dialog muncul. Alur ini yang bikin script lama yang spam `sendPacket` berhenti.
+Efek: `sendPacket` dari Lua ditanya ke UI dulu. Dipanggil dari thread UI → ditolak, dialog muncul. Ini yang menghentikan script lama yang spam `sendPacket`.
 
-### Packet guard
+### Packet guard (`src/packet/`)
 
-String baru: `TankPacket`, `onsendpacketrawtype`, `Read: invalid offset`, `Read: null packet buffer`, `Read: size exceeds packet limit`, `Write: invalid offset`, `Write: null packet buffer`, `Write: size exceeds packet limit`, `SetOffset: offset out of range`.
-
-Jadi ada wrapper baca/tulis packet dengan bound check — hook sekarang lewat buffer terkelola, bukan pointer mentah.
+`TankPacket`, `onsendpacketrawtype`, `Read/Write: invalid offset`, `Read/Write: null packet buffer`, `Read/Write: size exceeds packet limit`, `SetOffset: offset out of range`. Hook sekarang lewat buffer terkelola dengan bound check, bukan pointer mentah.
 
 State baru: `saved_items`, `user_aliases`, `hash_mismatch_list`.
 
-### `items.dat`
+### `items.dat` (`src/items/`)
 
-`libPowerKuy.so` memuat item database sendiri dari assets, tidak lewat Growtopia:
+`libPowerKuy.so` memuat item DB sendiri dari assets:
 
 ```
 "items.dat"
@@ -105,16 +115,27 @@ State baru: `saved_items`, `user_aliases`, `hash_mismatch_list`.
 "Failed to load builtin items.dat"
 ```
 
-Fungsi: `FUN_005582e0`, `FUN_00558b04` (di `src/`). Ini yang dipakai `JavaForNative.getItemsList` / `getCurrentItem` untuk menu item picker.
+Dipakai `JavaForNative.getItemsList` / `getCurrentItem` untuk item picker.
 
-Catatan: kalau Growtopia macet di **"One moment, updating item data..."**, yang ditunggu bukan `items.dat` launcher — itu handshake `ItemDatabaseUpdated` di `libgrowtopia.so` (`EventMessages::ItemDatabaseUpdated`, `OnlineGameController::OnActivate`). Item DB datang dari server game, bukan dari file bundled.
+Kalau Growtopia macet di **"One moment, updating item data..."**, itu bukan `items.dat` launcher — itu handshake `ItemDatabaseUpdated` di `libgrowtopia.so` (`EventMessages::ItemDatabaseUpdated`, `OnlineGameController::OnActivate`). Item DB datang dari server game.
 
-## Batasan yang harus diakui
+## Batasan
 
-- Pseudocode, bukan source. Nama `FUN_xxx`, `DAT_xxx`, `local_xx`, `uVar` semua bikinan Ghidra.
-- Tanpa tipe asli. Struct jadi pointer aritmetika (`*(code **)(*param_1 + 0x538)`).
-- 1 fungsi gagal decompile (`_index.txt`, baris `FAIL`).
-- 30.157 fungsi tidak disentuh (lihat alasan di atas).
-- Fungsi yang cuma nyentuh string penanda secara tidak langsung bisa lolos.
-- Tidak ada verifikasi runtime: tidak ada yang dijalankan ulang dari source ini.
-- Binary asli tetap yang dipakai di APK. Source ini untuk dibaca, bukan untuk di-build ulang jadi `.so` yang setara.
+- Pseudocode. Nama `FUN_`/`DAT_`/`local_`/`uVar` bikinan Ghidra.
+- Tanpa tipe asli. Struct jadi aritmetika pointer: `(**(code **)(*param_1 + 0x538))(param_1, ...)`.
+- 416 fungsi tanpa nama bermakna. Rujuk lewat alamat di `_index.md`.
+- 1 fungsi gagal decompile (baris `FAIL` di `_callgraph.txt` tidak ada; cek `_index.md` total 643 dari 644).
+- 30.156 fungsi tidak dianalisis.
+- Fungsi yang menyentuh string penanda secara tidak langsung bisa lolos.
+- Tidak ada verifikasi runtime. Tidak ada yang dijalankan ulang dari source ini.
+- Binary asli di `lib/arm64-v8a/` tetap yang dipakai APK.
+
+## Ulang analisis
+
+```bash
+$GHIDRA/support/analyzeHeadless /tmp/proj pk \
+  -import libPowerKuy.so -processor AARCH64:LE:64:v8A \
+  -scriptPath scripts -postScript Organize.java /tmp/out powerkuy
+```
+
+Analisis penuh ~12 menit + ~1,5 GB RAM. Organize di project yang sudah ada: ganti `-import` dengan `-process libPowerKuy.so -noanalysis -readOnly`.
