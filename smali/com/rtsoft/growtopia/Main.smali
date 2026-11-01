@@ -1628,6 +1628,17 @@
     .line 250
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
+    # deltaX: hide the stock Compose mod menu, mount the Java one instead
+    const/16 v2, 0x8
+
+    invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
+
+    new-instance v1, LdeltaX/MenuOverlay;
+
+    invoke-direct {v1, p0}, LdeltaX/MenuOverlay;-><init>(Landroid/content/Context;)V
+
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
     .line 251
     .line 252
     .line 253

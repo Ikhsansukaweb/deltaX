@@ -353,7 +353,7 @@ public class Home extends Activity {
         hero.setOrientation(LinearLayout.VERTICAL);
         hero.setPadding(dp(16), dp(16), dp(16), dp(16));
         GradientDrawable g = new GradientDrawable(GradientDrawable.Orientation.TL_BR,
-                new int[]{0xFF8E0F1B, accent});
+                new int[]{shade(accent, 0.55f), accent});
         g.setCornerRadius(dp(20));
         hero.setBackground(g);
 
@@ -594,8 +594,8 @@ public class Home extends Activity {
         LinearLayout box = titledPage("deltaX Theme", "Pilih palet warna aksen aplikasi launcher.");
 
         box.addView(notice("Catatan Tema",
-                "Warna tema diterapkan ke seluruh komponen dan efektif sepenuhnya setelah "
-                        + "launcher dibuka ulang."));
+                "Warna tema langsung dipakai di seluruh halaman launcher. Overlay di dalam "
+                        + "game ikut menyesuaikan saat game dijalankan."));
         gap(box, 12);
 
         final int selected = readSelectedColor();
@@ -642,7 +642,7 @@ public class Home extends Activity {
                     public void onClick(View v) {
                         writeSelectedColor(color);
                         toast("Tema dipakai: " + name);
-                        showPage("theme");
+                        recreate();
                     }
                 });
 
@@ -1084,7 +1084,7 @@ public class Home extends Activity {
         b.setOrientation(LinearLayout.HORIZONTAL);
         b.setGravity(Gravity.CENTER);
         GradientDrawable g = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,
-                new int[]{RED2, accent});
+                new int[]{shade(accent, 0.62f), accent});
         g.setCornerRadius(dp(12));
         b.setBackground(g);
         b.setOnClickListener(l);
@@ -1200,6 +1200,14 @@ public class Home extends Activity {
         t.setLineSpacing(dp(3), 1f);
         t.setPadding(0, dp(4), 0, 0);
         return t;
+    }
+
+    /** Darken a color towards black by factor (0 = unchanged, 1 = black). */
+    private int shade(int color, float factor) {
+        int r = (int) (((color >> 16) & 0xFF) * (1 - factor));
+        int g = (int) (((color >> 8) & 0xFF) * (1 - factor));
+        int b = (int) ((color & 0xFF) * (1 - factor));
+        return 0xFF000000 | (r << 16) | (g << 8) | b;
     }
 
     private GradientDrawable round(int color, int radiusDp) {
@@ -1389,27 +1397,43 @@ public class Home extends Activity {
 
     private void ensureThemeDefaults() {
         JSONObject o = themeJson();
-        JSONArray list = o.optJSONArray("list_color");
-        if (list != null && list.length() > 0) return;
+        String[][] themes = {
+                {"deltaX Red (Default)", "0xFFE01B2E"},
+                {"Dark Crimson", "0xFFB3141F"},
+                {"Flame Ember", "0xFFFC7100"},
+                {"Neon Pink (Cute)", "0xFFFF1985"},
+                {"Toxic Ghost", "0xFF71FF19"},
+                {"Pitch Night", "0xFFFF3BFC"},
+                {"Blue Rose", "0xFF766BFF"}
+        };
         try {
-            list = new JSONArray();
-            String[][] themes = {
-                    {"deltaX Red (Default)", "0xFFE01B2E"},
-                    {"Dark Crimson", "0xFFB3141F"},
-                    {"Flame Ember", "0xFFFC7100"},
-                    {"Neon Pink (Cute)", "0xFFFF1985"},
-                    {"Slate Ghost", "0xFF71FF19"},
-                    {"Pitch Night", "0xFFFF3BFC"},
-                    {"Blue Rose", "0xFF766BFF"}
-            };
-            for (String[] t : themes) {
-                JSONObject e = new JSONObject();
-                e.put("name", t[0]);
-                e.put("hex", t[1]);
-                list.put(e);
+            JSONArray list = o.optJSONArray("list_color");
+            if (list == null) list = new JSONArray();
+
+            List<String> names = new ArrayList<String>();
+            for (int i = 0; i < list.length(); i++) {
+                JSONObject e = list.optJSONObject(i);
+                if (e != null) names.add(e.optString("name"));
             }
+
+            boolean changed = false;
+            for (int i = themes.length - 1; i >= 0; i--) {
+                if (names.contains(themes[i][0])) continue;
+                JSONObject e = new JSONObject();
+                e.put("name", themes[i][0]);
+                e.put("hex", themes[i][1]);
+                list.put(0, e);
+                changed = true;
+            }
+            if (list.length() == 0) return;
+
+            if (!o.has("selectedColor")) {
+                o.put("selectedColor", RED);
+                changed = true;
+            }
+            if (!changed) return;
+
             o.put("list_color", list);
-            if (!o.has("selectedColor")) o.put("selectedColor", RED);
             FileOutputStream os = new FileOutputStream(themeFile());
             os.write(o.toString().getBytes("UTF-8"));
             os.close();
