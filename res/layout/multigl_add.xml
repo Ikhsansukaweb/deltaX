@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff2d2d2d" android:padding="10.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="Name :" />
+    <EditText android:textColor="#ffffffff" android:id="@id/glname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPersonName" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password :" />
+    <EditText android:textColor="#ffffffff" android:id="@id/glpass" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPassword" />
+    <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/glok" android:background="#ff0edc00" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="Ok" android:backgroundTint="#ff127600" />
+    <Button android:textStyle="bold" android:textColor="#fffffdfd" android:id="@id/gldelete" android:background="#ff990000" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="DELETE" android:backgroundTint="#ff870000" />
+</LinearLayout>

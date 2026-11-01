@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main2" android:background="#ff3b3b3b" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/lua_rgb2" android:background="#ff23ff00" android:layout_width="fill_parent" android:layout_height="3.0dip" android:translationZ="2.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/luamanagerLinearLayout1" android:background="#ff232323" android:layout_width="fill_parent" android:layout_height="55.0dip" android:translationZ="1.0dip">
+            <ImageView android:id="@id/luamenu" android:background="@drawable/lua_buttton_normal" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/lua_ic_menu" />
+            <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/luafile" android:background="@drawable/lua_buttton_normal" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/lua_ic_file_code" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/lua_rgb_1" android:background="#ff3eff00" android:layout_width="55.0dip" android:layout_height="3.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:layout_width="55.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <ImageView android:id="@id/luaexecute" android:background="@drawable/lua_buttton_normal" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/lua_ic_play" />
+            <ImageView android:id="@id/luasave" android:background="@drawable/lua_buttton_normal" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/lua_ic_content_save" />
+            <ImageView android:id="@id/luaclose" android:background="@drawable/lua_buttton_normal" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/lua_ic_close" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/luamanagerLinearLayout1">
+            <ScrollView android:id="@id/lua_managerScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                <EditText android:textSize="14.0sp" android:textColor="#ffffffff" android:textColorHighlight="#ff05ff00" android:gravity="center|left|top" android:orientation="horizontal" android:id="@id/contentdata" android:background="#00000000" android:paddingBottom="500.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textMultiLine|textNoSuggestions" />
+            </ScrollView>
+        </LinearLayout>
+        <ImageView android:id="@id/luaresize" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/lua_ic_resize_bottom_right" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/lua_noopenfolder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff868686" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No open file yet..." />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lua_dialog" android:background="@drawable/lua_back_5rad" android:visibility="gone" android:clipChildren="true" android:layout_width="260.0dip" android:layout_height="fill_parent" android:layout_marginLeft="13.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/luamanagerLinearLayout1" android:backgroundTint="#ff292929">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/lua_addfile" android:background="@drawable/lua_button_add" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="10.0dip" android:text="ADD" android:elevation="8.0dip" />
+            <ListView android:id="@id/lua_listfile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="0.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/mlua_main" android:background="@drawable/lua_back_5rad" android:visibility="gone" android:layout_width="165.0dip" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:backgroundTint="#ff292929">
+            <LinearLayout android:orientation="horizontal" android:id="@id/rgbnext" android:background="#ff23ff00" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mlua_run" android:background="@drawable/mlua_main_back" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="RUN" android:elevation="8.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mlua_stop" android:background="@drawable/mlua_main_back" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="STOP" android:elevation="8.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mlua_check" android:background="@drawable/mlua_main_back" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="CHECK" android:elevation="8.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

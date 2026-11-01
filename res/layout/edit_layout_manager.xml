@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff444444" android:paddingTop="32.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/editlayoutmanagerRelativeLayout1" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <FrameLayout android:id="@id/editlayoutmanagerFrameLayout1" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/editlayoutmanagerLinearLayout1" android:background="@drawable/icon_back" android:clickable="false" android:layout_width="38.0dip" android:layout_height="38.0dip" />
+        </FrameLayout>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:id="@id/filename_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="MyScript.js" android:layout_centerVertical="true" android:layout_toEndOf="@id/editlayoutmanagerFrameLayout1" />
+        <FrameLayout android:id="@id/save" android:background="@drawable/icon_save" android:focusable="true" android:clickable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginRight="20.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ScrollView android:background="#ff202020" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/editlayoutmanagerRelativeLayout1">
+        <LinearLayout android:orientation="vertical" android:background="#ff202020" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <EditText android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center|left|top" android:id="@id/edit_main" android:background="#ff202020" android:layout_width="fill_parent" android:layout_height="fill_parent" android:ems="10" android:imeOptions="flagNoExtractUi" />
+            <LinearLayout android:orientation="horizontal" android:background="#ff202020" android:layout_width="wrap_content" android:layout_height="300.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/saveback" android:background="#ff444444" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#fffffbfb" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Save and Back" />
+    </FrameLayout>
+</RelativeLayout>

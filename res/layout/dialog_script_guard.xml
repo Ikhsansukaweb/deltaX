@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:id="@id/guardScript" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+            <TextView android:textSize="14.0sp" android:id="@id/guardAction" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffe53935" android:id="@id/guardWarning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+            <TextView android:textSize="12.0sp" android:id="@id/guardDirectNote" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+            <TextView android:textSize="12.0sp" android:id="@id/guardNote" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="Packet sent by the script" />
+            <TextView android:textSize="12.0sp" android:id="@id/guardPacket" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" android:fontFamily="monospace" />
+            <CheckBox android:textSize="14.0sp" android:id="@id/guardRemember" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Remember my choice for this script (saved by its hash)" android:paddingHorizontal="12.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

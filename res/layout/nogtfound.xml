@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ff292929" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/nogtfoundTextView1" android:background="#ff009503" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Growlauncher" android:elevation="10.0dip" />
+        <View android:id="@id/nogtfoundView1" android:background="?android:dividerVertical" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/nogtfoundTextView1" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:text="Growlauncher" android:layout_below="@id/nogtfoundView1" android:layout_centerHorizontal="true" android:textAlignment="center" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/image_2" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_below="@id/nogtfoundView1" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/title" android:layout_centerInParent="true" android:textAlignment="center" />
+        <Button android:id="@id/button_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Text to get it in something cool" android:layout_below="@id/desc" android:layout_alignParentRight="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <View android:id="@id/nogtfoundView2" android:background="?android:dividerVertical" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/desc" />
+    </RelativeLayout>
+</LinearLayout>

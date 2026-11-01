@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/multibotlayoutLinearLayout1" android:background="#ff252525" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/luamanagerLinearLayout1" android:background="#ff232323" android:layout_width="fill_parent" android:layout_height="55.0dip" android:translationZ="1.0dip">
+                <LinearLayout android:background="#ff41ff00" android:layout_width="55.0dip" android:layout_height="3.0dip" android:layout_weight="1.0" />
+                <ImageView android:id="@id/luaref" android:background="@drawable/lua_buttton_normal" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_refresh" />
+                <ImageView android:id="@id/luaclose" android:background="@drawable/lua_buttton_normal" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/lua_ic_close" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:text="Inventory :" android:translationZ="10.0dip" />
+        </RelativeLayout>
+        <ListView android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

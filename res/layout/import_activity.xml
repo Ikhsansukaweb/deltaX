@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff1a1a1a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ff3d4cf5" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="ModGL" android:layout_centerVertical="true" android:fontFamily="@font/robotobold" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/importactivityListView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ff353535" android:dividerHeight="1.0dip" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/buttonplus" android:background="@drawable/menu_floatingtab" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="33.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/buttonplusimage" android:background="@drawable/plus_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

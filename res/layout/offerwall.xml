@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:title=" " app:titleTextColor="@android:color/white">
+        <ImageButton android:layout_gravity="end" android:id="@id/close_button" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_close_clear_cancel" android:layout_marginEnd="16.0dip" />
+    </androidx.appcompat.widget.Toolbar>
+    <io.mychips.offerwall.view.MCWebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+    <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/Widget.AppCompat.ProgressBar" />
+</RelativeLayout>
